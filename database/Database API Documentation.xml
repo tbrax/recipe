@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database_api>
+	<dependencies>
+		import datetime (reference: https://pymotw.com/2/datetime/)
+	</dependencies>
+	<function>
+		<name>get_Shows</name>
+		<description>
+			A function to retreive a list or singleton of show objects.
+		</description>
+		<Parameter>
+			<type>datetime.date</type>
+			<name>date</name>
+			<default>datetime.date(0000, 0, 00)</default>
+		</Parameter>
+		<Parameter>
+			<type>string</type>
+			<name>show_Title</name>
+			<default>"null"</default>
+		</Parameter>
+		<return>
+			if show_Title not default
+				return shows of that title
+			elsif date not default
+				return show on that date
+			elsif
+				return all shows
+		</return>
+	</function>
+	<
+</database_api>

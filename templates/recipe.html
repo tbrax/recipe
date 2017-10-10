@@ -1,0 +1,194 @@
+{% extends "header.html" %}		
+{% block content %}
+
+<div class="center">
+	<div class="shadow">
+    	<center><h1>Recipes</h1></center>
+
+		<form action="/recipe">
+			<input class = "search" type="text" name="searchvalue" value="">
+  			<br>
+  			<input type="submit" value="Search">
+		</form>
+
+		<table>
+			<tr>
+			    <th class="eventheader">
+                    Recipe
+                </th>
+			    <th class="eventheader">
+                    Prep time (minutes)
+                </th>
+			    <th class="eventheader">
+
+                </th>
+			</tr>
+			{% for show in shows %}
+			<tr class="eventrow">
+			    <td class="eventcell" style="width:40%;">
+				{{show[1]}}
+				</td>
+			    <td class="eventcell" style="width:20%;">
+				{{show[2]}}
+				</td>
+			    <td class="eventcell" style="width:15%;">
+					<button class="detailsButton" onclick="populateDetails({{loop.index-1}})" name="view">View</button>
+				</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</input>
+	<div id="details" class="infobox shadow">
+		<h1>Details</h1>
+		<div class="flexContainer">
+			<div class="shadow flexItem">
+				<h2 id="title"></h2>
+				<h3 id="time" class="date_para"></h3>
+				<div class="details ">
+					<h3>Description:</h3>
+					<div class="desc_div">
+						<p id="description" class="desc_para"></p>
+					</div>
+					<h3>Instruction:</h3>
+					<div class="desc_div">
+						<p id="instruction" class="desc_para"></p>
+					</div>
+				</div>
+			</div>
+			<div class="shadow flexItem priceTableContainer">
+				<table class="priceTable" id="priceTable">
+					<tr>
+						<th class="pricingcell">Ingredient</th>
+						<th class="pricingcell">Amount</th>
+					</tr>
+					<tbody id="priceTableBody"></tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	var currentShowIndex = 0;
+	var shows = {{shows|tojson}};
+	window.onload = function() {
+		document.getElementById("details").style.display = "none";
+		console.log(shows)
+	}
+	document.getElementById('search_button').addEventListener('click',searchButton);
+
+
+
+
+	function populateDetails(index)
+	{
+		//whatever show was clicked to "view"
+		currentShowIndex = index;
+
+		// show element format:
+		//(title, description, date, pricetype 1, cost 1, ... , pricetype n, cost n)
+		document.getElementById("details").style.display = "block";
+		document.getElementById("title").innerHTML = shows[index][1];
+		document.getElementById("description").innerHTML = shows[index][3];
+		document.getElementById("instruction").innerHTML = shows[index][4];
+		//var date = new Date(shows[index][3]);
+		//document.getElementById("time").innerHTML = date.toDateString() + date.toLocaleTimeString();
+		var priceTableBody = document.getElementById("priceTableBody");
+		while (priceTableBody.firstChild) {
+			priceTableBody.removeChild(priceTableBody.firstChild);
+		}
+
+		var count = 0;
+		//generate price rows
+		for (i = 5; i < shows[index].length-1; i+=2)
+		{
+			var tr = document.createElement('tr');
+
+			var pricetypeCell = document.createElement('td');
+			pricetypeCell.setAttribute('class', 'pricingcell priceTypeCell');
+			var lab = document.createElement('label');
+			var tn = document.createTextNode(shows[index][i]);
+			lab.appendChild(tn);
+			pricetypeCell.appendChild(lab);
+			tr.appendChild(pricetypeCell);
+
+			var controlsCell = document.createElement('td');
+			controlsCell.setAttribute('class', 'pricingcell');
+			var div = document.createElement('div');
+			div.setAttribute('style', 'display: inline-block;');
+			lab = document.createElement('label');
+			tn = document.createTextNode(shows[index][i+1]);
+			lab.appendChild(tn);
+			div.appendChild(lab);
+			controlsCell.appendChild(div);
+
+
+			tr.appendChild(controlsCell);
+
+			document.getElementById("priceTableBody").appendChild(tr);
+			count++;
+		}
+	}
+
+
+
+
+
+
+	cookieObj =
+	{
+		"shows":[
+		]
+	};
+
+	var prices = [];
+
+function create_recipe_obj(show_info="")
+{
+	var show_obj = {
+						'name': document.getElementById('event_name'),
+						'description': document.getElementById('event_description'),
+						'runtime': document.getElementById('event_runtime'),
+						'seats': document.getElementById('event_seats'),
+						//Now starting date/time fields
+						'event_date':document.getElementById('event_date'),
+						'event_start_time':document.getElementById('event_time'),
+						'sales_open_date':document.getElementById('event_sale_start_date'),
+						'sales_open_time':document.getElementById('event_sale_start_time'),
+						'sales_close_date':document.getElementById('event_sale_end_date'),
+						'sales_close_time':document.getElementById('event_sale_end_time')
+					};
+	return show_obj
+
+}
+function delete_recipe_info()
+{
+	var updated_show_info={};
+
+	updated_show_info['id'] = shows[currentShowIndex][0];
+	console.log(updated_show_info);
+	send_delete_info_to_server(updated_show_info);
+}
+function send_delete_info_to_server(show_info_obj)
+{
+	var req = new XMLHttpRequest();
+	req.onreadystatechange = function()
+	{
+		if (req.readyState == 4)
+		{
+			if(req.status == 200)
+			{
+				console.log("Update successful");
+			}
+			else
+				console.log("Something went wrong");
+		}
+	}
+	req.open('POST','delete_recipe',true);
+	req.setRequestHeader("Content-Type","application/json")
+	req.send(JSON.stringify(show_info_obj));
+}
+</script>
+	</div>
+{% endblock %}

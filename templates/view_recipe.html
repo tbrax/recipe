@@ -1,0 +1,324 @@
+{% extends "header.html" %}		
+{% block content %}
+<link rel="stylesheet" href="static/css/flatpickr.min.css">
+<script src="static/js/flatpickr.js"></script>
+<center><h1>Edit Show</h1></center>
+		<div>
+			<table>
+				<tr>
+				    <th class="eventheader">
+	                    Select Show
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<select id="event_select">
+							<option disabled selected>Select Show</option>
+							{% for show in shows %}
+							<option value="{{show[1]}}">{{show[0]}}</option>
+							{% endfor %}
+						</select>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<table>
+				<tr>
+				    <th class="eventheader">
+	                    Event Name
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<input type="text" id="event_name" value="">
+					</td>
+				</tr>
+				<tr>
+					<th class="eventheader">
+	                    Event Date
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<input id="event_date">
+					</td>
+				</tr>
+				<tr>
+					<th class="eventheader">
+	                    Event Time
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<input type="input" class="time_field" id="event_time">
+					</td>
+				</tr>
+				<tr>
+					<th class="eventheader">
+	                    Ticket Sales Start Date
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<input id="event_sale_start_date">
+					</td>
+				</tr>
+				<tr>
+					<th class="eventheader">
+	                    Ticket Sales Start Time
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<input id="event_sale_start_time" class="time_field">
+					</td>
+				</tr>
+				<tr>
+					<th class="eventheader">
+	                    Ticket Sales End Date
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<input id="event_sale_end_date">
+					</td>
+				</tr>
+				<tr>
+					<th class="eventheader">
+	                    Ticket Sales End Time
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<input id="event_sale_end_time" class="time_field">
+					</td>
+				</tr>
+				<tr>
+				    <th class="eventheader">
+	                    Event Description
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<textarea placeholder="Event Description" maxlength="100000" id="event_description" rows="10" cols="40"></textarea>
+					</td>
+				</tr>
+				<tr>
+				    <th class="eventheader">
+	                    Show Runtime (Minutes)
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<input type='number' placeholder="Show runtime (minutes)" id="event_runtime" min=0 ></input>
+					</td>
+				</tr>
+				<tr>
+				    <th class="eventheader">
+	                    Maximum Seats
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<input type='number' placeholder="Maximum Seats" id="event_seats" min=0 ></input>
+					</td>
+				</tr>
+			</table>
+			<button id="update_button">Update Show</button>
+			<button id="delete_button">Delete Show</button>
+		</div>
+
+<script>
+	document.getElementById('update_button').addEventListener('click',get_show_info);
+	document.getElementById('delete_button').addEventListener('click',delete_show_info);
+	setup_flatpickr_date_type();
+	var event_select = document.getElementById('event_select');
+	event_select.addEventListener('change',function(){
+		var selected_event_id = this.value;
+		console.log(selected_event_id);
+		get_selected_show(selected_event_id);
+	});
+
+	function get_selected_show(show_id)
+	{
+		console.log("Selected show id: "+show_id);
+
+		var req = new XMLHttpRequest();
+		req.onreadystatechange = function()
+		{
+			if (this.readyState == 4)
+			{
+				if(this.status == 200)
+				{
+					console.log(this.responseText);
+					var show_attibutes = JSON.parse(this.responseText);
+					console.log(show_attibutes);
+					populate_form(show_attibutes);
+				}	
+				else
+				{
+					console.log("ERROR in getting show !!!")
+				}
+			}
+		}
+		req.open('POST','edit_show');
+		req.send(show_id);
+	}
+
+function setup_flatpickr_date_type()
+{
+
+	var flatpickr_date_config = {
+									altInput: true
+								};
+
+	new Flatpickr(document.getElementById('event_date'),flatpickr_date_config);
+	new Flatpickr(document.getElementById('event_sale_start_date'),flatpickr_date_config);
+	new Flatpickr(document.getElementById('event_sale_end_date'),flatpickr_date_config);
+}
+
+//Converts from server's representation of a show to an object
+function create_show_obj(show_info="")
+{
+	var show_obj = {
+						'name': document.getElementById('event_name'),
+						'description': document.getElementById('event_description'),
+						'runtime': document.getElementById('event_runtime'),
+						'seats': document.getElementById('event_seats'),
+						//Now starting date/time fields
+						'event_date':document.getElementById('event_date'),
+						'event_start_time':document.getElementById('event_time'),
+						'sales_open_date':document.getElementById('event_sale_start_date'),
+						'sales_open_time':document.getElementById('event_sale_start_time'),
+						'sales_close_date':document.getElementById('event_sale_end_date'),
+						'sales_close_time':document.getElementById('event_sale_end_time')
+					};
+	return show_obj
+	
+}
+
+function populate_form(show_info_from_server)
+{
+	var form_elements = document.getElementsByClassName('eventcell');
+	var show_info = create_show_obj(show_info_from_server);
+	
+	show_info.name.value = show_info_from_server['title'];
+	show_info.description.value = show_info_from_server['description'];
+	show_info.runtime.value = time_to_minutes(show_info_from_server['runtime']);
+	show_info.seats.value = show_info_from_server['total_seats'];	
+
+	//Handle date fields
+	show_info.event_date._flatpickr.setDate(get_date_from_str(show_info_from_server['start_time']));
+	show_info.sales_open_date._flatpickr.setDate(get_date_from_str(show_info_from_server['sales_open_time']));
+	show_info.sales_close_date._flatpickr.setDate(get_date_from_str(show_info_from_server['sales_close_time']));
+
+	//Handle time fields
+	show_info.event_start_time.value=get_time_from_str(show_info_from_server['start_time']);
+	show_info.sales_close_time.value=get_time_from_str(show_info_from_server['sales_close_time']);
+	show_info.sales_open_time.value=get_time_from_str(show_info_from_server['sales_open_time']);
+	setup_flatpickr_time_type(show_info_from_server);
+}
+
+//Convert dateTime to a flatpickr compatible format
+// 2017-04-04 15:00:00 -> 2017-04-04
+function get_date_from_str(dateTime_str)
+{
+	var year = dateTime_str.substring(0,4);
+	var month = dateTime_str.substring(5,7);
+	var day = dateTime_str.substring(8,10);
+	console.log(year+"-"+month+"-"+day);
+	return year+"-"+month+"-"+day;
+
+}
+
+function get_time_from_str(dateTime_str)
+{
+	return dateTime_str.substring(11);
+}
+
+//Convert a time formatted as "hh:mm:ss" to minutes
+function time_to_minutes(time_str)
+{
+	var split_time = time_str.split(":");
+	var minutes = (parseInt(split_time[0]*60)+parseInt(split_time[1]));
+	return minutes;
+}
+
+function setup_flatpickr_time_type(show_info_from_server)
+{
+	var flatpickr_time_config = {
+
+									altInput: true,
+									enableTime: true,
+									noCalendar: true,
+							};
+
+	var show_obj = create_show_obj(show_info_from_server);
+	var sales_open = new Flatpickr(show_obj['sales_open_time'],flatpickr_time_config);
+	var sales_close = new Flatpickr(show_obj['sales_close_time'],flatpickr_time_config);
+	var event_time = new Flatpickr(show_obj['event_start_time'],flatpickr_time_config);
+}
+
+function get_show_info()
+{
+	var show_obj = create_show_obj();
+	var updated_show_info={};
+
+	for (var attribute in show_obj)
+	{
+		console.log(show_obj[attribute]);
+		updated_show_info[attribute] = show_obj[attribute].value;
+	}
+	updated_show_info['show_id'] = document.getElementById('event_select').value;
+	console.log(updated_show_info);
+	send_info_to_server(updated_show_info);
+}
+//Have all information, now send to server
+function send_info_to_server(show_info_obj)
+{
+	var req = new XMLHttpRequest();
+	req.onreadystatechange = function()
+	{
+		if (req.readyState == 4)
+		{
+			if(req.status == 200)
+			{
+				console.log("Update successful");
+			}
+			else
+				console.log("Something went wrong");
+		}
+	}
+	req.open('POST','update_show',true);
+	req.setRequestHeader("Content-Type","application/json")
+	req.send(JSON.stringify(show_info_obj));
+}
+
+function delete_show_info()
+{
+	var show_obj = create_show_obj();
+	var updated_show_info={};
+
+	for (var attribute in show_obj)
+	{
+		console.log(show_obj[attribute]);
+		updated_show_info[attribute] = show_obj[attribute].value;
+	}
+	updated_show_info['show_id'] = document.getElementById('event_select').value;
+	console.log(updated_show_info);
+	send_delete_info_to_server(updated_show_info);
+}
+function send_delete_info_to_server(show_info_obj)
+{
+	var req = new XMLHttpRequest();
+	req.onreadystatechange = function()
+	{
+		if (req.readyState == 4)
+		{
+			if(req.status == 200)
+			{
+				console.log("Update successful");
+			}
+			else
+				console.log("Something went wrong");
+		}
+	}
+	req.open('POST','delete_show',true);
+	req.setRequestHeader("Content-Type","application/json")
+	req.send(JSON.stringify(show_info_obj));
+}
+
+function flatpickr_destroy()
+{
+	//Trying to figure out how to get all flatpickr time objects
+	
+	// var time_objs = document.getElementsByClassName('time_field')
+	// console.log(time_objs);//.childNodes[2]);
+	//  for (var i=1;i<time_objs.length;i++)
+	// {
+	// 	if(time_objs.type != "hidden")
+	// 		console.log(time_objs[i]);
+	// 	time_objs[i].destroy();
+	// }
+}
+</script>
+{% endblock %}

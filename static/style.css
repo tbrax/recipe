@@ -1,0 +1,249 @@
+body{
+	background-color:  #DFE2DB;
+	min-width: 250px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.center{
+	margin: auto;
+    width: 75%;
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.priceTable {
+
+	position: absolute;
+	top: 40px;
+	width:98%;
+}
+
+.priceTypeCell {
+
+	width: 300px;
+}
+
+.addToCartButton {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.priceTableContainer {
+	position: relative;
+}
+
+.pricingcell {
+	text-align: center;
+	color: #FFFFFF;
+
+}
+
+.eventcell {
+    border-right: 2px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+    text-align: left;
+    padding: 8px;
+}
+
+.eventheader {
+    background-color: #191919;
+    color: #FFFFFF;
+	text-align: left;
+    padding: 8px;
+}
+
+.eventrow:nth-child(even) {
+    background-color: #FFF056;
+}
+
+.eventrow:nth-child(odd) {
+    background-color: #FFF056;
+}
+
+div {
+	margin: 1%;
+	padding: 1%;
+}
+
+li {
+	margin: 15px;
+}
+
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.adminlogindiv {
+	position: relative;
+	left: 40%;
+	width: 20%;
+}
+
+.loginfield {
+	width: 100%;
+}
+
+.infobox{
+	border: 2px solid #dddddd;
+	background-color: #191919;
+	color: #FFFFFF;
+	display: none;
+	min-width: 300px;
+}
+
+.date_para {
+
+	padding: 10px;
+	margin: 0px;
+}
+
+.desc_para {
+	padding-left: 20px;
+	flex-grow: 1;
+}
+
+.desc_div {
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+	padding: 0px;
+	flex-grow: 1;
+}
+
+.detailsButton {
+	width: 100%;
+	height: auto;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+	margin-bottom: 0px;
+}
+
+.details{
+	height: 200px;
+}
+
+.bluebar, .yellowbar, .whitebar{
+	margin: 0;
+	padding: 0;
+}
+
+.bluebar {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 15px;
+    background-color: #236192;
+    position: relative;
+}
+
+.yellowbar {
+    height: 33%;
+    width: 100%;
+    background-color: #FFCD00;
+    position:absolute;
+    top: 66%;
+}
+
+.logo {
+    display: block;
+   
+    top: 0%;
+    left: 50%;
+    width: 600px;
+    height: 300px;
+    position:relative;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: -300px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient( to right, #ff9e2c 0%, #ff9e2c 50%, #b6701e 50%, #b6701e 100% );
+}
+
+.footer {
+	text-align: center;
+}
+
+.search {
+    font-size: 200%;
+    height: 50px;
+    width: 200px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+.search:focus {
+    width: 50%;
+}
+
+
+.cart{
+	position: absolute;
+	right: 25%;
+	top: -600px;
+	text-align: center;
+}
+
+.carttext	{
+	display: inline-block;
+	position: absolute;
+	padding: 0px;
+	left: 35px;
+	width: 80px;
+}
+
+.cartimg {
+	width: 20px;
+	height: 20px;
+}
+
+button, input[type=submit] {
+	background-color: #4f4f4f;
+    color: white;
+	padding: 12px;
+	border-radius: 8px;
+	border: 0px;
+}
+
+button:hover, input[type=submit]:hover {
+	background-color: #3d3d3d;
+}
+
+button:active, input[type=submit]:active {
+	background-color: #212121;
+}
+
+button:disabled {
+	background-color: #212121;
+}
+
+.flexContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.flexItem {
+	flex-grow: 1;
+	flex-basis: 250px;
+}
+
+.ticketstub {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+/* For printing tickets */
+@media print {
+
+}

@@ -1,0 +1,164 @@
+{% extends "header.html" %}		
+{% block content %}
+<link rel="stylesheet" href="static/css/flatpickr.min.css">
+<script src="static/js/flatpickr.js"></script>
+<div class="center">
+	<div class="shadow">
+
+
+    	<center><h1>Create Recipe</h1></center>
+		<table>
+			<tr>
+			    <th class="eventheader">
+                    Recipe Name
+                </th>
+			    <td class="eventcell" style="width:50%;">
+					<input type="text" id="event_name" value="">
+				</td>
+			</tr>
+
+			<tr>
+			    <th class="eventheader">
+                    Prep Time (Minutes)
+                </th>
+			    <td class="eventcell" style="width:50%;">
+					<input type='number' placeholder="Prep Time" id="event_seats" min=0 ></input>
+				</td>
+			</tr>
+
+			<tr>
+			    <th class="eventheader">
+                    Recipe Description
+                </th>
+			    <td class="eventcell" style="width:50%;">
+					<textarea placeholder="Recipe Description" maxlength="500" id="event_description" rows="10" cols="40"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+			    <th class="eventheader">
+                    Recipe Instructions
+                </th>
+			    <td class="eventcell" style="width:50%;">
+					<textarea placeholder="Recipe Instructions" maxlength="5000" id="event_instruction" rows="10" cols="40"></textarea>
+				</td>
+			</tr>
+
+
+		</table>
+
+		<table id = "rowTable">
+			<tr>
+			    <th class="eventheader">
+                    Add Ingredient
+                </th>
+			    <th class="eventheader">
+                    Add Amount
+                </th>
+				<th class="eventheader">
+                    <button onclick="addPrice()">Add Row</button>
+                </th>
+				<th class="eventheader">
+                    <button onclick="deletePrice()">Delete Row</button>
+                </th>
+			</tr>
+
+
+		</table>
+
+	</div>
+	<button onclick="addShow()">Finalize Recipe</button>
+</div>
+
+<script type="text/javascript">
+
+
+
+
+function deletePrice()
+{
+	var table = document.getElementById("rowTable");
+	var x = table.rows.length;
+	if (x >1)
+    {
+    	document.getElementById("rowTable").deleteRow(x-1);
+    }
+
+
+}
+
+function addPrice()
+{
+	var table = document.getElementById("rowTable");
+
+	// Create an empty <tr> element and add it to the 1st position of the table:
+
+	var row = table.insertRow(-1);
+
+	var addField0= document.createElement("input");
+               addField0.type = "input";
+               addField0.className = "pricing-type";
+
+    var addField1= document.createElement("input");
+               addField1.type = "input";
+
+               addField1.className = "pricing-cost";
+
+
+
+	var cell0 = row.insertCell(0);
+	var cell1 = row.insertCell(1);
+
+	cell0.appendChild(addField0);
+	cell1.appendChild(addField1);
+
+}
+
+function addShow()
+{
+	var price_types = document.getElementsByClassName("pricing-type");
+	var prices = document.getElementsByClassName("pricing-cost");
+	console.log(price_types);
+	var price_obj={}
+	for ( var i = 0; i < price_types.length;i++)
+	{
+		price_obj[price_types[i].value]=prices[i].value;
+	}
+	new_show = {
+				'name':document.getElementById('event_name').value,
+				'prep':document.getElementById('event_seats').value,
+				'description':document.getElementById('event_description').value,
+				'instruction':document.getElementById('event_instruction').value,
+				'prices':price_obj
+			};
+	console.log(new_show);
+	var req = new XMLHttpRequest();
+	req.onreadystatechange = function()
+	{
+		if (this.readyState == 4)
+		{	
+			if(this.status == 200)
+			{
+				if(!confirm("New recipe added successfully. Do you want to add another recipe?"))
+				{
+					if(confirm("Do you want to see list of recipes?"))
+					{
+						window.location.href = 'recipe';
+					}
+				}
+			}
+
+			else
+				{
+					alert("Could not add recipe. Please try again.");
+				}
+		}
+	}
+
+	req.open('POST','add_recipe',true);
+	req.setRequestHeader("Content-Type","application/json")
+	req.send(JSON.stringify(new_show));
+}
+
+</script>
+{% endblock %}

@@ -1,0 +1,229 @@
+{% extends "header.html" %}		
+{% block content %}
+
+<link rel="stylesheet" href="static/css/flatpickr.min.css">
+<script src="static/js/flatpickr.js"></script>
+<center><h1>Edit Recipe</h1></center>
+		<div>
+			<table>
+				<tr>
+				    <th class="eventheader">
+	                    Select Recipe
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<select id="event_select">
+							<option disabled selected>Select Recipe</option>
+							{% for show in shows %}
+							<option value="{{show[1]}}">{{show[0]}}</option>
+							{% endfor %}
+						</select>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<table>
+				<tr>
+				    <th class="eventheader">
+	                    Recipe Name
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<input type="text" id="event_name" value="">
+					</td>
+				</tr>
+				<tr>
+				    <th class="eventheader">
+	                    Recipe Prep Time (Minutes)
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<input type='number' placeholder="0" id="event_prep" min=0 ></input>
+					</td>
+				</tr>
+
+				<tr>
+				    <th class="eventheader">
+	                    Recipe Description
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<textarea placeholder="Event Description" maxlength="100000" id="event_description" rows="10" cols="40"></textarea>
+					</td>
+				</tr>
+				<tr>
+				    <th class="eventheader">
+	                    Recipe Instruction
+	                </th>
+				    <td class="eventcell" style="width:50%;">
+						<textarea placeholder="Event Description" maxlength="100000" id="event_instruction" rows="10" cols="40"></textarea>
+					</td>
+				</tr>
+
+
+			</table>
+			<button id="update_button">Update Recipe</button>
+			<button id="delete_button">Delete Recipe</button>
+		</div>
+
+<script>
+	document.getElementById('update_button').addEventListener('click',get_show_info);
+	document.getElementById('delete_button').addEventListener('click',delete_show_info);
+	var event_select = document.getElementById('event_select');
+
+	event_select.addEventListener('change',function(){
+
+
+		var selected_event_id = this.value;
+		//console.log(selected_event_id);
+
+		get_selected_show(selected_event_id);
+	});
+
+	function get_selected_show(show_id)
+	{
+		console.log("Selected recipe id: "+show_id);
+
+		var req = new XMLHttpRequest();
+		req.onreadystatechange = function()
+		{
+			if (this.readyState == 4)
+			{
+				if(this.status == 200)
+				{
+					console.log(this.responseText);
+					var show_attibutes = JSON.parse(this.responseText);
+					console.log(show_attibutes);
+					populate_form(show_attibutes);
+				}	
+				else
+				{
+					console.log("ERROR in getting recipe!!!")
+				}
+			}
+		}
+		req.open('POST','edit_recipe');
+		req.send(show_id);
+	}
+
+
+//Converts from server's representation of a show to an object
+function create_show_obj(show_info="")
+{
+	var show_obj = {
+						'name': document.getElementById('event_name'),
+						'description': document.getElementById('event_description'),
+						'instruction': document.getElementById('event_instruction'),
+						'prep': document.getElementById('event_prep'),
+
+					};
+	return show_obj
+	
+}
+
+function populate_form(show_info_from_server)
+{
+	var form_elements = document.getElementsByClassName('eventcell');
+	var show_info = create_show_obj(show_info_from_server);
+	
+	show_info.name.value = show_info_from_server['name'];
+	show_info.prep.value = show_info_from_server['prep'];
+	show_info.description.value = show_info_from_server['description'];
+	show_info.instruction.value = show_info_from_server['instruction'];
+
+
+}
+
+
+
+function get_show_info()
+{
+	var show_obj = create_show_obj();
+	var updated_show_info={};
+
+	for (var attribute in show_obj)
+	{
+		console.log(show_obj[attribute]);
+		updated_show_info[attribute] = show_obj[attribute].value;
+	}
+	updated_show_info['recipe_id'] = document.getElementById('event_select').value;
+	console.log(updated_show_info);
+	send_info_to_server(updated_show_info);
+}
+//Have all information, now send to server
+function send_info_to_server(show_info_obj)
+{
+	var req = new XMLHttpRequest();
+	req.onreadystatechange = function()
+	{
+		if (req.readyState == 4)
+		{
+			if(req.status == 200)
+			{
+				console.log("Update successful");
+				if(!confirm("Recipe updated successfully. Do you want to modify another recipe?"))
+				{
+					if(confirm("Do you want to see list of recipes?"))
+					{
+						window.location.href = 'recipe';
+					}
+				}
+			}
+			else
+			{
+				console.log("Something went wrong");
+				alert("Could not update recipe. Please try again.");
+			}
+		}
+	}
+	req.open('POST','update_recipe',true);
+	req.setRequestHeader("Content-Type","application/json")
+	req.send(JSON.stringify(show_info_obj));
+}
+
+function delete_show_info()
+{
+	var show_obj = create_show_obj();
+	var updated_show_info={};
+
+	for (var attribute in show_obj)
+	{
+		console.log(show_obj[attribute]);
+		updated_show_info[attribute] = show_obj[attribute].value;
+	}
+	updated_show_info['recipe_id'] = document.getElementById('event_select').value;
+	console.log(updated_show_info);
+	send_delete_info_to_server(updated_show_info);
+}
+function send_delete_info_to_server(show_info_obj)
+{
+	var req = new XMLHttpRequest();
+	req.onreadystatechange = function()
+	{
+
+		if (req.readyState == 4)
+		{
+			if(req.status == 200)
+			{
+				console.log("Update successful");
+				if(!confirm("Recipe deleted successfully. Do you want to modify another recipe?"))
+				{
+					if(confirm("Do you want to see list of recipes?"))
+					{
+						window.location.href = 'recipe';
+					}
+				}
+
+			}
+			else
+			{
+				alert("Could not delete recipe. Please try again.");
+				console.log("Could not delete recipe");
+			}
+
+		}
+	}
+	req.open('POST','delete_recipe',true);
+	req.setRequestHeader("Content-Type","application/json")
+	req.send(JSON.stringify(show_info_obj));
+}
+
+</script>
+{% endblock %}
