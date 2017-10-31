@@ -14,7 +14,7 @@
 						<select id="event_select">
 							<option disabled selected>Select Recipe</option>
 							{% for show in shows %}
-							<option value="{{show[1]}}">{{show[0]}}</option>
+							<option value="{{show[0]}}">{{show[1]}}</option>
 							{% endfor %}
 						</select>
 					</td>
@@ -59,6 +59,25 @@
 
 
 			</table>
+
+			<table id = "rowTable">
+			<tr>
+			    <th class="eventheader">
+                    Add Ingredient
+                </th>
+			    <th class="eventheader">
+                    Add Amount
+                </th>
+				<th class="eventheader">
+                    <button onclick="addIng()">Add Row</button>
+                </th>
+				<th class="eventheader">
+                    <button onclick="deleteIng()">Delete Row</button>
+                </th>
+			</tr>
+
+			</table>
+
 			<button id="update_button">Update Recipe</button>
 			<button id="delete_button">Delete Recipe</button>
 		</div>
@@ -104,34 +123,153 @@
 	}
 
 
+function create_show_obj_pre(show_info="")
+{
+	var show_obj = {
+						'name':document.getElementById('event_name'),
+						'prep':document.getElementById('event_prep'),
+						'description':document.getElementById('event_description'),
+						'instruction':document.getElementById('event_instruction')
+					};
+	return show_obj
+
+
+
+}
+
 //Converts from server's representation of a show to an object
 function create_show_obj(show_info="")
 {
-	var show_obj = {
-						'name': document.getElementById('event_name'),
-						'description': document.getElementById('event_description'),
-						'instruction': document.getElementById('event_instruction'),
-						'prep': document.getElementById('event_prep'),
 
+	var price_types = document.getElementsByClassName("pricing-type");
+	var prices = document.getElementsByClassName("pricing-cost");
+	console.log(price_types);
+	var price_obj={}
+	for ( var i = 0; i < price_types.length;i++)
+	{
+		price_obj[price_types[i].value]=prices[i].value;
+	}
+	var show_obj = {
+						'name':document.getElementById('event_name').value,
+						'prep':document.getElementById('event_prep').value,
+						'description':document.getElementById('event_description').value,
+						'instruction':document.getElementById('event_instruction').value,
+						'prices':price_obj
 					};
 	return show_obj
 	
 }
 
+
+function findsize(obj)
+{
+    var size = 0, key;
+    for (key in obj) {
+        if (obj.hasOwnProperty(key)) size++;
+    }
+    return size;
+};
+
+
 function populate_form(show_info_from_server)
 {
 	var form_elements = document.getElementsByClassName('eventcell');
-	var show_info = create_show_obj(show_info_from_server);
-	
+	var show_info = create_show_obj_pre(show_info_from_server);
+
 	show_info.name.value = show_info_from_server['name'];
 	show_info.prep.value = show_info_from_server['prep'];
 	show_info.description.value = show_info_from_server['description'];
 	show_info.instruction.value = show_info_from_server['instruction'];
+	var count = 0;
+	console.log(show_info_from_server)
+	console.log("size")
+	console.log((findsize(show_info_from_server)-5)/2)
+	deleteAllIngRows();
+	while(count < (findsize(show_info_from_server)-5)/2)
+	{
+		exIng(show_info_from_server["ing_"+(count).toString()],show_info_from_server["amt_"+(count).toString()]);
+	 	//exIng(show_info_from_server["ing_"+count],show_info_from_server['amt_'+count]);
+	 	//exIng("a","d");
+	 	count = count + 1;
+	}
+
+
 
 
 }
 
 
+function exIng(ing, amt)
+{
+	var table = document.getElementById("rowTable");
+
+	// Create an empty <tr> element and add it to the 1st position of the table:
+
+	var row = table.insertRow(-1);
+
+	var addField0= document.createElement("input");
+               addField0.type = "input";
+               addField0.className = "pricing-type";
+               addField0.value = ing;
+
+
+    var addField1= document.createElement("input");
+               addField1.type = "input";
+               addField1.className = "pricing-cost";
+               addField1.value = amt;
+
+	var cell0 = row.insertCell(0);
+	var cell1 = row.insertCell(1);
+
+	cell0.appendChild(addField0);
+	cell1.appendChild(addField1);
+
+}
+
+function addIng()
+{
+	var table = document.getElementById("rowTable");
+
+	// Create an empty <tr> element and add it to the 1st position of the table:
+
+	var row = table.insertRow(-1);
+
+	var addField0= document.createElement("input");
+               addField0.type = "input";
+               addField0.className = "pricing-type";
+
+
+    var addField1= document.createElement("input");
+               addField1.type = "input";
+               addField1.className = "pricing-cost";
+
+	var cell0 = row.insertCell(0);
+	var cell1 = row.insertCell(1);
+
+	cell0.appendChild(addField0);
+	cell1.appendChild(addField1);
+
+}
+function deleteAllIngRows()
+{
+	var table = document.getElementById("rowTable");
+	var x = table.rows.length;
+	while (x >1)
+    {
+    	document.getElementById("rowTable").deleteRow(x-1);
+    	x--;
+    }
+}
+
+function deleteIng()
+{
+	var table = document.getElementById("rowTable");
+	var x = table.rows.length;
+	if (x >1)
+    {
+    	document.getElementById("rowTable").deleteRow(x-1);
+    }
+}
 
 function get_show_info()
 {
@@ -147,9 +285,29 @@ function get_show_info()
 	console.log(updated_show_info);
 	send_info_to_server(updated_show_info);
 }
+
+
+
 //Have all information, now send to server
 function send_info_to_server(show_info_obj)
 {
+	var price_types = document.getElementsByClassName("pricing-type");
+	var prices = document.getElementsByClassName("pricing-cost");
+	console.log(price_types);
+	var ing_obj={}
+	for ( var i = 0; i < price_types.length;i++)
+	{
+		ing_obj[price_types[i].value]=prices[i].value;
+	}
+	new_show = {
+				'id':document.getElementById('event_select').value,
+				'name':document.getElementById('event_name').value,
+				'prep':document.getElementById('event_prep').value,
+				'description':document.getElementById('event_description').value,
+				'instruction':document.getElementById('event_instruction').value,
+				'ingredients':ing_obj
+			};
+
 	var req = new XMLHttpRequest();
 	req.onreadystatechange = function()
 	{
@@ -175,7 +333,7 @@ function send_info_to_server(show_info_obj)
 	}
 	req.open('POST','update_recipe',true);
 	req.setRequestHeader("Content-Type","application/json")
-	req.send(JSON.stringify(show_info_obj));
+	req.send(JSON.stringify(new_show));
 }
 
 function delete_show_info()
@@ -185,11 +343,9 @@ function delete_show_info()
 
 	for (var attribute in show_obj)
 	{
-		console.log(show_obj[attribute]);
 		updated_show_info[attribute] = show_obj[attribute].value;
 	}
 	updated_show_info['recipe_id'] = document.getElementById('event_select').value;
-	console.log(updated_show_info);
 	send_delete_info_to_server(updated_show_info);
 }
 function send_delete_info_to_server(show_info_obj)
@@ -202,7 +358,6 @@ function send_delete_info_to_server(show_info_obj)
 		{
 			if(req.status == 200)
 			{
-				console.log("Update successful");
 				if(!confirm("Recipe deleted successfully. Do you want to modify another recipe?"))
 				{
 					if(confirm("Do you want to see list of recipes?"))

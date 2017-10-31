@@ -1,0 +1,43 @@
+{% extends "header.html" %}
+{% block content %}
+<div class="center">
+	<div class="shadow">
+   <body>
+   <center>
+
+            <font size="6">User name:</font><br>
+            <input type="text" id="username"><br><br>
+            <font size="6">Password:</font><br>
+            <input type="password" id="pass0"><br><br>
+            <font size="6">Re type password:</font><br>
+            <input type="password" id="pass1"><br><br>
+            <button id="submit_button">Make Account</button>
+       </center>
+   </body>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    document.getElementById('submit_button').addEventListener('click',submitButton);
+
+    function submitButton()
+	{
+
+        pass_0 = document.getElementById("pass0").value;
+        pass_1 = document.getElementById("pass1").value;
+        console.log(pass_0);
+        console.log(pass_1);
+        if (pass_0 == pass_1)
+        {
+            alert("Match!");
+        }
+        else
+        {
+            alert("No match!");
+        }
+
+
+		}
+</script>
+{% endblock %}

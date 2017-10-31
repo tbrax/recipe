@@ -1,9 +1,12 @@
        
 <html>
+
 	<script type="text/javascript" src="https://js.squareup.com/v2/paymentform"></script>
 	<body>
 		<link rel="stylesheet" type="text/css" href="static/style.css">
 
+		<!--
+		<div class="foodside"></div>
 		<!--
 		<div class="bluebar shadow">
 		    <div class="yellowbar"></div>
@@ -13,13 +16,14 @@
 			<a href="./recipe">
             	<img src="{{url_for('static', filename='logo.png')}}" class="logo">
             </a>
+			<p><a class="bottomlink" href="{{ url_for('add_account') }}">Add Account</a></p>
 
 		{% block content %}
 		{% endblock %}
 		</div>
 		<div class="center footer">
-			<p><a href="{{ url_for('edit_recipe') }}">Edit Existing Recipe</a></p>
-	 		<p><a href="{{ url_for('add_recipe') }}">Add New Recipe</a></p>
+			<p><a class="bottomlink" href="{{ url_for('edit_recipe') }}">Edit Existing Recipe</a></p>
+	 		<p><a class="bottomlink" href="{{ url_for('add_recipe') }}">Add New Recipe</a></p>
 		</div>
 		
 	 	<!--<script src="static/js/jquery-1.9.0.js"></script>-->

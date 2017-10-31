@@ -50,6 +50,43 @@ CREATE TABLE IF NOT EXISTS `recipe`.`ingredient` (
 ENGINE = InnoDB;
 
 
+-- -----------------------------------------------------
+-- Table `recipe`.`user`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `recipe`.`user` ;
+
+CREATE TABLE IF NOT EXISTS `recipe`.`user` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(45) NULL,
+  `password` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `recipe`.`user_has_favorite`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `recipe`.`user_has_favorite` ;
+
+CREATE TABLE IF NOT EXISTS `recipe`.`user_has_favorite` (
+  `user_id` INT NOT NULL,
+  `recipe_id` INT NOT NULL,
+  PRIMARY KEY (`user_id`, `recipe_id`),
+  INDEX `fk_user_has_recipe_recipe1_idx` (`recipe_id` ASC),
+  INDEX `fk_user_has_recipe_user1_idx` (`user_id` ASC),
+  CONSTRAINT `fk_user_has_recipe_user1`
+    FOREIGN KEY (`user_id`)
+    REFERENCES `recipe`.`user` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_user_has_recipe_recipe1`
+    FOREIGN KEY (`recipe_id`)
+    REFERENCES `recipe`.`recipe` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
