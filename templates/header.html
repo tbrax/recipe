@@ -10,13 +10,15 @@
 		<!--
 		<div class="bluebar shadow">
 		    <div class="yellowbar"></div>
-
+-->
         </div>
-		<div>-->
-			<a href="./recipe">
+		<a href="./recipe">
             	<img src="{{url_for('static', filename='logo.png')}}" class="logo">
             </a>
-			<p><a class="bottomlink" href="{{ url_for('add_account') }}">Add Account</a></p>
+			<p><a id = useri class="bottomlink" href="{{ url_for('login') }}">Login</a></p>
+			<p><a id = logouti class="bottomlink" href="{{ url_for('logout') }}">Logout</a></p>
+		<div>
+			
 
 		{% block content %}
 		{% endblock %}
@@ -29,25 +31,43 @@
 	 	<!--<script src="static/js/jquery-1.9.0.js"></script>-->
 
 		<script type="text/javascript">
-
+			
 
 			//Helper functions go here:
-			function getCookie(name) {
+			function getCookie(name) 
+			{
 				var cookie = decodeURIComponent(document.cookie);
 				var ca = cookie.split(';');
 
-				for(i = 0; i < ca.length; i++) {
+				for(i = 0; i < ca.length; i++) 
+				{
 					var c = ca[i];
 
-					while(c.charAt(0) == ' '){
+					while(c.charAt(0) == ' ')
+					{
 						c = c.substring(1);
 					}
 
-					if(c.indexOf(name) == 0) {
+					if(c.indexOf(name) == 0) 
+					{
 						return c.substring(name.length+1, c.length);
 					}
 				}
 			}
+			stringCheck = getCookie("userID");
+			document.getElementById("logouti").innerHTML = "Logout " + stringCheck;
+				if (typeof stringCheck == "undefined" || stringCheck == ""|| stringCheck == "0") 
+				{
+					var lo = document.getElementById('logouti');
+					lo.style.display = 'none'; //or
+					lo.style.visibility = 'hidden';
+				}
+				else
+				{
+					var li = document.getElementById('useri');
+					li.style.display = 'none'; //or
+					li.style.visibility = 'hidden';
+				}
 
 
 		</script>

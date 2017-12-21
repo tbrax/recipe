@@ -169,11 +169,21 @@ def recipe_to_obj(query):
     return show_obj
 
 def add_account_to_db(account_info):
+    print("add")
     session = Session()
     try:
-        new_account = User(username=account_info['username'], password=account_info['password'])
-        session.add(new_account)
-        session.commit()
+        ret = session.query(User.id, User.username).\
+              filter(User.username==account_info['username']).\
+              all()
+        
+        print(ret)
+        if ret:
+                return (2, "Username already exists")
+        else:
+                new_account = User(username=account_info['username'], password=account_info['password'])
+                session.add(new_account)
+                session.commit()
+                return (3, "Attempting to add user")
     except exc.SQLAlchemyError: #Attenpt at doing some error checking. Not working
         session.rollback()
         session.close()
@@ -182,6 +192,28 @@ def add_account_to_db(account_info):
     finally:
         session.commit()
         session.close()
+
+def login_to_db(account_info):
+    session = Session()
+    try:
+        ret = session.query(User.id, User.username, User.password).\
+              filter(User.username==account_info['username'], User.password==account_info['password']).\
+              first()
+        if ret:
+                
+                return (0, "Login successful", ret)
+        else:
+                return (1, "Username or password error")
+            
+    except exc.SQLAlchemyError: #Attenpt at doing some error checking. Not working
+        session.rollback()
+        session.close()
+        print("In rollback")
+        raise
+    finally:
+        session.commit()
+        session.close()
+
 
 def add_recipe_to_db(show_info,ingredient_info):
     session = Session()

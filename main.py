@@ -1,5 +1,5 @@
 
-from flask import Flask, render_template, url_for, request, redirect
+from flask import Flask, render_template, url_for, request, redirect, make_response 
 from database.dataconnector import *
 import json
 import uuid
@@ -17,18 +17,51 @@ def hello_world(file):
 
 @app.route('/', methods=['GET', 'POST'])
 def welcome():
-    print (sys.version) 
+    print (sys.version)
+    print("base")
     show_List = get_Recipe()
     return render_template('recipe.html', shows=show_List)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-    return render_template('login.html')
+    if request.method == 'GET':
+        return render_template('login.html')
+    elif request.method == 'POST':
+        account = request.json
+        toShow = login_to_db(account)
+        print(toShow)
+        if toShow[0] == 0:  
+            resp = make_response(render_template('login.html'))
+            resp.set_cookie('userID',toShow[2][1])
+        return resp
+
+
+@app.route('/logout', methods=['GET', 'POST'])
+def logout():
+            show_List = get_Recipe()
+            resp = make_response(render_template('recipe.html', shows=show_List))
+            resp.set_cookie('userID',  '', expires=0)
+            return resp
+
 
 @app.route('/game', methods=['GET', 'POST'])
 def game():
+    
     show_List = get_Recipe()
     return render_template('game.html')
+
+@app.route('/recipe', methods=['GET', 'POST'])
+def generate_recipe():
+    if request.method == 'GET':
+        term = request.args.get('searchvalue')
+        shows_list = get_Recipe_By_Name(term)
+        name = request.cookies.get('userID')
+        print(name)
+        return render_template('recipe.html', shows=shows_list)
+    elif request.method == 'POST':
+        term = request.json
+        shows_list = get_Recipe_By_Name(term)
+        return render_template('add_recipe.html')
 
 @app.route('/add_account', methods=['GET', 'POST'])
 def add_account():
@@ -36,20 +69,9 @@ def add_account():
         return render_template('add_account.html')
     elif request.method == 'POST':
         new_account = request.json
-        add_account_to_db(new_account)
+        toShow = add_account_to_db(new_account)
         return render_template('add_account.html')
 
-@app.route('/recipe', methods=['GET', 'POST'])
-def generate_recipe():
-    if request.method == 'GET':
-        term = request.args.get('searchvalue')
-        shows_list = get_Recipe_By_Name(term)
-        print(shows_list)
-        return render_template('recipe.html', shows=shows_list)
-    elif request.method == 'POST':
-        term = request.json
-        shows_list = get_Recipe_By_Name(term)
-        return render_template('add_recipe.html')
 
 @app.route('/add_recipe', methods=['GET', 'POST'])
 def add_recipe():
@@ -60,7 +82,6 @@ def add_recipe():
         new_ingredients={}
         for ingredient_type, ingredient in new_show['prices'].items():
             new_ingredients[ingredient_type] = ingredient
- 
         add_recipe_to_db(new_show,new_ingredients)
         return render_template('add_recipe.html')
 

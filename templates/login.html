@@ -9,10 +9,9 @@
             <input type="text" id="username"><br><br>
             <font size="6">Password:</font><br>
             <input type="password" id="pass0"><br><br>
-            <font size="6">Re type password:</font><br>
-            <input type="password" id="pass1"><br><br>
-            <button id="submit_button">Make Account</button>
+            <button id="submit_button">Login</button>
        </center>
+	   <p><a class="bottomlink" href="{{ url_for('add_account') }}">Add Account</a></p>
    </body>
     </div>
 </div>
@@ -23,21 +22,34 @@
 
     function submitButton()
 	{
+        loginToServer();
+	}
+		
+	function loginToServer()
+	{
+	account = {
+				'username':document.getElementById("username").value,
+				'password':document.getElementById("pass0").value
+			};
+	var req = new XMLHttpRequest();
+	req.onreadystatechange = function()
+	{
+		if (this.readyState == 4)
+		{
+			if(this.status == 200)
+			{
+						window.location.href = 'recipe';
+			}
 
-        pass_0 = document.getElementById("pass0").value;
-        pass_1 = document.getElementById("pass1").value;
-        console.log(pass_0);
-        console.log(pass_1);
-        if (pass_0 == pass_1)
-        {
-            alert("Match!");
-        }
-        else
-        {
-            alert("No match!");
-        }
-
-
+			else
+				{
+					alert("Could not login. Please try again.");
+				}
 		}
+	}
+	req.open('POST','login',true);
+	req.setRequestHeader("Content-Type","application/json")
+	req.send(JSON.stringify(account));
+}
 </script>
 {% endblock %}

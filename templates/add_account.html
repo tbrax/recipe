@@ -42,7 +42,6 @@
 
 function addAccount()
 {
-
 	new_account = {
 				'username':document.getElementById("username").value,
 				'password':document.getElementById("pass0").value
@@ -63,7 +62,8 @@ function addAccount()
 				}
 		}
 	}
-
+	//req.open('POST','add_account');
+	//req.send(new_account);
 	req.open('POST','add_account',true);
 	req.setRequestHeader("Content-Type","application/json")
 	req.send(JSON.stringify(new_account));
