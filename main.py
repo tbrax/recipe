@@ -11,6 +11,16 @@ from datetime import *
 
 app = Flask(__name__)
 
+@app.errorhandler(500)
+def internal_server_error(error):
+    app.logger.error('Server Error: %s', (error))
+    return render_template('login.html'), 500
+
+@app.errorhandler(Exception)
+def unhandled_exception(e):
+    app.logger.error('Unhandled Exception: %s', (e))
+    return render_template('login.html'), 500
+
 @app.route('/debug/<file>')
 def hello_world(file):
     return render_template(file+'.html')
@@ -56,7 +66,6 @@ def generate_recipe():
         term = request.args.get('searchvalue')
         shows_list = get_Recipe_By_Name(term)
         name = request.cookies.get('userID')
-        print(name)
         return render_template('recipe.html', shows=shows_list)
     elif request.method == 'POST':
         term = request.json
@@ -71,6 +80,22 @@ def add_account():
         new_account = request.json
         toShow = add_account_to_db(new_account)
         return render_template('add_account.html')
+
+@app.route('/add_favorite', methods=['GET', 'POST'])
+def add_favorite():
+    if request.method == 'POST':
+        shows_list = get_Recipe()
+        if 'userID' in request.cookies:
+            name = request.cookies.get('userID')
+            new_favorite = request.json
+            print(new_favorite)
+            return render_template('recipe.html',shows=shows_list)
+        else:
+            return render_template('recipe.html',shows=shows_list)
+        
+        
+        
+
 
 
 @app.route('/add_recipe', methods=['GET', 'POST'])

@@ -10,6 +10,17 @@ Base = declarative_base()
 Session = sessionmaker(bind=engine)
 
 
+#user_favorite = Table('user_has_favorite', Base.metadata,
+#user_favorite = Table('user_has_favorite', Base.metadata,
+#    Column('user_id', Integer, ForeignKey('user.id'), primary_key=True),
+#    Column('recipe_id', Integer, ForeignKey('recipe.id'), primary_key=True)
+#)
+
+class Favorite(Base):
+    __tablename__ = 'user_has_favoritedes'
+    user_id = Column(Integer, ForeignKey('user.id'), primary_key=True)
+    recipe_id = Column(Integer, ForeignKey('recipe.id'), primary_key=True)
+    
 
 class Recipe(Base):
     __tablename__ = 'recipe'
@@ -18,6 +29,11 @@ class Recipe(Base):
     prep = Column(Integer)
     description = Column(String)
     instruction = Column(String)
+    #parents = relationship(
+    #    "User",
+    #    secondary=user_favorite,
+    #    back_populates="children")
+    
     def __repr__(self):
         return "<Recipe(id='%s' name='%s', prep='%s')>" % (
             self.id, self.name, self.prep)
@@ -27,14 +43,14 @@ class User(Base):
     id = Column(Integer, primary_key=True)
     username = Column(String)
     password = Column(String)
+    #children = relationship(
+    #    "Recipe",
+    #    secondary=user_favorite,
+    #    back_populates="parents")
+
     def __repr__(self):
         return "<User(id='%s' username='%s', password='%s')>" % (
             self.id, self.username, self.password)
-
-user_favorite = Table('user_has_favorite', Base.metadata,
-    Column('user_id', Integer, ForeignKey('user.id'), primary_key=True),
-    Column('recipe_id', Integer, ForeignKey('recipe.id'), primary_key=True)
-)
 
 class Ingredient(Base):
     __tablename__ = 'ingredient'
@@ -205,6 +221,30 @@ def login_to_db(account_info):
         else:
                 return (1, "Username or password error")
             
+    except exc.SQLAlchemyError: #Attenpt at doing some error checking. Not working
+        session.rollback()
+        session.close()
+        print("In rollback")
+        raise
+    finally:
+        session.commit()
+        session.close()
+
+def add_user_favorite(userGiven,recipeGiven):
+    session = Session()
+    try:
+        userGet = session.query(User.id).\
+              filter(User.id==userGiven).\
+              first()
+
+        recipeGet = session.query(Recipe.id).\
+              filter(Recipe.id==recipeGiven).\
+              first()
+        if (userGet or recipeGet):
+            new_favorite = Favorite(user_id=userGet, recipe_id=recipeGet)
+            session.add(new_favorite)
+            session.commit()
+
     except exc.SQLAlchemyError: #Attenpt at doing some error checking. Not working
         session.rollback()
         session.close()

@@ -53,6 +53,10 @@
 					<div class="desc_div">
 						<p id="instruction" class="desc_para"></p>
 					</div>
+					<div class="desc_div">
+						<button class="details" onclick="favoriteUserRecipe()" name="favorite">Favorite</button>
+					</div>
+					
 				</div>
 			</div>
 			<div class="shadow flexItem priceTableContainer">
@@ -75,7 +79,67 @@
 		document.getElementById("details").style.display = "none";
 		console.log(shows)
 	}
+	
+	function getCookie(name) 
+			{
+				var cookie = decodeURIComponent(document.cookie);
+				var ca = cookie.split(';');
 
+				for(i = 0; i < ca.length; i++) 
+				{
+					var c = ca[i];
+
+					while(c.charAt(0) == ' ')
+					{
+						c = c.substring(1);
+					}
+
+					if(c.indexOf(name) == 0) 
+					{
+						return c.substring(name.length+1, c.length);
+					}
+				}
+			}
+			
+	
+	
+	function favoriteUserRecipe()
+	{
+		//(shows[index][0])
+		stringCheck = getCookie("userID");
+		if (typeof stringCheck == "undefined" || stringCheck == ""|| stringCheck == "0") 
+		{
+			alert("Could not determine user. Please enable cookies.");
+		}
+		else
+		{
+			new_favorite = 
+			{
+				'username':stringCheck,
+				'recipe':currentShowIndex
+			};
+
+			var req = new XMLHttpRequest();
+			req.onreadystatechange = function()
+			{
+				if (this.readyState == 4)
+				{
+					if(this.status == 200)
+					{
+						window.location.href = 'recipe';
+					}
+
+					else
+						{
+							alert("Could not add favorite. Please try again.");
+						}
+				}
+			}
+			req.open('POST','add_favorite',true);
+			req.setRequestHeader("Content-Type","application/json")
+			req.send(JSON.stringify(new_favorite));
+		}
+	}
 	function populateDetails(index)
 	{
 		//whatever show was clicked to "view"
