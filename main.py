@@ -88,7 +88,8 @@ def add_favorite():
         if 'userID' in request.cookies:
             name = request.cookies.get('userID')
             new_favorite = request.json
-            print(new_favorite)
+            #print(new_favorite.get('username'))
+            add_user_favorite(new_favorite.get('username'),new_favorite.get('recipe'))
             return render_template('recipe.html',shows=shows_list)
         else:
             return render_template('recipe.html',shows=shows_list)

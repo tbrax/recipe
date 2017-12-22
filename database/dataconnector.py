@@ -17,7 +17,7 @@ Session = sessionmaker(bind=engine)
 #)
 
 class Favorite(Base):
-    __tablename__ = 'user_has_favoritedes'
+    __tablename__ = 'user_has_favorite'
     user_id = Column(Integer, ForeignKey('user.id'), primary_key=True)
     recipe_id = Column(Integer, ForeignKey('recipe.id'), primary_key=True)
     
@@ -232,18 +232,24 @@ def login_to_db(account_info):
 
 def add_user_favorite(userGiven,recipeGiven):
     session = Session()
+    
     try:
         userGet = session.query(User.id).\
-              filter(User.id==userGiven).\
+              filter(User.username==userGiven).\
               first()
 
         recipeGet = session.query(Recipe.id).\
               filter(Recipe.id==recipeGiven).\
               first()
-        if (userGet or recipeGet):
-            new_favorite = Favorite(user_id=userGet, recipe_id=recipeGet)
+
+        print(userGet[0])
+        print(recipeGet[0])
+        if (userGet and recipeGet):
+            new_favorite = Favorite(user_id=userGet[0], recipe_id=recipeGet[0])
             session.add(new_favorite)
             session.commit()
+        else:
+            print("Not found")
 
     except exc.SQLAlchemyError: #Attenpt at doing some error checking. Not working
         session.rollback()
