@@ -4236,14 +4236,212 @@ MINIMUM INTERRUPTED MAGIC DAMAGE:
 OLAF
 THE BERSERKER
 
+Berserker Rage	
+Berserker Rage	
+INNATE: Olaf gains 0% - 100% (based on missing health) bonus attack speed.
+
+Undertow	TARGET RANGE: 400 / 1000 SPEED: 1550 COST: 60 MANA COOLDOWN: 7
+Undertow	
+ACTIVE: Olaf throws an axe to the target location, dealing physical damage to all enemies it passes through and slowing them for 1.5 - 2.5 (based on distance traveled) seconds.
+
+PHYSICAL DAMAGE:
+80 / 125 / 170 / 215 / 260 (+ 100% bonus AD)
+SLOW:
+29 / 33 / 37 / 41 / 45%
+The axe ghosts neutral monsters hit, and remains at the target location until Undertow goes off cooldown, which Olaf can reduce by 4.5 seconds upon retrieving it.
+
+Vicious Strikes	COST: 30 MANA COOLDOWN: 16
+Vicious Strikes	
+ACTIVE: For 6 seconds, Olaf gains bonus attack speed, bonus life steal, and 0% - 50% (based on missing health) enhanced healing from all sources.
+
+BONUS ATTACK SPEED:
+40 / 50 / 60 / 70 / 80%
+LIFE STEAL:
+14 / 16 / 18 / 20 / 22%
+
+Reckless Swing	TARGET RANGE: 325 COST: 21 / 34.5 / 48 / 61.5 / 75 (+ 12% AD) HEALTH COOLDOWN: 12 / 11 / 10 / 9 / 8
+Reckless Swing	
+ACTIVE: Olaf deals true damage to the target enemy.
+
+TRUE DAMAGE:
+70 / 115 / 160 / 205 / 250 (+ 40% AD)
+Reckless Swing heals Olaf for its health cost if it kills its target and its cooldown is reduced by 1 second every time Olaf lands a basic attack.
+
+Ragnarok	EFFECT RADIUS: 1200 COOLDOWN: 100 / 90 / 80
+Ragnarok	
+PASSIVE: Olaf gains bonus armor and bonus magic resistance while Ragnarok is inactive.
+
+BONUS RESISTANCES:
+20 / 30 / 40
+ACTIVE: Olaf removes all disables from himself and becomes immune to them for the next 6 seconds, gaining bonus attack damage for the duration. For the first second of Ragnarok, he also gains bonus movement speed when moving towards nearby visible enemy champions.
+
+BONUS AD:
+40 / 60 / 80
+BONUS MOVEMENT SPEED:
+50 / 60 / 70%
+
 ORIANNA
 THE LADY OF CLOCKWORK
+
+Clockwork Windup	EFFECT RADIUS: 1125 / 1225 / 225 
+Clockwork Windup	
+THE BALL: Orianna is accompanied by The Ball, which she commands with her abilities (has a 0.15 seconds global cooldown between casts) The Ball attaches to / blinks back to Orianna if she is near it / too far away from it.
+
+Clockwork Winding	
+CLOCKWORK WINDING: Orianna's basic attacks deal 10 / 18 / 26 / 34 / 42 / 50 (+ 15% AP) bonus magic damage and apply Clockwork Winding, stacking up to twice. Clockwork Windup deals ( 20% bonus damage ) per stack, up to ( 140% total ).
+
+Clockwork Winding can only affect a single enemy at a time (Orianna attacking a new target will remove all stacks from the previous one).
+
+Command: Attack	TARGET RANGE: 825 COLLISION RADIUS: 175 SPEED: 1400 COST: 30 / 35 / 40 / 45 / 50 MANA COOLDOWN: 6 / 5.25 / 4.5 / 3.75 / 3
+Command Attack	
+ACTIVE: Orianna commands Clockwork Windup The Ball to fly to the target location and remain there, dealing magic damage to all enemies it passes through but reduced by 10% for each enemy hit, down to a minimum 40% damage.
+
+MAGIC DAMAGE:»
+60 / 90 / 120 / 150 / 180 (+ 50% AP)
+
+Command: Dissonance	EFFECT RADIUS: 250 COST: 70 / 80 / 90 / 100 / 110 MANA COOLDOWN: 9
+Command Dissonance	
+ACTIVE: Orianna commands Clockwork Windup The Ball to emit an electric pulse around its current location, dealing magic damage to all enemies around it and leaving an electric field on the area for 3 seconds.
+
+MAGIC DAMAGE:
+60 / 105 / 150 / 195 / 240 (+ 70% AP)
+Orianna and/or her allies gain bonus movement speed upon stepping on the field. Enemies, in turn, are slowed for the same amount, decaying over 2 seconds after leaving the field.
+
+MOVEMENT SPEED MODIFIER:
+20 / 25 / 30 / 35 / 40%
+
+Command: Protect	TARGET RANGE: 1100 COST: 60 MANA COOLDOWN: 9
+Command Protect	
+PASSIVE: Clockwork Windup The Ball grants whomever it is attached to bonus armor and magic resistance.
+
+BONUS RESISTANCES:
+10 / 15 / 20 / 25 / 30
+ACTIVE: Orianna commands The Ball to fly to the target allied champion or herself and attach itself to her target, dealing magic damage to all enemies it passes through and shielding her target on arrival for 4 seconds.
+
+MAGIC DAMAGE:
+60 / 90 / 120 / 150 / 180 (+ 30% AP)
+SHIELD STRENGTH:
+60 / 100 / 140 / 180 / 220 (+ 40% AP)
+
+Command: Shockwave	EFFECT RADIUS: 325 COST: 100 MANA COOLDOWN: 110 / 95 / 80
+Command Shockwave	
+ACTIVE: Orianna commands Clockwork Windup The Ball to unleash a shockwave after a 0.75 seconds delay, dealing magic damage to all nearby enemies and pulling them 350 units towards The Ball.
+
+MAGIC DAMAGE:
+150 / 225 / 300 (+ 70% AP)
 
 ORNN
 THE FIRE BELOW THE MOUNTAIN
 
+Living Forge	DISABLE TIME: 4
+Living Forge; Master Craftsman	
+LIVING FORGE: Ornn can purchase non-consumable items from anywhere on the field by forging them himself, and is also presented a Forge Menu with his recommended items to select to be forged. Forging takes 4 seconds and the process is interrupted if Ornn enters combat, disabling Living Forge. On ARAM, Ornn can forge an item once every 5 minutes.
+
+MASTER CRAFTMAN: When Ornn reaches level 13, he and each of his teammates can purchase MASTERWORK upgrades. Each player may only have one MASTERWORK upgrade at a time.
+
+Gold 1050 - Wooglet's Witchcrown
+Gold 1000 - Forgefire Cape, Infernal Mask, Molten Edge, Rabadon's Deathcrown, The Obsidian Cleaver, Trinity Fusion, and Zhonya's Paradox.
+Gold 500 - Circlet of the Iron Solari and Salvation.
+TEMPER: Ornn's basic attacks against Brittle enemies briefly knocks them back.
+
+Enemies made Brittle by Ornn take 7% - 13% (based on Ornn's level) of their maximum health as bonus magic damage (per stack of Brittle) the next time they are immobilized by Ornn or his allies, consuming all Brittle stacks.
+
+Volcanic Rupture	TARGET RANGE: 800 EFFECT RADIUS: 50 COST: 55 MANA COOLDOWN: 9 / 8.5 / 8 / 7.5 / 7
+Volcanic Rupture	
+ACTIVE: Ornn slams his hammer into the ground, sending a fissure in the target direction that stops at maximum range or 200 units behind a hit enemy champion, dealing physical damage and Slow icon slowing enemies hit for 2 seconds.
+
+PHYSICAL DAMAGE:
+20 / 50 / 80 / 110 / 140 (+ 100% AD)
+SLOW:
+40 / 45 / 50 / 55 / 60%
+After a 1.125-second delay, a Volcanic Rupture magma pillar erupts at maximum range, knocking aside enemies hit and lingering as impassible terrain for 4 seconds.
+
+Bellows Breath	TARGET RANGE: 550 COST: 45 / 50 / 55 / 60 / 65 MANA COOLDOWN: 13 / 12 / 11 / 10 / 9
+Bellows Breath	
+ACTIVE: Ornn shields himself for 12% of his maximum health for 2.5 seconds and marches, unstoppable, in the target direction with 50% reduced movement speed for the next 0.75 seconds.
+
+Over the march he belches fire over a cone in front of him, dealing magic damage every 0.15 seconds to enemies hit. The final bout of flame will apply Brittle icon Brittle for 6 seconds.
+
+TOTAL MAGIC DAMAGE:
+10 / 12 / 14 / 16 / 18% of target's maximum health
+Bellows Breath has a minimum damage threshold, which is also the damage dealt the minions. Monsters take modified damage, as well.
+
+TOTAL MINIMUM/MINION DAMAGE:
+80 / 130 / 180 / 230 / 280
+TOTAL MONSTER DAMAGE:
+155 / 180 / 205 / 230 / 255
+
+Searing Charge	TARGET RANGE: 800 EFFECT RADIUS: 360 / 150 COST: 50 MANA COOLDOWN: 16 / 15 / 14 / 13 / 12
+Searing Charge	
+ACTIVE: Ornn charges forward, dealing physical damage to enemies he passes through, stopping upon colliding with terrain.
+
+CHARGE DAMAGE:
+30 / 50 / 70 / 90 / 110 (+ 30% bonus armor) (+ 30% bonus magic resistance)
+If Ornn collides with terrain while charging he creates a shockwave that deals increased physical damage and knocks up enemies within for 1 second. Searing Charge can damage enemies twice.
+
+SHOCKWAVE DAMAGE:
+50 / 90 / 130 / 170 / 210 (+ 30% bonus armor) (+ 30% bonus magic resistance)
+Magma pillars and terrain created by enemy champions count as terrain, and, if caught in the shockwave, will be destroyed.
+
+Call of the Forge God	TARGET RANGE: 2500 SPEED: 1200 COST: 100 MANA COOLDOWN: 130 / 100 / 70
+Call of the Forge God	
+FIRST CAST: Ornn summons an elemental at maximum range in the target direction that stampedes toward him, dealing magic damage and Slow icon slowing enemies hit for 2 seconds, as well as applying Brittle for 6 seconds.
+
+MAGIC DAMAGE:
+125 / 175 / 225 (+ 20% AP)
+SLOW:
+40 / 60 / 80 %
+While stampeding, Ornn can re-activate Call of the Forge God.
+
+Call of the Forge God 2	
+SECOND CAST: Ornn dashes forward in the target direction. If Ornn collides with the elemental, he headbutts it, sending it stampeding again in the new direction and empowering it to knock up enemies hit. Call of the Forge God can affect enemies twice.
+
 PANTHEON
 THE ARTISAN OF WAR
+
+Aegis Protection	
+Aegis Protection	
+After landing 4 basic attacks or abilities, Pantheon blocks the next incoming basic attack from an enemy champion, large minion, large monster, or the next incoming shot from a turret.
+
+Spear Shot	TARGET RANGE: 600 COST: 45 MANA COOLDOWN: 4
+Spear Shot	
+ACTIVE: Pantheon hurls his spear at the target enemy, dealing them physical damage.
+
+PHYSICAL DAMAGE:
+75 / 115 / 155 / 195 / 235 (+ 140% bonus AD)
+Certain Death causes Spear Shot to deal 50% (+ Infinity Edge item 25%) bonus damage.
+
+CRITICAL DAMAGE:»
+112.5 / 172.5 / 232.5 / 292.5 / 352.5 (+ 210% bonus AD)
+
+Aegis of Zeonia	TARGET RANGE: 600 COST: 55 MANA COOLDOWN: 13 / 12 / 11 / 10 / 9
+Aegis of Zeonia	
+ACTIVE: Pantheon dashes to the target enemy, dealing them magic damage, stunning them for 1 second, and activating Aegis Protection.
+
+MAGIC DAMAGE:
+50 / 75 / 100 / 125 / 150 (+ 100% AP)
+
+Heartseeker Strike	EFFECT RADIUS: 600 ANGLE: 80° COST: 45 / 50 / 55 / 60 / 65 MANA COOLDOWN: 10 / 9 / 8 / 7 / 6
+Certain Death	
+PASSIVE - CERTAIN DEATH: Pantheon's basic attacks and Spear Shot critically strike all enemies below 15% maximum health.
+
+Heartseeker Strike	
+ACTIVE: Pantheon channels for 0.75 seconds, dealing physical damage to all enemies in a cone in front of him (reduced to 60% against non-champions) at 0.25 seconds intervals.
+
+PHYSICAL DAMAGE PER STRIKE:
+33.3 / 50 / 66.7 / 83.3 / 100 (+ 100% bonus AD)
+PHYSICAL DAMAGE PER STRIKE TO NON-CHAMPIONS:
+20 / 30 / 40 / 50 / 60 (+ 60% bonus AD)
+
+Grand Skyfall	TARGET RANGE: 5500 EFFECT RADIUS: 700 COST: 100 MANA COOLDOWN: 150 / 135 / 120
+Grand Skyfall	
+ACTIVE: Pantheon begins channeling and, after 2 seconds, leaps into the air and becomes untargetable. He then blinks to the target location and plummets down, striking after 1.5 seconds and becoming targetable once more.
+
+Enemies within the impact zone take magic damage, increased by up to 100% based on their proximity to the epicenter, and are Slow icon slowed by 35% for 1 second.
+
+MINIMUM MAGIC DAMAGE:»
+200 / 350 / 500 (+ 50% AP)
+Grand Skyfall's cooldown is reduced to 30 seconds if the channel is interrupted and/or canceled.
 
 POPPY
 KEEPER OF THE HAMMER
