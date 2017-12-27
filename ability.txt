@@ -1,297 +1,148 @@
 
 AATROX
-THE DARKIN BLADE
 
-Blood Well	STATIC COOLDOWN: 180 / 160 / 140 / 120
+Blood Well
 Aatrox fills his Blood Well through his abilities, depleting by (20% maximum) per second while out of combat. When the Blood Well is filled, Aatrox becomes Hellbent for 4 seconds as the Blood Well drains. While Hellbent, dealing or taking damage against enemy champions or neutral monsters will completely fill the Blood Well and refresh Hellbent's duration.
 HELLBENT: Aatrox gains 25% increased base AD and 30% / 40% / 50% / 60% bonus attack speed. Upon taking fatal damage Aatrox will revive over 3 seconds, recovering 30% of maximum health over the duration. Upon reviving, Aatrox instantly recovers 100% of Blood Well. Aatrox's revive is then put on a cooldown.
-
-Dark Flight	TARGET RANGE: 650 EFFECT RADIUS: 225 INNER RADIUS: 75 COOLDOWN: 13 / 12.5 / 12 / 11.5 / 11	
+Dark Flight	
 ACTIVE: Aatrox dashes to the target area, unstoppable, and after a brief delay, filling 20% of his Blood Well, dealing physical damage to nearby units upon landing, and knocking up all units in the epicenter for 1 second.
-PHYSICAL DAMAGE:
-20 / 50 / 80 / 110 / 140 (+ 110% AD)
-
-Blood Thirst / Blood Price	STATIC COOLDOWN: 0.5
+Blood Thirst / Blood Price
 PASSIVE: Aatrox applies a bonus on-hit effect on every third hit against non-structures.
 Blood Thirst	
 TOGGLE OFF – BLOOD THIRST: Aatrox heals himself on-hit.
-HEAL:
-30 / 45 / 60 / 75 / 90 (+ 6.5% missing health)
-
 Blood Price	
 TOGGLE ON – BLOOD PRICE: Aatrox deals bonus on-hit physical damage and fills 20% of his Blood Well.
-PHYSICAL DAMAGE:
-50 / 85 / 120 / 155 / 190 (+ 75% bonus AD)
-
-Blades of Torment	TARGET RANGE: 1000 COST: 30 HEALTH COOLDOWN: 12 / 11 / 10 / 9 / 8	
+Blades of Torment
 ACTIVE: Aatrox unleashes two converging energy waves in the target direction, filling 20% of his Blood Well, dealing physical damage to all units hit and slowing for 2 seconds.
-
-PHYSICAL DAMAGE:
-80 / 120 / 160 / 200 / 240 (+ 70% bonus AD)
-SLOW:
-30 / 35 / 40 / 45 / 50%
-
-Massacre	EFFECT RADIUS: 550 COOLDOWN: 100 / 85 / 70	
+Massacre
 ACTIVE: Aatrox draws in the blood of his foes, dealing magic damage to nearby enemy champions and filling 20% of his Blood Well for each enemy champion hit.
-
-MAGIC DAMAGE:
-200 / 300 / 400 (+ 100% AP)
 Additionally, Aatrox gains bonus attack speed and increases his attack range to 375 for 12 seconds.
-
-ATTACK SPEED:
-40 / 50 / 60%
 
 AHRI
 THE NINE-TAILED FOX
-
 Essence Theft	
 Whenever Ahri hits an enemy with one of her abilities, she gains a charge of Essence Theft 2 Essence Theft, and can gain up to 3 charges per ability cast. Upon reaching 9 charges, her next ability heals her for 3 / 5 / 9 / 18 (+ 9% AP) for each enemy hit.
-
-Orb of Deception	TARGET RANGE: 880 SPEED: 1700 COST: 65 / 70 / 75 / 80 / 85 MANA COOLDOWN: 7	
+Orb of Deception	
 ACTIVE: Ahri sends an orb of arcane energy in the target direction, dealing magic damage to all enemies it passes through, then pulls it back, dealing true damage to all enemies it passes through on the way to her current location.
-
-DAMAGE PER PASS:
-40 / 65 / 90 / 115 / 140 (+ 35% AP)
 While the orb is travelling, Ahri gains 300 - 80 (based on time) bonus movement speed.
-
-Fox-Fire	TARGET RANGE: 700 COST: 50 MANA COOLDOWN: 9 / 8 / 7 / 6 / 5	
+	
+Fox-Fire
 ACTIVE: Ahri summons three spectral flames which orbit her for up to 5 seconds. After a brief delay, each flame pursues the closest visible enemy, prioritizing champions, then the target of Ahri's last basic attack, dealing magic damage.
-
-MAGIC DAMAGE:
-40 / 65 / 90 / 115 / 140 (+ 30% AP)
 Multiple flames can hit the same target, with each flame beyond the first dealing 30% damage.
 
-ADDITIONAL MAGIC DAMAGE:
-12 / 19.5 / 27 / 34.5 / 42 (+ 9% AP)
-
-Charm	TARGET RANGE: 975 SPEED: 1600 COST: 85 MANA COOLDOWN: 12
 Charm	
 ACTIVE: Ahri blows a kiss in a line, dealing magic damage to the first enemy hit, charming them and slowing them by 65%.
 
-MAGIC DAMAGE:
-60 / 95 / 130 / 165 / 200 (+ 60% AP)
-CHARM DURATION:
-1 / 1.25 / 1.5 / 1.75 / 2
-
-Spirit Rush	TARGET RANGE: 450 EFFECT RADIUS: 600 COST: 100 MANA COOLDOWN: 110 / 95 / 80
 Spirit Rush	
 ACTIVE: Ahri dashes in the direction of the cursor and fires up to three energy bolts that each pursue one of her nearest visible enemies, dealing magic damage. Each enemy can only be hit by one bolt at a time.
-
-MAGIC DAMAGE PER BOLT:
-70 / 110 / 150 (+ 25% AP)
 Spirit Rush can be cast twice more within 10 seconds of activation at no additional cost before going on cooldown.
-
-MAXIMUM SINGLE TARGET DAMAGE:
-210 / 330 / 450 (+ 75% AP)
 
 AKALI
 THE FIST OF SHADOW
 
-Mark of the Assassin	TARGET RANGE: 600 COST: 60 ENERGY COOLDOWN: 6 / 5.5 / 5 / 4.5 / 4
 Mark of the Assassin	
 ACTIVE: Akali throws her kama at the target unit, dealing magic damage and marking them for 6 seconds.
-
-MAGIC DAMAGE:
-35 / 55 / 75 / 95 / 115 (+ 40% AP)
 Basic attacks detonate the mark, dealing bonus magic damage and restoring 40 energy.
 
-BONUS MAGIC DAMAGE:
-45 / 70 / 95 / 120 / 145 (+ 50% AP)
-
-Twilight Shroud	TARGET RANGE: 270 EFFECT RADIUS: 475 COST: 60 / 55 / 50 / 45 / 40 ENERGY COOLDOWN: 18
 Twilight Shroud	
 ACTIVE: After a 0.25 second delay, Akali blinks to a nearby location, leaving a smoke cover for 8 seconds at the location before cast and incurring a global cooldown of 0.5 seconds to all her other abilities.
-
 The smoke cover grants sight of the area and slows all units within it.
-
-SLOW:
-14 / 18 / 22 / 26 / 30%
-While inside the smoke cover, Akali immediately gains Twilight Shroud invisibility and movement speed.
-
-MOVEMENT SPEED:
-20 / 40 / 60 / 80 / 100%
+While inside the smoke cover, Akali immediately gains invisibility and movement speed.
 If Akali uses a basic attack or ability inside her smoke cover, she will reveal herself for 0.65 seconds.
 
-Crescent Slash	EFFECT RADIUS: 300 COST: 60 / 55 / 50 / 45 / 40 ENERGY COOLDOWN: 5 / 4.5 / 4 / 3.5 / 3
 Crescent Slash	
 ACTIVE: Akali flourishes her kamas, dealing physical damage to all enemies around her.
-
-PHYSICAL DAMAGE:
-70 / 100 / 130 / 160 / 190 (+ 80% bonus AD) (+ 60% AP)
 Crescent Slash cooldown is reduced by 60% whenever it kills at least one enemy.
 
-Shadow Dance	TARGET RANGE: 700 SPEED: 2000 COST: 1 ESSENCE OF SHADOW COOLDOWN: 2 RECHARGE TIME: 30 / 22.5 / 15
 Shadow Dance	
 PASSIVE: Akali uses a stock system on this ability; she stores an Essence of Shadow periodically and upon taking down an enemy champion, up to a maximum of 3 stored at once. Akali immediately gains 3 Essences of Shadow upon learning the ability.
-
 ACTIVE: Akali dashes to the target unit, dealing them magic damage. Akali will land between 100 and 200 units on the far side of her target based on how close they were, halved versus Mark of the Assassin Marked targets.
 
 ALISTAR
 THE MINOTAUR
 
-Triumphant Roar	EFFECT RADIUS: 1000 STATIC COOLDOWN: 3
 Triumphant Roar	
 INNATE: Alistar gains a stack of Triumph every time he stuns or displaces at least one enemy champion, and every time a minion or small monster dies.
-
 At 7 Triumph stacks, Alistar roars, healing himself for 20 - 139 (based on level) health and all nearby allied champions for double the amount.
-
 Alistar roars instantly if a nearby enemy champion or epic monster dies. Once Triumph stacks are consumed Alistar cannot gain more again for a short duration.
 
-Pulverize	EFFECT RADIUS: 365 COST: 65 / 70 / 75 / 80 / 85 MANA COOLDOWN: 17 / 16 / 15 / 14 / 13
 Pulverize	
 ACTIVE: Alistar slams the ground beneath him, dealing magic damage to all nearby enemies and knocking them up for 1 second.
 
-MAGIC DAMAGE:
-60 / 105 / 150 / 195 / 240 (+ 50% AP)
-
-Headbutt	TARGET RANGE: 650 COST: 65 / 70 / 75 / 80 / 85 MANA COOLDOWN: 14 / 13 / 12 / 11 / 10
 Headbutt	
 ACTIVE: Alistar dashes to the target enemy, dealing them magic damage, stunning them for 1 second and knocking them back 650 units.
 
-MAGIC DAMAGE:
-55 / 110 / 165 / 220 / 275 (+ 70% AP)
-
-Trample	EFFECT RADIUS: 350 COST: 50 / 60 / 70 / 80 / 90 MANA COOLDOWN: 12 / 11.5 / 11 / 10.5 / 10
 Trample	
 ACTIVE: Alistar tramples the ground around him every 0.5 seconds for 5 seconds, dealing magic damage to all nearby enemies and gaining a Trample stack every time the ability damages at least one enemy champion. Alistar is ghosted for the duration.
-
-MAGIC DAMAGE PER TICK:
-10 / 12.5 / 15 / 17.5 / 20 (+ 4% AP)
 At 5 Trample stacks, Alistar's next basic attack deals 55 - 310 (based on level) bonus magic damage and stuns his target for 1 second.
 
-Unbreakable Will	COST: 100 MANA COOLDOWN: 120 / 100 / 80
 Unbreakable Will	
 ACTIVE: Alistar reduces all incoming physical and magic damage for the next 7 seconds, cleansing himself of all crowd control on cast.
 
 AMUMU
 THE SAD MUMMY
-
-Cursed Touch	
+	
 Cursed Touch	
 Amumu's basic attacks and Curse of the Sad Mummy Curse of the Sad Mummy apply Curse for 3 seconds, refreshing with each subsequent basic attack.
-
 Cursed targets receive 10% bonus true damage from all incoming magic damage, calculated before magic resist reduction.
 
-Bandage Toss	TARGET RANGE: 1100 SPEED: 2000 COST: 80 / 90 / 100 / 110 / 120 MANA COOLDOWN: 16 / 14 / 12 / 10 / 8
 Bandage Toss	
 ACTIVE: Amumu tosses a bandage in the target direction that stuns the first enemy it hits for 1 second, dealing magic damage, and pulling him to their location.
-
-MAGIC DAMAGE:
-80 / 130 / 180 / 230 / 280 (+ 70% AP)
 
 Despair	EFFECT RADIUS: 300 COST: 8 MANA PER SECOND COOLDOWN: 1
 Despair	
 TOGGLE: Amumu cries a continuous pool of tears, refreshing Curse for 3 seconds and dealing magic damage every half second to nearby enemies.
 
-MAGIC DAMAGE PER HALF SECOND:
-5 / 7.5 / 10 / 12.5 / 15 (+ 0.5 / 0.625 / 0.75 / 0.875 / 1% (+ 0.5% per 100 AP) of target's maximum health)
-
-Tantrum	EFFECT RADIUS: 350 COST: 35 MANA COOLDOWN: 10 / 9 / 8 / 7 / 6
 Tantrum	
 PASSIVE: Amumu takes reduced physical damage.
-
-PHYSICAL DAMAGE REDUCTION:
-2 / 4 / 6 / 8 / 10
 ACTIVE: Amumu releases his anger, dealing magic damage to nearby enemies. Tantrum's cooldown is reduced by 0.5 seconds every time Amumu is hit by a basic attack.
 
-MAGIC DAMAGE:
-75 / 100 / 125 / 150 / 175 (+ 50% AP)
-
-Curse of the Sad Mummy	EFFECT RADIUS: 550 COST: 100 / 150 / 200 MANA COOLDOWN: 150 / 130 / 110
 Curse of the Sad Mummy	
 ACTIVE: Amumu deals magic damage to nearby enemies, applies Curse for 3 seconds and entangles them for 2 seconds.
-
-MAGIC DAMAGE:
-150 / 250 / 350 (+ 80% AP)
 
 ANIVIA
 THE CRYOPHOENIX
 
-Rebirth	STATIC COOLDOWN: 240
 Rebirth	
 INNATE: Upon taking fatal damage, Anivia transforms into an egg with 100% of her maximum health for 6 seconds, during which she cannot act. While in her egg form, Anivia gains -40 / -25 / -10 / 5 / 20 bonus armor and bonus magic resistance. If the egg survives, Anivia is reborn with its current health.
 
-Flash Frost	TARGET RANGE: 1075 COLLISION RADIUS: 125 EFFECT RADIUS: 225 SPEED: 850 COST: 80 / 90 / 100 / 110 / 120 MANA COOLDOWN: 12 / 11 / 10 / 9 / 8
 Flash Frost	
 FIRST CAST: Anivia launches a massive chunk of ice which flies toward the target location, dealing magic damage to enemies it passes through. At maximum range, Flash Frost detonates automatically.
-
-MAGIC DAMAGE:
-60 / 85 / 110 / 135 / 160 (+ 40% AP)
 SECOND CAST: Anivia shatters the orb, dealing magic damage to enemies within the detonation and stunning them.
-
-STUN DURATION:
-1.1 / 1.2 / 1.3 / 1.4 / 1.5
 Enemies damaged by Flash Frost are slowed by 20 / 20 / 30 / 40% for 3 seconds. Enemies can be damaged twice by Flash Frost.
 
-Crystallize	TARGET RANGE: 1000 COST: 70 MANA COOLDOWN: 17
 Crystallize	
 ACTIVE: Anivia summons an impassable wall of ice at the target location perpendicular to which way she is facing, knocking enemies away from it. The wall lasts 5 seconds.
 
-WALL LENGTH:
-400 / 500 / 600 / 700 / 800
-
-Frostbite	TARGET RANGE: 650 SPEED: 1600 COST: 50 / 60 / 70 / 80 / 90 MANA COOLDOWN: 4
 Frostbite	
 ACTIVE: Anivia blasts the target with a freezing wind, dealing magic damage that is doubled against targets recently stunned by Flash Frost or recently damaged by a fully formed Glacial Storm.
 
-MAGIC DAMAGE:
-50 / 75 / 100 / 125 / 150 (+ 50% AP)
-
-Glacial Storm	TARGET RANGE: 750 EFFECT RADIUS: 200-400 TETHER RADIUS: 1000 COST: 75 MANA + 40 / 50 / 60 PER SECOND COOLDOWN: 6
 Glacial Storm	
 PASSIVE: Increases Flash Frost Flash Frost's slow.
 
-SLOW:
-20 / 30 / 40%
 ACTIVE: Anivia calls forth a driving rain of ice and hail at the target location, dealing magic damage each second to enemies within, slowing them for 1 second.
-
-MAGIC DAMAGE PER SECOND:
-40 / 60 / 80 (+ 12.5% AP)
 The blizzard increases in size over 1.5 seconds. At maximum size, enemies within the area take 200% increased damage, and are slowed by an additional 50%.
-
-EMPOWERED SLOW:
-30 / 45 / 60%
 After Glacial Storm has been active for at least 1 second, Anivia can cast the ability again to deactivate it, dealing one last tick of damage. The ability will deactivate automatically if she gets too far away or runs out of mana. Additionally, Glacial Storm is deactivated by all forms of interrupting crowd control.
 
 ANNIE
 THE DARK CHILD
-
-Pyromania	
+	
 Pyromania	
 INNATE: After casting four abilities, Annie's next damaging ability stuns enemies it damages for 1.25 / 1.5 / 1.75 seconds.
 
-Disintegrate	TARGET RANGE: 625 COST: 60 / 65 / 70 / 75 / 80 MANA COOLDOWN: 4
 Disintegrate	
 ACTIVE: Annie hurls a fireball at the target enemy, dealing magic damage.
-
-MAGIC DAMAGE:
-80 / 115 / 150 / 185 / 220 (+ 80% AP)
 If Disintegrate kills its target, it refunds its mana cost and half of its cooldown is immediately refreshed.
 
-Incinerate	EFFECT RADIUS: 600 ANGLE: 50° COST: 70 / 80 / 90 / 100 / 110 MANA COOLDOWN: 8
 Incinerate	
 ACTIVE: Annie releases a cone of fire in the target direction, dealing magic damage to all enemies in the area.
 
-MAGIC DAMAGE:
-70 / 115 / 160 / 205 / 250 (+ 85% AP)
-
-Molten Shield	COST: 20 MANA COOLDOWN: 10
 Molten Shield	
 ACTIVE: Annie wraps herself and Tibbers in a fiery aura, reducing damage taken for the next 3 seconds.
-
-DAMAGE REDUCTION:
-16 / 22 / 28 / 34 / 40%
 Enemies who use basic attacks on Annie or Tibbers during this time are also dealt magic damage.
 
-MAGIC DAMAGE:
-20 / 30 / 40 / 50 / 60 (+ 20% AP)
-
-Summon: Tibbers	TARGET RANGE: 600 EFFECT RADIUS: 290 COST: 100 MANA COOLDOWN: 120 / 100 / 80
 Summon- Tibbers	
 FIRST CAST: Annie summons Tibbers to the target location in a burst of flame, dealing magic damage to surrounding enemies.
-
-INITIAL MAGIC DAMAGE:
-150 / 275 / 400 (+ 65% AP)
 He then remains on the field as a controllable pet for up to 45 seconds.
 
 Command Tibbers	
@@ -313,160 +164,88 @@ If Annie dies while Tibbers is active, he instantly heals himself for 50% missin
 
 ASHE
 THE FROST ARCHER
-
-Frost Shot	
+	
 Frost Shot	
 FROST SHOT: Ashe's basic attacks and abilities apply Frost Shot 2 Frost to affected enemies, slowing them by 10 / 12 / 14 / 16 / 18 / 20% for 2 seconds and causing subsequent basic attacks against them to deal 10% (+100% (+ Infinity Edge item 50%) Critical Strike Chance) AD bonus physical damage while they remain slowed.
 
 Frost Shot 2	
 CRITICAL SLOW: Ashe's critical strikes deal no additional damage, but instead triple Frost's slow strength to 30 / 36 / 42 / 48 / 54 / 60%, decaying over 1 second to its normal strength.
 
-Ranger's Focus	COST: 50 MANA + 4 FOCUS
 Ranger's Focus	
 PASSIVE: While Ranger's Focus is inactive, Ashe is granted Focus for 4 seconds on attack, stacking up to 4 times. After 4 seconds, each stack thereafter will fall off every second.
 
 Ranger's Focus 2	
 ACTIVE: Ashe gains bonus attack speed for 4 seconds and causes each of her basic attacks to fire a flurry of five arrows. Ashe cannot gain Focus while this ability is active.
-
-BONUS ATTACK SPEED:
-20 / 25 / 30 / 35 / 40%
 Flurries trigger on-hit effects only once, and arrow deals modified physical damage that benefits from Frost Shot Frost Shots and life steal.
-
-DAMAGE PER ARROW:
-21 / 22 / 23 / 24 / 25% AD
 Ranger's Focus reduces Ashe's next basic attack's delay to 40% if currently any higher.
 
-Volley	COLLISION RADIUS: 10 EFFECT RADIUS: 1200 ANGLE: 57.5° SPEED: 2000 COST: 50 MANA COOLDOWN: 15 / 12.5 / 10 / 7.5 / 5
 Volley	
 ACTIVE: Ashe fires 9 arrows in a cone in the target direction, dealing physical damage to all enemies hit.
-
-PHYSICAL DAMAGE:
-20 / 35 / 50 / 65 / 80 (+ 100% AD)
 Enemies can intercept multiple arrows, but do not take damage from arrows beyond the first.
-
 Volley applies Frost Shot's Critical Slow to enemy champions hit.
 
-Hawkshot	TARGET RANGE: Global EFFECT RADIUS: 1000 SPEED: 1400 COST: 1 CHARGE COOLDOWN: 5 RECHARGE TIME: 90 / 80 / 70 / 60 / 50
 Hawkshot	
 ACTIVE: Ashe sends a hawk spirit toward the target location, granting sight of its path for 2 seconds and in a large radius at its destination for 5 seconds. The hawk's sight is not obstructed by brush or terrain.
-
 Ashe uses a stock system on this ability; she stores a charge of Hawkshot periodically, up to a maximum of 2 stored at once.
 
-Enchanted Crystal Arrow	TARGET RANGE: Global EFFECT RADIUS: 125 SPEED: 1600 COST: 100 MANA COOLDOWN: 100 / 90 / 80
 Enchanted Crystal Arrow	
 ACTIVE: Ashe fires a Enchanted Crystal Arrow Minimap missile of ice in the target direction. The arrow shatters upon hitting an enemy champion, dealing magic damage, knocking down and stunning them for 1 - 3.5 (based on distance traveled) seconds.
-
-MAGIC DAMAGE:
-200 / 400 / 600 (+ 100% AP)
 Enemies surrounding the main target also take 50% damage.
-
-SECONDARY MAGIC DAMAGE:
-100 / 200 / 300 (+ 50% AP)
 
 AURELION SOL
 THE STAR FORGER
 
-Center of the Universe	EFFECT RADIUS: 325 OUTER LIMIT: 650
 Center of the Universe	
 INNATE: Aurelion Sol is constantly orbited by three Stars, and beyond them exists an Outer Limit affecting his damaging abilities. Ability-inhibiting crowd control disables Center of the Universe.
-
 The Stars deal 20 - 130 (based on level) (+ 5 / 10 / 15 / 20 / 25) (+ 18 - 35 (based on level)% AP) magic damage and apply spell effects to enemies that come in contact with them, executing minions below 25 health.
 
-Starsurge	EFFECT RADIUS: 75 - infinity SPEED: 600 COST: 60 / 70 / 80 / 90 / 100 MANA COOLDOWN: 10
 Starsurge	
 ACTIVE: Aurelion Sol fires the core of a newborn star in the target direction, which expands as long as it remains within the Outer Limit and grants him 10% bonus movement speed.
 
 Starsurge 2	
 Upon traveling beyond the Outer Limit or reactivating Starsurge, the core Starsurge 2 detonates, dealing magic damage to all enemies caught within and stunning them.
 
-MAGIC DAMAGE:
-70 / 110 / 150 / 190 / 230 (+ 65% AP)
-STUN DURATION:
-1.1 / 1.2 / 1.3 / 1.4 / 1.5
-
-Celestial Expansion	COST: 40 MANA + 22 / 24 / 26 / 28 / 30 PER SECOND COOLDOWN: 6 / 5.5 / 5 / 4.5 / 4
 Celestial Expansion	
 PASSIVE: The Center of the Universe Stars' base damage is increased.
 
-BONUS DAMAGE:
-5 / 10 / 15 / 20 / 25
 Celestial Expansion 2	
 TOGGLE: Aurelion Sol pushes his Center of the Universe Stars out to the Outer Limit and increases their damage by 50%.
 
-TOTAL DAMAGE:
-30 - 195 (based on level) (+ 7.5 / 15 / 22.5 / 25 / 37.5) (+ 27 - 52.5 (based on level)% AP)
-
-Comet of Legend	TARGET RANGE: 3000 / 4000 / 5000 / 6000 / 7000 SPEED: 600 COST: 60 MANA COOLDOWN: 60 / 55 / 50 / 45 / 40
 Comet of Legend	
 PASSIVE: Aurelion Sol gains an increasing bonus movement speed when moving in the same direction, up to a maximum, which is lost when he turns.
 
-MAX. BONUS MOVEMENT SPEED:
-25 / 30 / 35 / 40 / 45%
 Comet of Legend 2	
 ACTIVE: Aurelion Sol pulls in his Center of the Universe Stars and takes flight in the chosen direction, gaining sight that pierces obstructions as well as ignoring terrain and unit collision. Aurelion Sol can also be seen regardless of obstructions.
-
 Performing any action (excluding Starsurge Starsurge) or taking damage from champions or turrets will end Comet of Legend 2 Comet of Legend early.
 
-Voice of Light	TARGET RANGE: 1500 COST: 100 MANA COOLDOWN: 110 / 90 / 70
 Voice of Light	
 ACTIVE: Aurelion Sol exhales a wave of starfire in a line, dealing magic damage to all enemies hit, slowing for 2 seconds and knocking targets back to the Outer Limit if they are within.
 
-MAGIC DAMAGE:
-150 / 250 / 350 (+ 70% AP)
-SLOW:
-40 / 50 / 60%
-
 AZIR
 THE EMPEROR OF THE SANDS
-
-Shurima's Legacy	TARGET RANGE: 400 EFFECT RADIUS: 2000 STATIC COOLDOWN: 180	
+	
 Shurima's Legacy
 INNATE: Azir places a marker above the ruins of all destroyed turrets outside the enemy base.
-
 DISC OF THE SUN: Azir raises the Sun Disc from the selected marked ruins after a brief delay. The Sun Disc functions like a standard turret but gains (15% AP) bonus attack damage. It also grants Azir any gold it earns. The Sun Disc's health decays over 60 seconds and loses 100 armor if Azir dies or moves too far away.
 
-Conquering Sands	TARGET RANGE: 740 EFFECT RADIUS: 370 COST: 70 MANA COOLDOWN: 11 / 9.5 / 8 / 6.5 / 5
 Conquering Sands	
 ACTIVE: Azir orders all Sand Soldiers to dash toward the target location, dealing magic damage to all enemies they pass through and slowing them by 25% for 1 second.
-
-MAGIC DAMAGE:
-70 / 95 / 120 / 145 / 170 (+ 30% AP)
 Enemies hit by multiple soldiers do not take additional damage, but are slowed by an additional 25% per soldier beyond the first.
-
 Conquering Sands resets Azir's autoattack timer.
 
-Arise!	TARGET RANGE: 500 EFFECT RADIUS: 660 COST: 40 MANA + 1 SAND SOLDIER COOLDOWN: 1.5 RECHARGE TIME: 8 / 7.5 / 7 / 6.5 / 6
 Arise!	
 PASSIVE: Azir permanently has bonus attack speed. This bonus is doubled for 5 seconds if he summons a soldier while there are already two on the field. He also has a stock system for this ability; he stores a Sand Soldier periodically, up to a maximum of 2 stored at once.
-
-BONUS ATTACK SPEED:
-20 / 30 / 40 / 50 / 60%
 ACTIVE: Azir summons an untargetable Sand Soldier at the target location for 10 seconds, expiring twice as fast while within range of an enemy turret, and expire instantly if Azir moves too far away.
-
 When Azir attacks an enemy in a soldier's range, the Sand Soldier attacks in his stead, dealing 60 - 160 (based on level) (+ 60% AP) magic damage to all enemies in a line. Multiple soldiers can strike the same target, with each soldier beyond the first dealing 25% damage. Azir can only command soldiers when near them. Secondary targets hit take 40% / 70% / 100% damage.
-
 Soldiers cannot attack enemy structures, wards or trinkets.
 
-Shifting Sands	TARGET RANGE: 1100 COST: 60 MANA COOLDOWN: 19 / 18 / 17 / 16 / 15
 Shifting Sands	
 ACTIVE: Azir shields himself for 1.5 seconds and dashes to one of his Sand Soldiers, dealing magic damage to enemies he passes through.
-
-SHIELD STRENGTH:
-80 / 120 / 160 / 200 / 240 (+ 70% AP)
-MAGIC DAMAGE:
-60 / 90 / 120 / 150 / 180 (+ 40% AP)
 If Azir hits an enemy champion, he gains a charge of Arise!.
 
-Emperor's Divide	TARGET RANGE: 250 COST: 100 MANA COOLDOWN: 120 / 105 / 90
 Emperor's Divide	
 ACTIVE: Azir calls forth a phalanx of soldiers from behind him, charging forward in the target direction.
-
-WIDTH:
-5 / 6 / 7 soldiers
 Enemies impacted by the charge are dealt magic damage and knocked back.
-
-MAGIC DAMAGE:
-150 / 250 / 450 (+ 60% AP)
 When the soldiers finish their charge, they stand as a wall for 3 seconds, acting as impassible terrain for enemies. Allies and Azir can freely pass through the wall.
 
 Summoned Units
@@ -485,7 +264,6 @@ Deserter
 If Azir is not within ~2000 units, the turret loses 100 Armor.
 
 SOLDIER
-
 Basic Attack
 Whenever Azir declares an attack on a target within 375 units of one of his soldiers, he instead commands all soldiers in range to attack.
 
@@ -493,344 +271,176 @@ BARD
 THE WANDERING CARETAKER
 
 Traveler's Call	
-Traveler's Call	
 ANCIENT CHIMES: Bard's presence causes sacred chimes to appear at random locations and linger for up to 10 minutes. Collecting a chime grants Bard 24% bonus movement speed out of combat for 7 seconds, stacking up to 5 times, with every other chime collected beyond the first granting an additional 14% bonus movement speed, up to a total of 80% bonus movement speed, 20 + (1 per minute after 5 minutes) experience, and 12% maximum mana. Bard empowers his Traveler's Call 2 Meeps each time he collects 5 chimes.
 
 Traveler's Call 2	
 MEEPS: Bard's presence attracts small spirits known as Meeps to his side. Each of his basic attacks consumes a Meep, dealing 40 (+ 15 per 5 chimes collected) (+ 30% AP) bonus magic damage. At 5 chimes, Meeps slow damaged enemies by 25 / 35 / 45 / 55 / 65 / 75% for 1 second, and at 15 chimes deal splash damage to enemies within 150 units of his target as well as those in a cone behind them, with the cone's size increasing at 35 chimes. Meeps spawn every 8 / 7 / 6 / 5 / 4 seconds and Bard can keep up to 1 - 9 (based on Chimes) of them at a time.
 
-Cosmic Binding	TARGET RANGE: 950 EFFECT RADIUS: 450 SPEED: 1500 COST: 60 MANA COOLDOWN: 11 / 10 / 9 / 8 / 7
 Cosmic Binding	
 ACTIVE: Bard fires a burst of spirit energy in the target direction, dealing magic damage to the first enemy struck and briefly slowing them by 60%.
-
-MAGIC DAMAGE:
-80 / 125 / 170 / 215 / 260 (+ 65% AP)
-DISABLE DURATION:
-1 / 1.2 / 1.4 / 1.6 / 1.8
 After Cosmic Binding hits an enemy, the burst of energy passes through them and searches for secondary targets. If it hits a wall or a second enemy, it stuns both targets for the same duration, dealing the same magic damage to the second target as well.
 
 Caretaker's Shrine	TARGET RANGE: 800 COST: 90 MANA COOLDOWN: 12
 Caretaker's Shrine	
 ACTIVE: Bard conjures a shrine at the target location that builds up in power over 10 seconds, up to 3 shrines active at once, which remain until consumed when a champion steps on them.
-
 If the champion was an ally or Bard himself, they are healed for an amount based on the shrine's power and gain 50% bonus movement speed that decays over 1.5 seconds.
 
-MINIMUM HEAL:
-30 / 60 / 90 / 120 / 150 (+ 30% AP)
-
-Magical Journey	TARGET RANGE: 900 COST: 30 MANA COOLDOWN: 18 / 17 / 16 / 15 / 14
 Magical Journey	
 ACTIVE: Bard opens a one-way magical corridor through a piece of terrain in the target direction for 10 seconds. Magical Journey will not cast unless it can open a corridor.
-
 Both allies and enemies can pass through the corridor by right-clicking on it or its exit, with allies and Bard travelling at increased speed.
 
-Tempered Fate	TARGET RANGE: 3400 EFFECT RADIUS: 350 COST: 100 MANA COOLDOWN: 130 / 115 / 90
 Tempered Fate	
 ACTIVE: Bard sends magical energy arcing to the target location, putting all units and structures in the target area into stasis for 2.5 seconds upon impact.
-
 Despite normally being immune to crowd control, epic monsters and turrets (excluding the Nexus Obelisk) also enter stasis.
 
 BLITZCRANK
 THE GREAT STEAM GOLEM
 
-Mana Barrier	STATIC COOLDOWN: 90
 Mana Barrier	
 PASSIVE: When Blitzcrank receives damage which brings him below 20% maximum health, he shields himself for 50% of his current mana for up to 10 seconds.
 
-Rocket Grab	TARGET RANGE: 925 SPEED: 1750 COST: 100 MANA COOLDOWN: 20 / 19 / 18 / 17 / 16
 Rocket Grab	
 ACTIVE: Blitzcrank fires his right hand in the target direction, pulling the first enemy hit to him, stunning them for 0.5 seconds, and dealing magic damage.
 
-MAGIC DAMAGE:
-80 / 135 / 190 / 245 / 300 (+ 100% AP)
-
-Overdrive	COST: 75 MANA COOLDOWN: 15
 Overdrive	
 ACTIVE: Blitzcrank puts himself into overdrive, gaining bonus attack speed for 5 seconds and bonus movement speed that decays to 10% after 2.5 seconds.
-
-ATTACK SPEED:
-30 / 38 / 46 / 54 / 62%
-MOVEMENT SPEED:
-70 / 75 / 80 / 85 / 90%
 When Overdrive ends, Blitzcrank is slowed by 30% for 1.5 seconds.
 
-Power Fist	COST: 25 MANA COOLDOWN: 9 / 8 / 7 / 6 / 5
 Power Fist	
 ACTIVE: Blitzcrank's next basic attack within 5 seconds deals 100% AD bonus physical damage and knocks up his target for 1 second.
-
 Power Fist resets Blitzcrank's autoattack timer.
 
-Static Field	EFFECT RADIUS: 600 COST: 100 MANA COOLDOWN: 60 / 40 / 20
 Static Field	
 PASSIVE: While Static Field is not on cooldown, Blitzcrank fires a lightning bolt at a random visible enemy within a 450 radius every 2.5 seconds, dealing magic damage.
-
-BOLT MAGIC DAMAGE:
-100 / 200 / 300 (+ 20% AP)
 ACTIVE: Blitzcrank detonates his static field, dealing magic damage to nearby enemies and silencing them for 0.5 seconds.
 
 BRAND
 THE BURNING VENGEANCE 
-
-Blaze	
+	
 Blaze	
 INNATE: Brand's abilities set his targets ablaze upon damaging them, dealing 2% of their maximum health as magic damage over 4 seconds, stacking up to 3 times, and empowering his abilities against them. The damage against monsters is capped at 320.
-
 Killing an enemy that is Blaze Ablaze restores 6 - 18 (based on level) mana.
 
 Blaze 2	
 At 3 stacks, an area around the target is marked, which explodes after 2 seconds. All enemies struck are dealt 12 - 16 (based on level)% (+ 1.5% per 100 AP) of their maximum health as magic damage. The explosion will still trigger if the target dies to the third ability or during the delay.
-
 Brand cannot stack Blaze more than once on enemies who have exploded in the past 4 seconds.
 
-Sear	TARGET RANGE: 1050 SPEED: 1550 COST: 50 MANA COOLDOWN: 8 / 7.5 / 7 / 6.5 / 6
 Sear	
 ACTIVE: Brand launches a fireball in the target direction that deals magic damage to the first enemy it hits.
-
-MAGIC DAMAGE:
-80 / 110 / 140 / 170 / 200 (+ 55% AP)
 BLAZE: The target is also stunned for 1.5 seconds.
 
-Pillar of Flame	TARGET RANGE: 900 EFFECT RADIUS: 250 COST: 60 / 70 / 80 / 90 / 100 MANA COOLDOWN: 10 / 9.5 / 9 / 8.5 / 8
 Pillar of Flame	
 ACTIVE: After a 0.625 seconds delay, Brand makes the target area erupt in flames, dealing magic damage to enemies within.
+BLAZE: Pillar of Flame deals 25% additional damage.
 
-MAGIC DAMAGE:
-75 / 120 / 165 / 210 / 255 (+ 60% AP)
-Blaze BLAZE: Pillar of Flame deals 25% additional damage.
-
-Conflagration	TARGET RANGE: 625 EFFECT RADIUS: 375 COST: 70 / 75 / 80 / 85 / 90 MANA COOLDOWN: 10 / 9 / 8 / 7 / 6
 Conflagration	
 ACTIVE: Brand sets the target enemy aflame, dealing magic damage.
-
-MAGIC DAMAGE:
-70 / 90 / 110 / 130 / 150 (+ 35% AP)
 BLAZE: Conflagration also spreads to enemies around the target.
 
-Pyroclasm	TARGET RANGE: 750 EFFECT RADIUS: 750 COST: 100 MANA COOLDOWN: 105 / 90 / 75
 Pyroclasm	
 ACTIVE: Brand launches a fireball at the target enemy that bounces between nearby enemies up to four times, dealing magic damage each time.
-
-MAGIC DAMAGE:
-100 / 200 / 300 (+ 25% AP)
 If Pyroclasm's current target becomes invalid, it selects a new enemy at no cost to its remaining bounces. If its initial target becomes invalid and there are no other valid targets, Pyroclasm refunds its cost and resets its cooldown.
-
 BLAZE: Pyroclasm briefly slows enemies hit.
-
-SLOW:
-30 / 45 / 60%
 
 BRAUM
 THE HEART OF THE FRELJORD
 
-
-Concussive Blows	PER-TARGET COOLDOWN: 8 / 7 / 6
 Concussive Blows	
 Braum's basic attacks and Winter's Bite each apply Concussive Blows to his target for 4 seconds, stacking up to 4 times. Once the first stack has been applied, any allied champion's basic attack on the target generates an additional stack.
-
 Upon reaching 4 stacks, the target is stunned for 1.25 / 1.5 / 1.75 seconds and takes 26 - 196 (based on level) magic damage.
-
 This effect cannot occur on the same target more than once every few seconds, but during this immunity period affected targets instead take (20% of the trigger damage) as bonus magic damage from Braum's basic attacks and Winter's Bite.
 
-Winter's Bite	TARGET RANGE: 1000 COST: 55 / 60 / 65 / 70 / 75 MANA COOLDOWN: 10 / 9 / 8 / 7 / 6
 Winter's Bite	
 ACTIVE: Braum propels ice from his shield in the target direction, dealing magic damage to the first enemy hit and slowing them by 70% decaying over 2 seconds.
 
-MAGIC DAMAGE:
-60 / 105 / 150 / 195 / 240 (+ 2.5% maximum health)
-
-
-Stand Behind Me	TARGET RANGE: 650 COST: 50 / 55 / 60 / 65 / 70 MANA COOLDOWN: 14 / 13 / 12 / 11 / 10
 Stand Behind Me	
 ACTIVE: Braum dashes to the target ally, positioning himself between them and the closest enemy champion, gaining bonus armor and bonus magic resistance for 3 seconds. If his target is a champion, they also receive the same bonuses.
-
-BONUS ARMOR:
-17.5 / 20 / 22.5 / 25 / 27.5 (+ 10 / 11.5 / 13 / 14.5 / 16% bonus armor)
-BONUS MAGIC RESIST:
-17.5 / 20 / 22.5 / 25 / 27.5 (+ 10 / 11.5 / 13 / 14.5 / 16% bonus magic resistance)
 
 Unbreakable	COST: 30 / 35 / 40 / 45 / 50 MANA COOLDOWN: 18 / 16 / 14 / 12 / 10
 Unbreakable	
 ACTIVE: Braum raises his shield in the target direction, creating a barrier that intercepts incoming non-turret enemy projectiles and reduces the damage he takes through the shield. The first instance of damage blocked by his shield is negated completely.
-
-DAMAGE REDUCTION:
-30 / 32.5 / 35 / 37.5 / 40%
-DURATION:
-3 / 3.25 / 3.5 / 3.75 / 4
 While his shield is raised, Braum also gains 10% bonus movement speed and is ghosted.
 
-Glacial Fissure	TARGET RANGE: 1250 COST: 100 MANA COOLDOWN: 140 / 120 / 100
 Glacial Fissure	
 ACTIVE: Braum leaps into the air and slams his shield into the ground, creating a fissure in the target direction that deals magic damage to enemies as well as those around him.
-
-MAGIC DAMAGE:
-150 / 250 / 350 (+ 60% AP)
 Enemy champions hit in the close vicinity are knocked up, while enemies hit in the line are knocked up for 0.25 seconds.
-
-KNOCKUP DURATION:
-1 / 1.25 / 1.5
 If no enemy champions are hit in the point-blank area, the first enemy champion hit in the line is knocked up for the full duration.
-
 A field of ice then remains at the fissure's location for 4 seconds, slowing enemies within, persisting for 0.25 seconds.
-
-SLOW:
-40 / 50 / 60%
 
 CAITLYN
 THE SHERIFF OF PILTOVER
-
-Headshot	
+	
 Headshot	
 INNATE: Caitlyn's next basic attack against enemies rooted by Yordle Snap Trap or slowed by 90 Caliber Net has 1300 range and deals 50% (+100% (+25%) Critical Strike Chance) AD bonus physical damage, modified to 150% AD versus non-champions.
-
 Additionally, Caitlyn's non-empowered basic attacks each generate a stack of Headshot, doubled when attacking from brush, granting her next basic attack the same bonus physical damage at 6 stacks, though this does not benefit from bonus range nor is it consumed on other instances of Headshot.
-
 Caitlyn has bonus attack speed at level 1.
 
-Piltover Peacemaker	TARGET RANGE: 1250 COST: 50 / 60 / 70 / 80 / 90 MANA COOLDOWN: 10 / 9 / 8 / 7 / 6
 Piltover Peacemaker	
 ACTIVE: After 1 second, Caitlyn fires a projectile in the target direction that deals physical damage to the first enemy it passes through, after which it expands in width but deals only 67% damage to all enemies it passes through thereafter.
-
-PHYSICAL DAMAGE:
-30 / 70 / 110 / 150 / 190 (+ 130 / 140 / 150 / 160 / 170% AD)
 Enemies revealed by Yordle Snap Trap always take full damage from Piltover Peacemaker.
 
-Yordle Snap Trap	TARGET RANGE: 800 COLLISION RADIUS: 67.5 COST: 20 MANA STATIC COOLDOWN: 0.5 RECHARGE TIME: 30 / 24 / 19 / 15 / 12
 Yordle Snap Trap	
 PASSIVE: Caitlyn periodically stores a charge of Yordle Snap Trap, up to a maximum amount stored at once.
-
-MAXIMUM TRAPS:
-3 / 3 / 4 / 4 / 5
 ACTIVE: Caitlyn sets a trap at the target location that arms after 1.1 seconds and lasts for a duration. After the maximum amount of traps is laid down, deploying another immediately destroys the oldest one.
-
-TRAP DURATION:
-30 / 35 / 40 / 45 / 50
 Enemy champions who step on a trap set it off, rooting them for 1.5 seconds, during which they take increased damage from Headshot, grant sight of themselves for 3 seconds, and become immune to Yordle Snap Traps for 4 seconds while they remain in the area.
 
-Headshot HEADSHOT DAMAGE INCREASE:
-40 / 90 / 140 / 190 / 240 (+ 40 / 55 / 70 / 85 / 100% bonus AD)
-
-90 Caliber Net	TARGET RANGE: 750 COST: 75 MANA COOLDOWN: 16 / 14.5 / 13 / 11.5 / 10
 90 Caliber Net	
 ACTIVE: Caitlyn fires a net and recoils 400 units in the opposite direction, dealing magic damage to the first enemy hit and slowing them by 50% for 1 second.
 
-MAGIC DAMAGE:
-70 / 110 / 150 / 190 / 230 (+ 80% AP)
-
-Ace in the Hole	TARGET RANGE: 2000 / 2500 / 3000 SPEED: 3200 COST: 100 MANA COOLDOWN: 90 / 75 / 60
 Ace in the Hole	
 ACTIVE: After a brief delay, Caitlyn locks onto a target enemy champion and channels for 1 second. At start of the cast, Caitlyn gains true sight of the target.
-
 If Caitlyn completes the channel, she fires a homing projectile toward the target that deals physical damage to the first enemy champion it hits. Other enemy champions can intercept the shot.
-
-PHYSICAL DAMAGE:
-250 / 475 / 700 (+ 200% bonus AD)
 
 CAMILLE
 THE STEEL SHADOW
 
-Adaptive Defenses	STATIC COOLDOWN: 16 / 13 / 10
 Adaptive Defenses	
 INNATE: Camille's next basic attack against enemy champions is periodically enhanced to shield her for 20% maximum health for 2 seconds from either exclusively physical damage or magic damage, based on which type would mitigate the most damage from her target.
 
-Precision Protocol	COST: 25 MANA COOLDOWN: 9 / 8.25 / 7.5 / 6.75 / 6
 Precision Protocol	
-ACTIVE: Camille's next basic attack has 175 range, deals bonus physical damage and grants movement speed for 1 second. Precision Protocol can then be recast within the next 3.5 seconds at no extra cost.
-
-BONUS PHYSICAL DAMAGE:
-20 / 25 / 30 / 35 / 40% AD
-BONUS MOVEMENT SPEED:
-20 / 25 / 30 / 35 / 40%
+ACTIVE: Camille's next basic attack has 175 range, deals bonus physical damage and grants movement speed for 1 second. Precision Protocol can then be Precision Protocol 2 recast within the next 3.5 seconds at no extra cost.
 Precision Protocol 3	
 If recast at least 1.5 seconds after the first attack, Precision Protocol's damage is doubled and 40 - 100 (based on level)% of the damage is dealt as true damage.
-
-INCREASED MIXED DAMAGE:
-40 / 50 / 60 / 70 / 80% AD
 Both casts of Precision Protocol reset Camille's autoattack timer.
 
-Tactical Sweep	EFFECT RADIUS: 610 ANGLE: 80 COST: 50 / 55 / 60 / 65 / 70 MANA COOLDOWN: 15 / 13.5 / 12 / 10.5 / 9
 Tactical Sweep	
 ACTIVE: After a brief delay, Camille sweeps her leg to deal physical damage to all enemies in a cone in front of her.
-
-PHYSICAL DAMAGE:
-70 / 100 / 130 / 160 / 190 (+ 60% bonus AD)
 Enemies hit by the outer half of the cone take bonus physical damage and are slowed by 80% that decays over 2 seconds. Camille is healed for the bonus damage dealt against enemy champions.
-
-OUTER CONE BONUS DAMAGE:
-6 / 6.5 / 7 / 7.5 / 8% (+ 3% per 100 bonus AD) of target's maximum health
 Non-epic monsters take 50% damage from Tactical Sweep.
 
-Hookshot	TARGET RANGE: 800 / 400 COST: 70 MANA COOLDOWN: 16 / 14.5 / 13 / 11.5 / 10
 Hookshot	
 FIRST CAST - HOOKSHOT: Camille fires a grapple in the target direction. If the grapple collides with terrain, Camille will dash toward and bind to the terrain for 0.75 seconds. While bound to the terrain, she gains the ability to cast Wall Dive.
 
 Wall Dive	
 SECOND CAST - WALL DIVE: Camille dashes in the target direction, stopping at the first enemy hit, stunning them for 0.75 seconds. At maximum range or enemy collision, Camille deals physical damage to nearby enemies.
-
-PHYSICAL DAMAGE:
-75 / 120 / 165 / 210 / 255 (+ 75% bonus AD)
 The range is doubled towards enemy champions. Against champions also grants bonus attack speed for 5 seconds.
 
-BONUS ATTACK SPEED:
-40 / 50 / 60 / 70 / 80%
-
-The Hextech Ultimatum	TARGET RANGE: 475 COST: 100 MANA COOLDOWN: 140 / 115 / 90
 The Hextech Ultimatum	
 ACTIVE: Camille becomes untargetable and leaps toward the target enemy champion.
-
 When she lands, she creates a locked, hexagonal zone around the target for a duration, interrupting them and knocking away all other nearby enemies on impact.
-
-ZONE DURATION:
-2.5 / 3.25 / 4
 The target can move freely inside the zone, but cannot escape it through any means. While within the zone, Camille's basic attacks deal bonus magic damage.
-
-BONUS MAGIC DAMAGE:
-5 / 10 / 15 (+ 4 / 6 / 8% of target's current health)
 The Hextech Ultimatum ends automatically within 1 second if Camille leaves the area or dies.
 
 CASSIOPEIA
 THE SERPENTS EMBRACE
-
-Serpentine Grace	
+	
 Serpentine Grace	
 INNATE: Cassiopeia cannot purchase boots, but instead gains 4 - 72 (based on level) base movement speed, for a total of 332 - 400 (based on level) movement speed.
 
-Noxious Blast	TARGET RANGE: 850 EFFECT RADIUS: 75 COST: 50 / 55 / 60 / 65 / 70 MANA COOLDOWN: 3.5
 Noxious Blast	
 ACTIVE: After a 0.4-second delay, Cassiopeia blasts the target area with Noxious Poison, dealing magic damage every second for 3 seconds to all enemies it hits.
-
-DAMAGE PER SECOND:
-25 / 40 / 55 / 70 / 85 (+ 23.33% AP)
 Cassiopeia gains bonus movement speed that decays over 3 seconds if Noxious Blast hits an enemy champion.
 
-BONUS MOVEMENT SPEED:
-30 / 35 / 40 / 45 / 50%
-
-Miasma	TARGET RANGE: 800 EFFECT RADIUS: 160 COST: 70 MANA COOLDOWN: 18 / 17 / 16 / 15 / 14
 Miasma	
 ACTIVE: Cassiopeia spits forth eight bolts of venom in an arc, leaving toxic clouds of Debilitating Poison where they hit the ground for 5 seconds. Miasma has a minimum cast range.
-
 Debilitating Poison deals magic damage to enemies standing upon it every second, also grounding them and applying a slow that decays over the area's duration.
 
-DAMAGE PER SECOND:
-20 / 35 / 50 / 65 / 80 (+ 15% AP)
-SLOW:
-40 / 50 / 60 / 70 / 80%
-
-Twin Fang	TARGET RANGE: 700 COST: 40 / 50 / 60 / 70 / 80 MANA COOLDOWN: 0.75
 Twin Fang	
 ACTIVE: Cassiopeia launches her fangs at the target enemy, dealing them 52 - 120 (based on level) (+ 10% AP) magic damage. If Twin Fang kills its target, it refunds its mana cost.
-
 If the target is poisoned, Twin Fang deals bonus magic damage and heals Cassiopeia for 5 - 22 (based on level) (+ 10% AP).
 
-BONUS MAGIC DAMAGE:
-10 / 30 / 50 / 70 / 90 (+ 60% AP)
-
-Petrifying Gaze	EFFECT RADIUS: 825 ANGLE: 80 COST: 100 MANA COOLDOWN: 120 / 100 / 80
 Petrifying Gaze	
 ACTIVE: After a brief delay, Cassiopeia blasts enemies in a cone in the target direction, dealing magic damage to all enemies hit.
-
-MAGIC DAMAGE:
-150 / 250 / 350 (+ 50% AP)
 Enemies facing Cassiopeia are stunned for 2 seconds upon being hit by Petrifying Gaze, and all other affected enemies are instead slowed by 40% for the same duration.
 
 CHO'GATH
@@ -838,134 +448,72 @@ THE TERROR OF THE VOID
 
 Whenever Cho'Gath kills an enemy or destroys an enemy structure, he restores 20 - 71 (based on level) health and 3.5 - 7.75 (based on level) mana.
 
-Rupture	TARGET RANGE: 950 EFFECT RADIUS: 175 COST: 60 MANA COOLDOWN: 9
 Rupture	
 ACTIVE: Cho'Gath causes the target area to rupture after a 0.625 seconds delay, knocking up enemies hit for 1 second, slowing them by 60% for 1.5 seconds afterwards and dealing magic damage.
 
-Feral Scream	TARGET RANGE: 650 ANGLE: 60 COST: 70 / 80 / 90 / 100 / 110 MANA COOLDOWN: 13 / 12 / 11 / 10 / 9
 Feral Scream	
 ACTIVE: Cho'Gath roars in the target direction, dealing magic damage to enemies in a cone and silencing them for a short duration.
 
-MAGIC DAMAGE:
-75 / 125 / 175 / 225 / 275 (+ 70% AP)
-SILENCE:
-1.6 / 1.7 / 1.8 / 1.9 / 2
-
-Vorpal Spikes	TARGET RANGE: Range model 500 COST: 30 MANA COOLDOWN: 8 / 7 / 6 / 5 / 4
 Vorpal Spikes	
 ACTIVE: Cho'Gath's next 3 basic attacks within 6 seconds have 50 bonus range and launch a volley of spikes in a line, dealing magic damage and applying a decaying slow over the next 1.5 seconds to enemies hit.
-
-MAGIC DAMAGE:
-20 / 30 / 40 / 50 / 60 (+ 30% AP) (+ 3% (+ 0.5% per Feast Feast stack) of target's maximum health)
-SLOW:
-30 / 35 / 40 / 45 / 50%
 Vorpal Spikes resets Cho'Gath's autoattack timer.
 
-Feast	TARGET RANGE: Range model 175 COST: 100 MANA COOLDOWN: 80
 Feast	
 ACTIVE: Cho'Gath attempts to eat the target enemy, dealing true damage. Against non-champions the base damage is increased to 1000.
-
-TRUE DAMAGE TO CHAMPIONS:
-300 / 475 / 650 (+ 50% AP) (+ 10% bonus health)
 If Feast kills its target Cho'Gath gains one Feast stack. Feast can stack infinitely, but only 6 stacks can be gained from non-epic monsters or minions.
-
 Each stack grants him bonus health, with no upper limit, as well as bonus attack range and increased size that stack up to 10 times.
-
-BONUS HEALTH PER STACK:
-80 / 120 / 160 bonus health
-BONUS ATTACK RANGE PER STACK:
-4.5 / 6 / 7.5
 
 CORKI
 THE DARING BOMBARDIER
 
-Hextech Munitions	STATIC COOLDOWN: 240
 Hextech Munitions	
 HEXTECH SHRAPNEL SHELLS: Corki's basic attacks are permanently modified to deal 20% AD physical damage and 80% AD magic damage.
 
 The Package	
 THE PACKAGE: After 8 minutes have passed, The Package is delivered to both corners of Corki's fountain, which he can pick up after channeling for 1 second. Doing so grants him one cast of Special Delivery within the next 60 seconds, as well as 40% bonus movement speed out of combat prior to the ability being cast, after which The Package goes on cooldown before being delivered again.
 
-Phosphorus Bomb	TARGET RANGE: 825 EFFECT RADIUS: 250 COST: 60 / 70 / 80 / 90 / 100 MANA COOLDOWN: 8
 Phosphorus Bomb	
 ACTIVE: Corki launches a bomb at the target area, dealing magic damage to enemies hit. The bomb reveals the area as it travels and for 6 seconds afterwards, as well as all affected enemies.
-
-MAGIC DAMAGE:
-75 / 115 / 155 / 195 / 235 (+ 50% bonus AD) (+ 50% AP)
 
 Valkyrie	TARGET RANGE: 600 COLLISION RADIUS: 100 SPEED: 650 COST: 100 MANA COOLDOWN: 20 / 19 / 18 / 17 / 16
 Valkyrie	
 ACTIVE: Corki dashes to the target location, dropping bombs that leave up to 3 blazing patches along his path, depending on the distance traveled, lasting for 2 seconds.
-
 Any enemies that remain in the area are dealt magic damage every quarter-second, for a maximum of 10 ticks of damage.
 
-MAGIC DAMAGE PER QUARTER SECOND:
-15 / 22.5 / 30 / 37.5 / 45 (+ 10% AP)
-
-
-Special Delivery	TARGET RANGE: 1800 COLLISION RADIUS: 100 SPEED: 1500
 Special Delivery	
 ACTIVE: Corki dashes to the target location with extreme speed, knocking aside all enemies hit 500 units and leaving behind a fire trail for 5 seconds.
-
 Any enemies that remain in the area are slowed by 90% and dealt 7.5 - 25 (based on level) (+ 37.5% bonus AD) (+ 5% AP) magic damage every quarter-second, for a maximum of 150 - 500 (based on level) (+ 750% bonus AD) (+ 100% AP) magic damage at 20 ticks of damage.
-
 Casting Special Delivery instantly resets Valkyrie's cooldown.
 
-Gatling Gun	EFFECT RADIUS: 600 ANGLE: 35 COST: 50 MANA COOLDOWN: 16
 Gatling Gun	
 ACTIVE: Corki activates his gatling gun and sprays bullets in a cone in front of him for 4 seconds, dealing equal parts physical and magic damage every quarter-second and reducing his targets' armor and magic resistance each tick, stacking up to 8 times, lingering for 2 seconds after last being damage.
-
-MIXED DAMAGE PER QUARTER SECOND:
-5 / 8.75 / 12.5 / 16.25 / 20 (+ 10% bonus AD)
-RESISTANCE REDUCTION PER TICK:
-0.5 / 1 / 1.5 / 2 / 2.5
 Gatling Gun does not hinder Corki's actions and its cone remains in front of him as he moves.
 
-
-Missile Barrage	TARGET RANGE: 1225 EFFECT RADIUS: 75 / 150 SPEED: 1950 COST: 20 MANA + 1 MISSILE STATIC COOLDOWN: 2 RECHARGE TIME: 12 / 11 / 10
 Missile Barrage	
 PASSIVE: Corki stores a charge of Missile Barrage periodically, up to a maximum of 7 at once, and starts with 7 missiles every time he respawns.
-
 ACTIVE: Corki fires a missile in a line that explodes if it hits an enemy, dealing magic damage to nearby ones.
-
-MAGIC DAMAGE:
-75 / 100 / 125 (+ 15 / 45 / 75% AD) (+ 20% AP)
 Big One	
 Every third missile Corki fires is a Big One, dealing 100% increased damage and increasing its explosion radius.
 
 DARIUS
 THE HAND OF NOXUS
 
-Hemorrhage	
-Bleed	
-INNATE: Darius's basic attacks and damaging abilities cause enemies to Bleed Bleed for 13 - 30 (based on level) (+ 30% bonus AD) physical damage over 5 seconds, stacking up to 5 times for a maximum of 500% damage over the duration.
-
-Upon applying full Hemorrhage stacks to an enemy champion or killing them with Noxian Guillotine Noxian Guillotine, Darius gains Hemorrhage Noxian Might for 5 seconds.
-
-Hemorrhage	
+Hemorrhage		
+INNATE: Darius's basic attacks and damaging abilities cause enemies to Bleed for 13 - 30 (based on level) (+ 30% bonus AD) physical damage over 5 seconds, stacking up to 5 times for a maximum of 500% damage over the duration.
+Upon applying full Hemorrhage stacks to an enemy champion or killing them with Noxian Guillotine Noxian Guillotine, Darius gains Noxian Might for 5 seconds.
 NOXIAN MIGHT: Darius gains 30 - 230 (based on level) bonus attack damage and instantly applies full Hemorrhage stacks through his usual means.
-
 
 Decimate	EFFECT RADIUS: 425 INNER RADIUS: 205 COST: 30 / 35 / 40 / 45 / 50 MANA COOLDOWN: 9 / 8 / 7 / 6 / 5
 Decimate	
 ACTIVE: Darius hefts his axe for 0.75 seconds, then swings it around himself, dealing physical damage to nearby enemies, reduced to 35% against enemies hit by the shaft.
-
-BLADE PHYSICAL DAMAGE:
-40 / 70 / 100 / 130 / 160 (+ 100 / 110 / 120 / 130 / 140% AD)
 Darius heals for 12% / 24% / 36% missing health. The shaft of Darius' axe will not apply Hemorrhage hemorrhage or heal Darius.
 
-Crippling Strike	COST: 30 MANA COOLDOWN: 9 / 8 / 7 / 6 / 5
 Crippling Strike	
 ACTIVE: Darius's next basic attack within 4 seconds has 200 attack range, deals 40% AD bonus physical damage and slows the target by 90% for 1 second. If Crippling Strike kills its target it refunds its mana cost and half of its cooldown.
-
 Crippling Strike resets Darius's autoattack timer.
 
-Apprehend	EFFECT RADIUS: 535 ANGLE: 50 COST: 45 MANA COOLDOWN: 24 / 21 / 18 / 15 / 12
 Apprehend	
 PASSIVE: Darius gains armor penetration.
-
-ARMOR PENETRATION:
-5 / 10 / 15 / 20 / 25%
 ACTIVE: After a brief delay, Darius pulls in all enemies in front of him, slowing them by 40% for 1 second, and briefly grants sight of the area around the pull.
 
 Noxian Guillotine	TARGET RANGE: 460 COST: 100 / 100 / 0 MANA COOLDOWN: 120 / 100 / 80
@@ -1745,7 +1293,7 @@ Boomerang Throw	TARGET RANGE: 1100 / 3000 COLLISION RADIUS: 27.5 / 37.5 COOLDOWN
 Boomerang Throw	
 MINI GNAR - ACTIVE: Gnar throws a boomerang forward in a line that deals physical damage and slows enemies for 2 seconds. The boomerang returns towards Gnar in a fixed line after reaching its maximum range or hitting an enemy, dealing 50% damage to subsequent targets. Each enemy can only be hit once. Catching the boomerang reduces its cooldown by 45 / 50 / 55 / 60%.
 
-PHYSICAL DAMAGE:
+PHYSICAL DAMAGE:»
 5 / 45 / 85 / 125 / 165 (+ 115% AD)
 SLOW:
 15 / 20 / 25 / 30 / 35%
@@ -1761,7 +1309,7 @@ Hyper
 Hyper	
 MINI GNAR - PASSIVE: Every Hyper 2 third attack or ability on the same target within 3.5 seconds deals bonus magic damage (capped against monsters) and grants Gnar 30 / 45 / 60 / 75% bonus movement speed that decays over 3 seconds.
 
-BONUS MAGIC DAMAGE:
+BONUS MAGIC DAMAGE:»
 10 / 20 / 30 / 40 / 50 (+ 6 / 8 / 10 / 12 / 14% of target's maximum health) (+ 100% AP)
 Gnar gains Hyper's bonus movement speed when he leaves Mega form.
 
@@ -1800,7 +1348,7 @@ HYPER MOVEMENT SPEED:
 45% / 60% / 75%
 MEGA GNAR - ACTIVE: Gnar knocks nearby enemies up to 590 units in the target direction, dealing physical damage and slowing them by 45%.
 
-PHYSICAL DAMAGE:
+PHYSICAL DAMAGE:»
 200 / 300 / 400 (+ 20% bonus AD) (+ 50% AP)
 Enemies that hit a wall take 150% damage and are stunned instead of slowed.
 
@@ -1820,7 +1368,7 @@ ACTIVE: Gragas rolls a cask to the target location, granting sight around it and
 
 MAGIC DAMAGE:
 80 / 120 / 160 / 200 / 240 (+ 60% AP)
-SLOW:
+SLOW:»
 40 / 45 / 50 / 55 / 60%
 Barrel Roll 2	
 After 4 seconds or upon reactivation the cask explodes, dealing magic damage to all surrounding enemies, reduced by 30% against minions, and slowing them for 2 seconds.
@@ -1915,7 +1463,7 @@ Rampage	EFFECT RADIUS: 350 COST: 32 / 34 / 36 / 38 / 40 MANA COOLDOWN: 4
 Rampage	
 ACTIVE: Hecarim cleaves nearby enemies, dealing physical damage, reduced to 66.7% against minions.
 
-PHYSICAL DAMAGE:
+PHYSICAL DAMAGE:»
 55 / 90 / 125 / 160 / 195 (+ 60% bonus AD)
 If Hecarim damages at least one enemy with Rampage, its base cooldown on subsequent casts are reduced by 1 for 8 seconds, stacking up to twice.
 
@@ -1923,7 +1471,7 @@ Spirit of Dread	EFFECT RADIUS: 575 COST: 50 / 60 / 70 / 80 / 90 MANA COOLDOWN: 2
 Spirit of Dread	
 ACTIVE: Hecarim surrounds himself with the spirit of dread for 4 seconds, dealing magic damage per second to all enemies within its reach.
 
-MAGIC DAMAGE PER SECOND:
+MAGIC DAMAGE PER SECOND:»
 20 / 30 / 40 / 50 / 60 (+ 20% AP)
 While Spirit of Dread is active, Hecarim is healed for 20% of the damage taken by enemies from any source within the area, capped from minions and monsters.
 
@@ -1936,7 +1484,7 @@ ACTIVE: Hecarim is temporarily ghosted and gains bonus movement speed for 4 seco
 
 While Hecarim is charging, his next basic attack has 325 range, knocks back his target 250 / 450 units, and deals physical damage. The damage and knockback distance are increased based on how far Hecarim travelled during Devastating Charge's duration, ending its effects in the process.
 
-MINIMUM PHYSICAL DAMAGE:
+MINIMUM PHYSICAL DAMAGE:»
 45 / 80 / 115 / 150 / 185 (+ 50% bonus AD)
 If Hecarim's target is beyond narrow terrain, Hecarim dashes over it to reach his target.
 
@@ -2141,7 +1689,7 @@ Transcendent Blades	TARGET RANGE: 1000 COST: 100 MANA COOLDOWN: 100 / 80 / 60
 Transcendent Blades	
 ACTIVE: Irelia summons 4 spirit blades and fires one in a line towards the cursor, dealing physical damage to all enemies it passes through.
 
-PHYSICAL DAMAGE PER BLADE:
+PHYSICAL DAMAGE PER BLADE:»
 80 / 120 / 160 (+ 70% bonus AD) (+ 50% AP)
 Transcendent Blades 2	
 Transcendent Blades can then be cast 3 more times at no additional cost to fire each of Irelia's remaining blades, incurring a 0.5 seconds delay in between each cast.
@@ -2469,7 +2017,7 @@ ACTIVE: Jhin places a Lotus Trap at the target location that lasts for 2 minutes
 
 Blooming Lotus Traps slow all enemies inside for 35% for 2 seconds before detonating, dealing magic damage to all enemies caught in the explosion. Lotus Traps deal 65% damage against non-champions and champions recently hit by one.
 
-MAGIC DAMAGE:
+MAGIC DAMAGE:»
 20 / 80 / 140 / 200 / 260 (+ 120% AD) (+ 100% AP)
 
 Curtain Call	EFFECT RADIUS: 3500 ANGLE: 75 COST: 100 MANA COOLDOWN: 120 / 105 / 90
@@ -2523,7 +2071,7 @@ ACTIVE: Jinx tosses out 3 Chompers that arm after 0.7 seconds, and explode autom
 Flame Chompers! 2	
 Flame Chompers! 2 Exploding Chompers deal magic damage over 1.5 seconds in 3 instances to all enemies within a small area, and champions that set them off are knocked down and rooted for the same duration.
 
-TOTAL MAGIC DAMAGE:
+TOTAL MAGIC DAMAGE:»
 70 / 120 / 170 / 220 / 270 (+ 100% AP)
 A single champion can only set off a single Chompers and can only be damaged by one, even if they remain in range when they explode.
 
@@ -2997,7 +2545,7 @@ Void Spike	TARGET RANGE: 1000 EFFECT RADIUS: 275 SPEED: 1650 COST: 55 / 60 / 65 
 Void Spike	
 ACTIVE: Kha'Zix fires a cluster of spikes in a line that detonates upon hitting an enemy dealing them physical damage, increased by 20% against monsters.
 
-PHYSICAL DAMAGE:
+PHYSICAL DAMAGE:»
 85 / 115 / 145 / 175 / 205 (+ 100% bonus AD)
 Kha'Zix heals himself if he is within detonation radius.
 
@@ -3201,7 +2749,7 @@ Living Artillery	TARGET RANGE: 1200 / 1500 / 1800 EFFECT RADIUS: 100 COST: 40 - 
 Living Artillery	
 ACTIVE: Kog'Maw launches a ball of acid into the air that drops after 0.6 seconds at the target location, dealing magic damage, increased by 0% - 50% (based on target's missing health), and revealing enemies hit for 2 seconds.
 
-MAGIC DAMAGE:
+MAGIC DAMAGE:»
 100 / 140 / 180 (+ 65% bonus AD) (+ 25% AP)
 Living Artillery's damage is doubled against enemies below 40% maximum health. Each subsequent Living Artillery within the next 8 seconds costs an additional 40 mana, capping at 400 per cast.
 
@@ -3668,7 +3216,7 @@ Malefic Visions	TARGET RANGE: 650 EFFECT RADIUS: 650 COST: 60 / 70 / 80 / 90 / 1
 Malefic Visions	
 ACTIVE: Malzahar infects the target enemy's mind, dealing them magic damage every half second over 4 seconds. Damaging a target with Call of the Void or Nether Grasp will refresh the duration of Malefic Visions.
 
-TOTAL MAGIC DAMAGE:
+TOTAL MAGIC DAMAGE:»
 80 / 115 / 150 / 185 / 220 (+ 80% AP)
 If the target dies during this time, they pass Malefic Visions onto the closest enemy, refreshing the duration and restoring 2% of Malzahar's maximum mana.
 
@@ -3680,7 +3228,7 @@ MAGIC DAMAGE:
 125 / 200 / 275 (+ 80% AP)
 A Null Zone is opened beneath the target that lasts 5 seconds, dealing magic damage every second to both Nether Grasp's target as well as all other enemies within it.
 
-DAMAGE PER SECOND:
+DAMAGE PER SECOND:»
 2 / 3 / 4% (+ 0.5% per 100 AP) of target's maximum health
 
 Pets
@@ -3873,7 +3421,7 @@ HARVEST DAMAGE:
 50 / 85 / 120 / 155 / 190 (+ 30% AP)
 HEAL PER ENEMY:
 50 / 85 / 120 / 155 / 190 (+ 30% AP)
-HEAL FROM MINIONS:
+HEAL FROM MINIONS:»
 12.5 / 21.25 / 30 / 38.75 / 47.5 (+ 7.5% AP)
 
 Siphon of Destruction	EFFECT RADIUS: 675 ANGLE: 50° COST: 24 / 36 / 48 / 60 / 72 HEALTH COOLDOWN: 6 / 5.75 / 5.5 / 5.25 / 5
@@ -3896,7 +3444,7 @@ ACTIVE: Mordekaiser blasts the target enemy champion, dealing magic damage as we
 
 INITIAL MAGIC DAMAGE:
 6.25 / 7.5 / 8.75% (+ 1% per 100 AP) of target's maximum health
-MAGIC DAMAGE PER SECOND:
+MAGIC DAMAGE PER SECOND:»
 1.875 / 2.25 / 2.625% (+ 0.3% per 100 AP) of target's maximum health
 CURSE: If Mordekaiser's team scores an enemy champion Damage rating takedown on a Cursed enemy, he temporarily enslaves their soul as a controllable ghost. Enslaving the Dragon Dragon will kill Mordekaiser's current ghost and prevent him from summoning a new one while it survives.
 
@@ -4076,7 +3624,7 @@ ACTIVE: Nautilus shields himself for up to 10 seconds, causing his basic attacks
 
 SHIELD STRENGTH:
 65 / 70 / 75 / 80 / 85 (+ 9 / 11 / 13 / 15 / 17% maximum health)
-MAGIC DAMAGE PER SECOND:
+MAGIC DAMAGE PER SECOND:»
 15 / 20 / 25 / 30 / 35 (+ 20% AP)
 Titan's Wrath resets Nautilus' autoattack timer.
 
@@ -4351,7 +3899,7 @@ Command: Attack	TARGET RANGE: 825 COLLISION RADIUS: 175 SPEED: 1400 COST: 30 / 3
 Command Attack	
 ACTIVE: Orianna commands Clockwork Windup The Ball to fly to the target location and remain there, dealing magic damage to all enemies it passes through but reduced by 10% for each enemy hit, down to a minimum 40% damage.
 
-MAGIC DAMAGE:
+MAGIC DAMAGE:»
 60 / 90 / 120 / 150 / 180 (+ 50% AP)
 
 Command: Dissonance	EFFECT RADIUS: 250 COST: 70 / 80 / 90 / 100 / 110 MANA COOLDOWN: 9
@@ -4536,7 +4084,7 @@ Heroic Charge	TARGET RANGE: 425 COST: 70 MANA COOLDOWN: 14 / 13 / 12 / 11 / 10
 Heroic Charge	
 ACTIVE: Poppy dashes to the target enemy, dealing them physical damage and carrying them along with her for up to 300 units.
 
-INITIAL PHYSICAL DAMAGE:
+INITIAL PHYSICAL DAMAGE:»
 55 / 75 / 95 / 115 / 135 (+ 50% bonus AD)
 If they collide with terrain, she deals them the same physical damage again and stuns them.
 
@@ -4999,7 +4547,7 @@ DANGER ZONE: Electro Harpoon's effects are increased by 50%.
 
 ENHANCED MAGIC DAMAGE:
 90 / 127.5 / 165 / 202.5 / 240 (+ 60% AP)
-ENHANCED SLOW:
+ENHANCED SLOW:»
 22.5 / 30 / 37.5 / 45 / 52.5%
 
 The Equalizer	TARGET RANGE: 1700 COOLDOWN: 110 / 100 / 90
@@ -5384,7 +4932,7 @@ SECOND CAST: Sion flails his axe, dealing physical damage to all enemies in the 
 
 MINIMUM MONSTER DAMAGE:
 16 / 32 / 48 / 64 / 80 (+ 52% AD)
-MINIMUM CHAMPION DAMAGE:
+MINIMUM CHAMPION DAMAGE:»
 20 / 40 / 60 / 80 / 100 (+ 65% AD)
 If Decimating Smash was charged for at least 1 second, Sion instead slams his axe down, knocking up all enemies hit for 1.25 - 2.25 (based on channel time) seconds.
 
@@ -5437,7 +4985,7 @@ Boomerang Blade	TARGET RANGE: 1250 SPEED: 1350 COST: 70 / 80 / 90 / 100 / 110 MA
 Boomerang Blade	
 ACTIVE: Sivir hurls her crossblade in the target direction. Enemies in its path take physical damage, reduced to 100% - 40% (based on enemy hit). Upon reaching maximum range the crossblade returns to her, dealing the same damage.
 
-PHYSICAL DAMAGE:
+PHYSICAL DAMAGE:»
 35 / 55 / 75 / 95 / 115 (+ 70 / 80 / 90 / 100 / 110% AD) (+ 50% AP)
 Each unit can be damaged only once per pass. Up to a maximum of 185% damage.
 
@@ -5807,7 +5355,7 @@ Threaded Volley	TARGET RANGE: 1000 COST: 60 / 70 / 80 / 90 / 100 MANA COOLDOWN: 
 Threaded Volley	
 ACTIVE: Taliyah unleashes 5 Stone Shards in quick succession in the target direction over 1.5 seconds, dealing magic damage in a small area around the first target hit. Targets hit by a Stone Shard take 40% damage from subsequent shards.
 
-MINIMUM MAGIC DAMAGE:
+MINIMUM MAGIC DAMAGE:»
 70 / 95 / 120 / 145 / 170 (+ 45% AP)
 Threaded Volley 2	
 Casting Threaded Volley creates an area of Worked Ground 450 units radius wide around Taliyah that lasts 120 - 66 (based on cooldown reduction) seconds. While on Worked Ground, Taliyah gains 10% - 20% (based on level) bonus movement speed, and only hurls one Stone Shard upon casting Threaded Volley, refunding half its mana cost.
@@ -5887,7 +5435,7 @@ Shadow Assault	EFFECT RADIUS: 550 COST: 100 MANA COOLDOWN: 100 / 80 / 60
 Shadow Assault	
 ACTIVE: Talon throws out a ring of blades, dealing physical damage to all enemies they pass through, and gains invisibility for up to 2.5 seconds, gaining bonus movement speed for the duration.
 
-PHYSICAL DAMAGE:
+PHYSICAL DAMAGE:»
 80 / 120 / 160 (+ 80% bonus AD)
 BONUS MOVEMENT SPEED:
 40 / 55 / 70%
@@ -6147,7 +5695,7 @@ Bloodlust	COST: 100% CURRENT FURY COOLDOWN: 12
 Bloodlust	
 PASSIVE: Tryndamere permanently has bonus attack damage, and gains additional bonus attack damage per 1% of his missing health.
 
-BONUS AD:
+BONUS AD:»
 5 / 10 / 15 / 20 / 25 AD
 ACTIVE: Tryndamere consumes all of his fury and heals himself, increased for every point of fury consumed.
 
@@ -6294,9 +5842,9 @@ Contaminate	EFFECT RADIUS: 1200 COST: 50 / 60 / 70 / 80 / 90 MANA COOLDOWN: 12 /
 Contaminate	
 ACTIVE: Twitch deals physical damage to all nearby enemies afflicted by Deadly Venom Deadly Venom, with each stack granting bonus damage.
 
-BASE PHYSICAL DAMAGE:
+BASE PHYSICAL DAMAGE:»
 20 / 35 / 50 / 65 / 80
-MINIMUM DAMAGE:
+MINIMUM DAMAGE:»
 35 / 55 / 75 / 95 / 115 (+ 25% bonus AD) (+ 20% AP)
 Contaminate cannot be activated if there is no nearby enemies afflicted by Deadly Venom Deadly Venom.
 
@@ -6597,7 +6145,7 @@ ACTIVE: Vel'Koz opens a rift to the void that cuts through the ground in a line,
 
 INITIAL MAGIC DAMAGE:
 30 / 50 / 70 / 90 / 110 (+ 15% AP)
-DETONATION MAGIC DAMAGE:
+DETONATION MAGIC DAMAGE:»
 45 / 75 / 105 / 135 / 165 (+ 25% AP)
 
 Tectonic Disruption	TARGET RANGE: 850 COST: 50 / 55 / 60 / 65 / 70 MANA COOLDOWN: 16 / 15 / 14 / 13 / 12
@@ -6800,7 +6348,7 @@ Rolling Thunder	COST: 40 MANA COOLDOWN: 12 / 11 / 10 / 9 / 8
 Rolling Thunder	
 ACTIVE: Volibear gains bonus movement speed for the next 4 seconds, doubled when moving towards a nearby visible enemy champion within 1800 units of him.
 
-BONUS MOVEMENT SPEED:
+BONUS MOVEMENT SPEED:»
 15 / 17.5 / 20 / 22.5 / 25%
 For the duration, Volibear's next basic attack deals bonus physical damage and flings his target over and behind himself.
 
@@ -6956,9 +6504,9 @@ Double Daggers	TARGET RANGE: 1100 COST: 50 MANA COOLDOWN: 10 / 9 / 8 / 7 / 6
 Double Daggers	
 ACTIVE: Xayah throws two feather-blades in quick succession, dealing physical damage, and leaving two Feathers on the ground. Targets hit after the first take 50% damage.
 
-DAMAGE PER KNIFE:
+DAMAGE PER KNIFE:»
 45 / 65 / 85 / 105 / 125 (+ 50% bonus AD)
-MINIMUM DAMAGE PER KNIFE:
+MINIMUM DAMAGE PER KNIFE:»
 22.5 / 32.5 / 42.5 / 52.5 / 62.5 (+ 25% bonus AD)
 
 Deadly Plumage	COST: 60 / 55 / 50 / 45 / 40 MANA COOLDOWN: 20 / 19 / 18 / 17 / 16
@@ -7269,7 +6817,7 @@ Unstable Matter	TARGET RANGE: 350 COST: 4% CURRENT HEALTH COOLDOWN: 5
 Unstable Matter	
 ACTIVE: Zac's body explodes outward, dealing magic damage to all nearby enemies (capped against minions and monsters) and becoming ghosted for 5 seconds against monsters hit.
 
-MAGIC DAMAGE:
+MAGIC DAMAGE:»
 15 / 30 / 45 / 60 / 75 (+ 4 / 5 / 6 / 7 / 8% (+ 2% per 100 AP) of target's maximum health)
 Unstable Matter's cooldown is reduced by 1 second every time Zac picks up a Cell Division chunk.
 
