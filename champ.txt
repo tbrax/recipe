@@ -3,15 +3,18 @@ AATROX
 THE DARKIN BLADE
 
 Blood Well	STATIC COOLDOWN: 180 / 160 / 140 / 120
+Blood Well
 Aatrox fills his Blood Well through his abilities, depleting by (20% maximum) per second while out of combat. When the Blood Well is filled, Aatrox becomes Hellbent for 4 seconds as the Blood Well drains. While Hellbent, dealing or taking damage against enemy champions or neutral monsters will completely fill the Blood Well and refresh Hellbent's duration.
 HELLBENT: Aatrox gains 25% increased base AD and 30% / 40% / 50% / 60% bonus attack speed. Upon taking fatal damage Aatrox will revive over 3 seconds, recovering 30% of maximum health over the duration. Upon reviving, Aatrox instantly recovers 100% of Blood Well. Aatrox's revive is then put on a cooldown.
 
-Dark Flight	TARGET RANGE: 650 EFFECT RADIUS: 225 INNER RADIUS: 75 COOLDOWN: 13 / 12.5 / 12 / 11.5 / 11	
+Dark Flight	TARGET RANGE: 650 EFFECT RADIUS: 225 INNER RADIUS: 75 COOLDOWN: 13 / 12.5 / 12 / 11.5 / 11
+Dark Flight	
 ACTIVE: Aatrox dashes to the target area, unstoppable, and after a brief delay, filling 20% of his Blood Well, dealing physical damage to nearby units upon landing, and knocking up all units in the epicenter for 1 second.
 PHYSICAL DAMAGE:
 20 / 50 / 80 / 110 / 140 (+ 110% AD)
 
 Blood Thirst / Blood Price	STATIC COOLDOWN: 0.5
+Blood Thirst / Blood Price
 PASSIVE: Aatrox applies a bonus on-hit effect on every third hit against non-structures.
 Blood Thirst	
 TOGGLE OFF – BLOOD THIRST: Aatrox heals himself on-hit.
@@ -24,6 +27,7 @@ PHYSICAL DAMAGE:
 50 / 85 / 120 / 155 / 190 (+ 75% bonus AD)
 
 Blades of Torment	TARGET RANGE: 1000 COST: 30 HEALTH COOLDOWN: 12 / 11 / 10 / 9 / 8	
+Blades of Torment
 ACTIVE: Aatrox unleashes two converging energy waves in the target direction, filling 20% of his Blood Well, dealing physical damage to all units hit and slowing for 2 seconds.
 
 PHYSICAL DAMAGE:
@@ -32,6 +36,7 @@ SLOW:
 30 / 35 / 40 / 45 / 50%
 
 Massacre	EFFECT RADIUS: 550 COOLDOWN: 100 / 85 / 70	
+Massacre
 ACTIVE: Aatrox draws in the blood of his foes, dealing magic damage to nearby enemy champions and filling 20% of his Blood Well for each enemy champion hit.
 
 MAGIC DAMAGE:
@@ -45,16 +50,19 @@ AHRI
 THE NINE-TAILED FOX
 
 Essence Theft	
+Essence Theft
 Whenever Ahri hits an enemy with one of her abilities, she gains a charge of Essence Theft 2 Essence Theft, and can gain up to 3 charges per ability cast. Upon reaching 9 charges, her next ability heals her for 3 / 5 / 9 / 18 (+ 9% AP) for each enemy hit.
 
-Orb of Deception	TARGET RANGE: 880 SPEED: 1700 COST: 65 / 70 / 75 / 80 / 85 MANA COOLDOWN: 7	
+Orb of Deception	TARGET RANGE: 880 SPEED: 1700 COST: 65 / 70 / 75 / 80 / 85 MANA COOLDOWN: 7
+Orb of Deception	
 ACTIVE: Ahri sends an orb of arcane energy in the target direction, dealing magic damage to all enemies it passes through, then pulls it back, dealing true damage to all enemies it passes through on the way to her current location.
 
 DAMAGE PER PASS:
 40 / 65 / 90 / 115 / 140 (+ 35% AP)
 While the orb is travelling, Ahri gains 300 - 80 (based on time) bonus movement speed.
 
-Fox-Fire	TARGET RANGE: 700 COST: 50 MANA COOLDOWN: 9 / 8 / 7 / 6 / 5	
+Fox-Fire	TARGET RANGE: 700 COST: 50 MANA COOLDOWN: 9 / 8 / 7 / 6 / 5
+Fox-Fire	
 ACTIVE: Ahri summons three spectral flames which orbit her for up to 5 seconds. After a brief delay, each flame pursues the closest visible enemy, prioritizing champions, then the target of Ahri's last basic attack, dealing magic damage.
 
 MAGIC DAMAGE:
@@ -287,7 +295,7 @@ MAGIC DAMAGE:
 20 / 30 / 40 / 50 / 60 (+ 20% AP)
 
 Summon: Tibbers	TARGET RANGE: 600 EFFECT RADIUS: 290 COST: 100 MANA COOLDOWN: 120 / 100 / 80
-Summon- Tibbers	
+Summon: Tibbers	
 FIRST CAST: Annie summons Tibbers to the target location in a burst of flame, dealing magic damage to surrounding enemies.
 
 INITIAL MAGIC DAMAGE:
@@ -297,7 +305,6 @@ He then remains on the field as a controllable pet for up to 45 seconds.
 Command Tibbers	
 SECOND CAST: While Tibbers is active, Summon: Tibbers can be used to move him to the target location.
 
-Pets
 Tibbers
 Flame Aura
 Tibbers deals 10 / 15 / 20 (+ 10% AP) magic damage to all nearby enemies every second.
@@ -316,16 +323,14 @@ THE FROST ARCHER
 
 Frost Shot	
 Frost Shot	
-FROST SHOT: Ashe's basic attacks and abilities apply Frost Shot 2 Frost to affected enemies, slowing them by 10 / 12 / 14 / 16 / 18 / 20% for 2 seconds and causing subsequent basic attacks against them to deal 10% (+100% (+ Infinity Edge item 50%) Critical Strike Chance) AD bonus physical damage while they remain slowed.
-
-Frost Shot 2	
+FROST SHOT: Ashe's basic attacks and abilities apply Frost to affected enemies, slowing them by 10 / 12 / 14 / 16 / 18 / 20% for 2 seconds and causing subsequent basic attacks against them to deal 10% (+100% (+ Infinity Edge item 50%) Critical Strike Chance) AD bonus physical damage while they remain slowed.
+	
 CRITICAL SLOW: Ashe's critical strikes deal no additional damage, but instead triple Frost's slow strength to 30 / 36 / 42 / 48 / 54 / 60%, decaying over 1 second to its normal strength.
 
 Ranger's Focus	COST: 50 MANA + 4 FOCUS
 Ranger's Focus	
 PASSIVE: While Ranger's Focus is inactive, Ashe is granted Focus for 4 seconds on attack, stacking up to 4 times. After 4 seconds, each stack thereafter will fall off every second.
-
-Ranger's Focus 2	
+	
 ACTIVE: Ashe gains bonus attack speed for 4 seconds and causes each of her basic attacks to fire a flurry of five arrows. Ashe cannot gain Focus while this ability is active.
 
 BONUS ATTACK SPEED:
@@ -375,8 +380,7 @@ The Stars deal 20 - 130 (based on level) (+ 5 / 10 / 15 / 20 / 25) (+ 18 - 35 (b
 Starsurge	EFFECT RADIUS: 75 - infinity SPEED: 600 COST: 60 / 70 / 80 / 90 / 100 MANA COOLDOWN: 10
 Starsurge	
 ACTIVE: Aurelion Sol fires the core of a newborn star in the target direction, which expands as long as it remains within the Outer Limit and grants him 10% bonus movement speed.
-
-Starsurge 2	
+	
 Upon traveling beyond the Outer Limit or reactivating Starsurge, the core Starsurge 2 detonates, dealing magic damage to all enemies caught within and stunning them.
 
 MAGIC DAMAGE:
@@ -390,7 +394,7 @@ PASSIVE: The Center of the Universe Stars' base damage is increased.
 
 BONUS DAMAGE:
 5 / 10 / 15 / 20 / 25
-Celestial Expansion 2	
+
 TOGGLE: Aurelion Sol pushes his Center of the Universe Stars out to the Outer Limit and increases their damage by 50%.
 
 TOTAL DAMAGE:
@@ -402,10 +406,10 @@ PASSIVE: Aurelion Sol gains an increasing bonus movement speed when moving in th
 
 MAX. BONUS MOVEMENT SPEED:
 25 / 30 / 35 / 40 / 45%
-Comet of Legend 2	
+	
 ACTIVE: Aurelion Sol pulls in his Center of the Universe Stars and takes flight in the chosen direction, gaining sight that pierces obstructions as well as ignoring terrain and unit collision. Aurelion Sol can also be seen regardless of obstructions.
 
-Performing any action (excluding Starsurge Starsurge) or taking damage from champions or turrets will end Comet of Legend 2 Comet of Legend early.
+Performing any action (excluding Starsurge Starsurge) or taking damage from champions or turrets will end Comet of Legend early.
 
 Voice of Light	TARGET RANGE: 1500 COST: 100 MANA COOLDOWN: 110 / 90 / 70
 Voice of Light	
@@ -494,9 +498,8 @@ THE WANDERING CARETAKER
 
 Traveler's Call	
 Traveler's Call	
-ANCIENT CHIMES: Bard's presence causes sacred chimes to appear at random locations and linger for up to 10 minutes. Collecting a chime grants Bard 24% bonus movement speed out of combat for 7 seconds, stacking up to 5 times, with every other chime collected beyond the first granting an additional 14% bonus movement speed, up to a total of 80% bonus movement speed, 20 + (1 per minute after 5 minutes) experience, and 12% maximum mana. Bard empowers his Traveler's Call 2 Meeps each time he collects 5 chimes.
+ANCIENT CHIMES: Bard's presence causes sacred chimes to appear at random locations and linger for up to 10 minutes. Collecting a chime grants Bard 24% bonus movement speed out of combat for 7 seconds, stacking up to 5 times, with every other chime collected beyond the first granting an additional 14% bonus movement speed, up to a total of 80% bonus movement speed, 20 + (1 per minute after 5 minutes) experience, and 12% maximum mana. Bard empowers his Meeps each time he collects 5 chimes.
 
-Traveler's Call 2	
 MEEPS: Bard's presence attracts small spirits known as Meeps to his side. Each of his basic attacks consumes a Meep, dealing 40 (+ 15 per 5 chimes collected) (+ 30% AP) bonus magic damage. At 5 chimes, Meeps slow damaged enemies by 25 / 35 / 45 / 55 / 65 / 75% for 1 second, and at 15 chimes deal splash damage to enemies within 150 units of his target as well as those in a cone behind them, with the cone's size increasing at 35 chimes. Meeps spawn every 8 / 7 / 6 / 5 / 4 seconds and Bard can keep up to 1 - 9 (based on Chimes) of them at a time.
 
 Cosmic Binding	TARGET RANGE: 950 EFFECT RADIUS: 450 SPEED: 1500 COST: 60 MANA COOLDOWN: 11 / 10 / 9 / 8 / 7
@@ -596,7 +599,7 @@ ACTIVE: After a 0.625 seconds delay, Brand makes the target area erupt in flames
 
 MAGIC DAMAGE:
 75 / 120 / 165 / 210 / 255 (+ 60% AP)
-Blaze BLAZE: Pillar of Flame deals 25% additional damage.
+BLAZE: Pillar of Flame deals 25% additional damage.
 
 Conflagration	TARGET RANGE: 625 EFFECT RADIUS: 375 COST: 70 / 75 / 80 / 85 / 90 MANA COOLDOWN: 10 / 9 / 8 / 7 / 6
 Conflagration	
@@ -706,7 +709,7 @@ TRAP DURATION:
 30 / 35 / 40 / 45 / 50
 Enemy champions who step on a trap set it off, rooting them for 1.5 seconds, during which they take increased damage from Headshot, grant sight of themselves for 3 seconds, and become immune to Yordle Snap Traps for 4 seconds while they remain in the area.
 
-Headshot HEADSHOT DAMAGE INCREASE:
+HEADSHOT DAMAGE INCREASE:
 40 / 90 / 140 / 190 / 240 (+ 40 / 55 / 70 / 85 / 100% bonus AD)
 
 90 Caliber Net	TARGET RANGE: 750 COST: 75 MANA COOLDOWN: 16 / 14.5 / 13 / 11.5 / 10
@@ -836,6 +839,7 @@ Enemies facing Cassiopeia are stunned for 2 seconds upon being hit by Petrifying
 CHO'GATH
 THE TERROR OF THE VOID
 
+Carnivore
 Whenever Cho'Gath kills an enemy or destroys an enemy structure, he restores 20 - 71 (based on level) health and 3.5 - 7.75 (based on level) mana.
 
 Rupture	TARGET RANGE: 950 EFFECT RADIUS: 175 COST: 60 MANA COOLDOWN: 9
@@ -1256,7 +1260,6 @@ SPIDER FORM - ACTIVE: Elise transforms into her human form, gaining ranged basic
 
 Elise begins with one rank in Spider Form / Human Form and can increase it at levels 6, 11, and 16.
 
-Pets
 Spiderling
 
 Vile Cluster
@@ -1268,10 +1271,10 @@ The Spiderling regenerates health over time, and is instantly healed to full hea
 EVELYNN
 AGONY'S EMBRACE
 
-DEMON SHADE
-DEMON SHADE
+Demon Shade
+Demon Shade
 INNATE: Evelynn gains Demon Shade after not taking damage from enemy champions or turrets for 1.5 seconds, or after 4 seconds of basic attacking or casting an ability.
-DEMON SHAFE: While below 250 - 590 (based on level)(+250% AP) health, Evelynn restore 15 - 75 (based on level) every second. From level 6 onward, Demon Shade also grants camouflage.
+DEMON SHADE: While below 250 - 590 (based on level)(+250% AP) health, Evelynn restore 15 - 75 (based on level) every second. From level 6 onward, Demon Shade also grants camouflage.
 
 Hate Spike	TARGET RANGE: 800 COST: 40 / 45 / 50 / 55 / 60 MANA COOLDOWN: 8 BARRAGE COOLDOWN 0.8
 Hate Spike
@@ -1457,8 +1460,7 @@ PASSIVE: Duelist's Dance's bonus movement speed is increased.
 ACTIVE: Fiora challenges the target enemy champion for 8 seconds, highlighting their four Vitals and creates an area around them. While in effect, Duelist's Dance does not identify new Vitals on Fiora's target.
 
 While near the target, Fiora gains Duelist's Dance's bonus movement speed.
-
-Grand Challenge 2	
+	
 If she triggers at least one Vital before her target dies, or triggers all four, she creates a Victory Zone that heals all allied champions within it for 2 - 5 (based on Vitals hit) seconds.
 
 HEAL PER SECOND:
@@ -1635,7 +1637,7 @@ Cannon Barrage	TARGET RANGE: Global EFFECT RADIUS: 600 INNER RADIUS: 200 COST: 1
 Cannon Barrage	
 ACTIVE: Gangplank signals his ship off-shore to fire upon the target area for 8 seconds, calling down 12 waves of cannonballs in clusters of 3 every 2 seconds, and revealing it for the duration. Each wave deals magic damage to all enemies within the area and slows them by 30% for 0.5 seconds.
 
-Gangplank can purchase upgrades for his ship in the store at the cost of 500 Silver Serpents each, which improve Cannon Barrage:
+Gangplank can purchase upgrades for his ship in the store at the cost of 500 Silver Serpents each, which improve Cannon Barrage
 
 MAGIC DAMAGE PER WAVE:
 35 / 60 / 85 (+ 10% AP)
@@ -1647,7 +1649,6 @@ RAISE MORALE: The barrage grants allies 30% bonus movement speed while they are 
 
 FIRE AT WILL: Cannon Barrage fires 6 additional waves over its duration.
 
-Pets
 Powder Keg
 Countdown
 The Powder Keg loses 1 maximum health every 2 / 1 / 0.5 seconds (minimum 1 current health)
@@ -1709,7 +1710,7 @@ Demacian Justice	TARGET RANGE: 400 COOLDOWN: 120 / 100 / 80
 Demacian Justice	
 PASSIVE: The enemy with the most kills in the last 5 minutes is marked as the Villain. The mark cannot be assigned to another champion while Garen is in combat with the Villain. If more than one enemy has the same bounty, the enemy who received it first is marked as the Villain.
 
-Garen's basic attacks and each spin of Judgment Judgment against the Villain deal 1% of their maximum health as bonus true damage.
+Garen's basic attacks and each spin of Judgment against the Villain deal 1% of their maximum health as bonus true damage.
 
 ACTIVE: Garen calls upon the might of Demacia to attempt to execute the target enemy champion, dealing them magic damage, converted to true damage when targeting the Villain.
 
@@ -1722,16 +1723,14 @@ THE MISSING LINK
 
 Rage Gene	
 Rage Gene	
-INNATE - MINI GNAR: Gnar's base movement speed and attack range are increased every level. Gnar generates 4 / 7 / 11 Rage Gene Rage over 3 seconds upon dealing or receiving damage, and 2 / 3 / 5 whenever he damages at least one unit with a basic attack or Boomerang Throw (halved versus non-champions). Gnar's Rage decays if he has not dealt or taken damage in the last 13 seconds.
+INNATE - MINI GNAR: Gnar's base movement speed and attack range are increased every level. Gnar generates 4 / 7 / 11 Rage over 3 seconds upon dealing or receiving damage, and 2 / 3 / 5 whenever he damages at least one unit with a basic attack or Boomerang Throw (halved versus non-champions). Gnar's Rage decays if he has not dealt or taken damage in the last 13 seconds.
 
 EXTRA BASE MOVESPEED:
 0 - 20 (based on level)
 EXTRA BASE RANGE:
 0 - 100 (based on level)
-Rage Gene 2	
 At maximum Rage, Gnar will  transform into Mega Gnar on his next ability cast or after 4 seconds. Gnar's rage depletes over the next 15 seconds, after which Gnar returns to normal and is too tired to generate Rage for 15 seconds. Gnar retains his current percentile health when he returns to normal.
-
-Rage Gene 3	
+	
 MEGA GNAR: Mega Gnar has different abilities, although they share Mini Gnar's ability cooldowns. In addition, he has increased base AD, base health, base armor, and base magic resistance, but is reduced to 175 attack range, 1% attack speed growth and 325 base movement speed. Gnar restores health equal to the increase.
 
 EXTRA BASE HEALTH:
@@ -1822,7 +1821,6 @@ MAGIC DAMAGE:
 80 / 120 / 160 / 200 / 240 (+ 60% AP)
 SLOW:
 40 / 45 / 50 / 55 / 60%
-Barrel Roll 2	
 After 4 seconds or upon reactivation the cask explodes, dealing magic damage to all surrounding enemies, reduced by 30% against minions, and slowing them for 2 seconds.
 
 Drunken Rage	EFFECT RADIUS: 250 COST: 30 MANA COOLDOWN: 8 / 7 / 6 / 5 / 4
@@ -1831,12 +1829,10 @@ ACTIVE: Gragas reduces incoming damage for 2.5 seconds and channels for 1 second
 
 DAMAGE REDUCTION:
 10 / 12 / 14 / 16 / 18%
-Drunken Rage 2	
 Upon completing the channel, Gragas' next basic attack within 5 seconds deals bonus magic damage to the target and nearby enemies, capped against monsters.
 
 BONUS MAGIC DAMAGE:
 20 / 50 / 80 / 110 / 140 (+ 8% of target's maximum health) (+ 30% AP)
-
 
 Body Slam	TARGET RANGE: 600 EFFECT RADIUS: 180 SPEED: 900 COST: 50 MANA COOLDOWN: 16 / 15 / 14 / 13 / 12
 Body Slam	
@@ -1849,6 +1845,9 @@ Body Slam's cooldown is reduced by 3 seconds if Gragas hits an enemy.
 Explosive Cask	TARGET RANGE: 1000 EFFECT RADIUS: 400 COST: 100 MANA COOLDOWN: 120 / 100 / 80
 Explosive Cask	
 ACTIVE: Gragas hurls a cask to the target location exploding on impact, damaging all nearby enemies and knocking them back 600 units from the epicenter of the explosion, while also briefly granting sight of the nearby surroundings.
+
+MAGIC DAMAGE:
+200 / 300 / 400 (+70% AP)
 
 GRAVES
 THE OUTLAW
@@ -1976,7 +1975,7 @@ ACTIVE: Heimerdinger unleashes a wave of 5 rockets that converge to the target l
 
 INITIAL ROCKET MAGIC DAMAGE:
 60 / 90 / 120 / 150 / 180 (+ 45% AP)
-Enemies can be hit by multiple rockets, with each one beyond the first dealing reduced damage:
+Enemies can be hit by multiple rockets, with each one beyond the first dealing reduced damage
 
 20 % of the initial rockets base damage (+ 26.66 % of its ability power scaling) against champions and monsters.
 60 % of the initial rockets base damage (+ 79.44 % of its ability power scaling) against minions.
@@ -2015,7 +2014,6 @@ ACTIVE: Heimerdinger empowers his next basic ability, placing it on the same coo
 
 After Heimerdinger has had UPGRADE!!! active for 3 seconds without using another ability, he can reactivate it to cancel the empowerment and put it on a 3-second cooldown. UPGRADE!!! only goes on its normal cooldown if Heimerdinger uses an empowered ability.
 
-Pets
 H-28G EVOLUTION TURRET
 Beam Attack
 The H-28G Evolution Turret spawns with 0% charge, displayed below its health bar and generates 1.11% charge per second. At 100% charge, if there are targets in range, H-28G Evolution Turret fires a beam in their direction after a short wind-up, prioritizing enemy champions, and dealing 40 / 60 / 80 / 100 / 120 (+ 55% AP) magic damage to all enemies it passes through.
@@ -2076,7 +2074,6 @@ PHYSICAL DAMAGE:
 150 / 250 / 350 (+ 50% bonus AD)
 For the duration, Harsh Lesson Harsh Lesson's cooldown is reduced to 2 - 1.1 (based on cooldown reduction) seconds, all Tentacles awakened by Illaoi are Playful untargetable, will not go dormant, and attack 100% faster.
 
-Pets
 Tentacle
 Slam
 The Tentacle damages all non-structure enemies it hits along its length, healing Illaoi for 5% missing health if it hits at least one enemy champion.
@@ -2093,15 +2090,14 @@ Enrage
 The Tentacle enrages for 8 seconds after Leap of Faith Leap of Faith has been cast, becoming untargetable, unable to go dormant and swinging 100% faster.
 
 Vision
-Whenever they Tentacle Smash slam they grant vision of the area around the attack, but at the same time they reveal themselves to the enemy if they're in the fog of war. They can reveal nearby Control Ward item Control Wards.
+Whenever they slam they grant vision of the area around the attack, but at the same time they reveal themselves to the enemy if they're in the fog of war. They can reveal nearby Control Ward item Control Wards.
 
 IRELIA
 THE WILL OF THE BLADES
 
 Ionian Fervor	EFFECT RADIUS: 1000 
 Ionian Fervor	
-INNATE: Irelia gains Tenacity based on if she is outnumbered or not (allied champions against enemy champions):
-
+INNATE: Irelia gains Tenacity based on if she is outnumbered or not (allied champions against enemy champions)
 NUMBER'S ADVANTAGE: Grants 0% tenacity.
 EVEN FIGHT: Grants 10% tenacity.
 OUTNUMBER: Grants 25 / 30 / 35 / 40% tenacity.
@@ -2201,7 +2197,6 @@ ACTIVE: Ivern summons his sentinel friend Daisy at his side, who remains on the 
 Daisy, wait!	
 While Daisy is active, Daisy! can be used to move her to the target location.
 
-Pets
 Daisy
 Flower Power
 Daisy's basic attacks apply stacks of Flower Power, resetting whenever Daisy attacks a new target. Versus a target with 2 stacks, Daisy's next attack gains bonus attack range and sends forward a shockwave that damages and knocks up all enemies hit in a line for 1 second. Flower Power cannot happen again for 3 seconds.
@@ -2520,8 +2515,7 @@ Flame Chompers!	TARGET RANGE: 900 EFFECT RADIUS: 50 COST: 70 MANA COOLDOWN: 24 /
 Flame Chompers!	
 ACTIVE: Jinx tosses out 3 Chompers that arm after 0.7 seconds, and explode automatically after 5 seconds. Once armed the Chompers will explode on contact with enemy champions.
 
-Flame Chompers! 2	
-Flame Chompers! 2 Exploding Chompers deal magic damage over 1.5 seconds in 3 instances to all enemies within a small area, and champions that set them off are knocked down and rooted for the same duration.
+Exploding Chompers deal magic damage over 1.5 seconds in 3 instances to all enemies within a small area, and champions that set them off are knocked down and rooted for the same duration.
 
 TOTAL MAGIC DAMAGE:
 70 / 120 / 170 / 220 / 270 (+ 100% AP)
@@ -2588,7 +2582,6 @@ ACTIVE: Kalista draws her Oathsworn ally next to her, placing them in stasis for
 
 During Fate's Call, Kalista's Oathsworn can click on the target location to dash there, stopping at the first enemy hit, knocking up all surrounding enemies and landing themselves at their basic attack range relative to the target hit.
 
-Pets
 Sentinel
 Patrol
 The Sentinel patrols the area for 3 laps before disappearing, moving to the target location, returning to the earliest point near its cast location that it can see, and pathing around obstacles.
@@ -3039,7 +3032,7 @@ INNATE: Both Lamb and Wolf mark targets to hunt. Scoring an enemy champion taked
 
 LAMB - ENEMY CHAMPIONS: Lamb is offered a selection of champions to take down, which is hidden while in combat with an enemy champion. Once selected, there's an 8 seconds delay before the Mark can be collected, and Lamb can change her target if the target hasn't died during a period of time. Targets successfully hunted cannot be targeted again for some minutes.
 
-WOLF - ENEMY MONSTERS: Starting at 2:20, Wolf periodically selects a monster camp within the enemy's jungle based on Lamb's current Marks for 180 seconds, and selects another one 45 seconds after killing a marked monster:
+WOLF - ENEMY MONSTERS: Starting at 2:20, Wolf periodically selects a monster camp within the enemy's jungle based on Lamb's current Marks for 180 seconds, and selects another one 45 seconds after killing a marked monster
 
 0 : Rift Scuttler
 1 – 3: Rift Scuttler, Crimson Raptor, Gromp
@@ -3092,15 +3085,13 @@ KLED
 THE CANTANKEROUS CAVALIER
 
 Skaarl the Cowardly Lizard	COOLDOWN: 30 (On-Mount)
+Skaarl the Cowardly Lizard
 Kled is accompanied by his semi-trusty mount, Skaarl. Depending of whether Kled is mounted or dismounted from Skaarl, his set of abilities is altered.
-
-Skaarl the Cowardly Lizard	
+	
 MOUNTED – INNATE: Kled's health cannot be improved except through growth, instead Skaarl has 400 - 1420 (based on level) (+ 100% bonus health) maximum health and, while together, all damage dealt to the duo is suffered by Skaarl. Upon being reduced to 0 health, Skaarl flees and Kled becomes dismounted. While Kled dismounts Skaarl, Kled enters stasis briefly and any damage in excess of Skaarl's current health is ignored.
 
-Skaarl the Cowardly Lizard 2	
 DISMOUNTED – INNATE: Kled's basic attacks have 250 range and he gains 105 - 190 (based on level) bonus movement speed while moving towards enemy champions, but his base movement speed is reduced 285 and his basic attacks only deal 80% AD against enemy champions. Additionally, Kled gains the ability to restore Skaarl's Courage to reunite again, which is displayed in Kled's resource bar.
 
-Skaarl the Cowardly Lizard 3	
 COURAGE - INNATE: Kled restores 20 Courage whenever a champion he damaged dies within 3 second, 4 Courage for minion and monster kills, 5 Courage when damaging a structure or epic monster, and 15 Courage when damaging an enemy champion. At 100 Courage, Skaarl returns to the fight with 50 / 60 / 70 / 80% of his maximum health, resetting all of Kled's basic ability cooldowns except for Violent Tendencies. Returning to the base fully restores Skaarl's Courage and health. If reuniting outside of base Skaarl gains Frayed Nerves, and a dismounted Kled will not be able to restore Skaarl's Courage for a brief period of time.
 
 Beartrap on a Rope	TARGET RANGE: 800 COOLDOWN: 9 / 8.5 / 8 / 7.5 / 7
@@ -3138,15 +3129,13 @@ Jousting
 MOUNTED - ACTIVE: Kled and Skaarl dash a fixed distance in the target direction, dealing physical damage to all enemies in their path and gaining 50% bonus movement speed for 1 second. This cannot go through terrain.
 
 PHYSICAL DAMAGE:
-35 / 60 / 85 / 110 / 135 (+ 60% bonus AD)
-Jousting 2	
+35 / 60 / 85 / 110 / 135 (+ 60% bonus AD)	
 Kled and Skaarl mark the first enemy champion or large monster they hit, granting true sight of them and gaining the ability to reactivate Jousting to dash a fixed distance through the marked target, dealing physical damage to all enemies hit. If circumstances permit, this ability can go through terrain.
 
 Chaaaaaaaarge!!!	TARGET RANGE: 3500 / 4000 / 4500 COOLDOWN: 160 / 140 / 120
 Chaaaaaaaarge!!!	
 MOUNTED - ACTIVE: Kled and Skaarl charge, unstoppable, toward the target location, automatically navigating around terrain along the way.
-
-Chaaaaaaaarge!!! 2	
+	
 While charging, the duo gains 30% bonus movement speed and a shield, both increasing over the duration.
 
 MAXIMUM SHIELD:
@@ -3161,11 +3150,9 @@ PHYSICAL DAMAGE:
 KOG'MAW
 THE MOUTH OF THE ABYSS
 
-
 Icathian Surprise	
 Icathian Surprise	
 Upon taking fatal damage, Kog'Maw remains active for 4 seconds, rendering himself unable to use abilities or basic attacks but becoming untargetable and invulnerable, and gaining up to 40% bonus movement speed over the duration. He then explodes, dealing 125 - 550 (based on level) true damage to all nearby enemies.
-
 
 Caustic Spittle	TARGET RANGE: 1175 COST: 40 MANA COOLDOWN: 8
 Caustic Spittle	
@@ -3246,8 +3233,7 @@ Mimic Distortion
 FIRST CAST: Distortion's magic damage is modified.
 
 MAGIC DAMAGE:
-60 / 120 / 180 (+ 30% AP)
-Mimic Distortion 2	
+60 / 120 / 180 (+ 30% AP)	
 SECOND CAST: LeBlanc blinks to Mimic Distortion's return pad.
 
 MAGIC DAMAGE:
@@ -3283,7 +3269,6 @@ Shadow of the Rose	RANGE: Global COOLDOWN: 160 / 140 / 129
 Shadow of the Rose	
 ACTIVE: LeBlanc summons a Mimic at the target location, refunding Mimic's cooldown but placing Shadow of the Rose on its own cooldown. This Mimic immediately disappears upon casting its selected ability.
 
-Pets
 Mimic
 Upon encountering a visible enemy champion, this Mimic casts an illusory copy of LeBlanc's selected spell, dealing no damage.
 After beeing placed, this Mimic can no longer be controlled.
@@ -3467,7 +3452,6 @@ ACTIVE: After a 0.25 seconds delay, Lucian fires a shot that explodes in a cross
 
 MAGIC DAMAGE:
 60 / 100 / 140 / 180 / 220 (+ 90% AP)
-Ardent Blaze 3	
 Lucian gains bonus movement speed for 1 second if he or allied champions damage a marked target with basic attacks or abilities.
 
 BONUS MOVEMENT SPEED:
@@ -3683,8 +3667,6 @@ A Null Zone is opened beneath the target that lasts 5 seconds, dealing magic dam
 DAMAGE PER SECOND:
 2 / 3 / 4% (+ 0.5% per 100 AP) of target's maximum health
 
-Pets
-
 Void Swarm
 PASSIVE: Voidlings deal 5 - 64.5 (based on level) (+ 12 / 14 / 16 / 18 / 20) (+ 40% bonus AD) (+ 20% AP) magic damage.
 PASSIVE: Voidlings deal 300% damage to minions affected by Malefic Visions.
@@ -3695,8 +3677,7 @@ THE TWISTED TREANT
 Sap Magic	STATIC COOLDOWN: 30 / 25 / 20
 Sap Magic	
 INNATE: Each time Maokai casts an ability or is struck by an enemy's ability, Sap Magic's cooldown is reduced by 4 seconds.
-
-Sap Magic 2	
+	
 Periodically Maokai's next basic attack, after a 0.25-seconds delay, against a non-structure heals him for 5 - 65 (based on level) (+ 6% - 13% (based on level) maximum health).
 
 Sap Magic will not heal him if he's above 95% maximum health.
@@ -3740,9 +3721,6 @@ Each thorny bramble deals magic damage and roots for 0.6 - 2.4 (based on distanc
 MAGIC DAMAGE:
 150 / 225 / 300 (+ 75% AP)
 
-Summoned Units
-Sapling
-Brush
 Saplings thrown into any nearby brush will deal 50 / 100 / 150 / 200 / 250 (+ 12 / 13 / 14 / 15 / 16% (+ 2% per 100 AP) of target's maximum health)
 
 MASTER YI
@@ -3775,10 +3753,9 @@ DAMAGE REDUCTION:
 Meditate resets Master Yi's autoattack timer.
 
 Wuju Style	COOLDOWN: 18 / 17 / 16 / 15 / 14
-Wuju Style 2	
-PASSIVE: Master Yi gains 10% AD as bonus attack damage while Wuju Style is not on cooldown.
-
 Wuju Style	
+PASSIVE: Master Yi gains 10% AD as bonus attack damage while Wuju Style is not on cooldown.
+	
 ACTIVE: Master Yi's basic attacks deal bonus true damage for 5 seconds.
 
 TRUE DAMAGE:
@@ -3852,7 +3829,7 @@ Mace of Spades	COST: 20 / 23 / 26 / 29 / 32 HEALTH COOLDOWN: 10 / 8.5 / 7 / 5.5 
 Mace of Spades	
 ACTIVE: Mordekaiser's next three basic attacks deal bonus magic damage. The third hit is the damage of the previous two combined.
 
-Mace of Spades FIRST / Mace of Spades 2 SECOND BONUS MAGIC DAMAGE:
+FIRST / SECOND BONUS MAGIC DAMAGE:
 10 / 20 / 30 / 40 / 50 (+ 50 / 60 / 70 / 80 / 90% AD) (+ 60% AP)
 Mace of Spades resets Mordekaiser's autoattack timer.
 
@@ -3866,7 +3843,6 @@ MAGIC DAMAGE PER SECOND:
 35 / 45 / 55 / 65 / 75 (+ 22.5% AP)
 For the next 4 seconds, Mordekaiser can reactivate Harvester of Sorrow to end its primary effects and trigger a secondary effect, which triggers automatically at the end of the duration. If activated while no allies are nearby, Mordekaiser will highlight an area around him and can reactivate the ability as normal. The first ally to come in range will automatically gain the effect, too.
 
-Harvester of Sorrow 2	
 ACTIVE - SECOND CAST: Mordekaiser constricts the area, dealing magic damage to all enemies near himself and his ally as well as healing himself and his ally for the same amount, from up to 2 enemies hit in their respective areas. Healing is reduced to 25% when harvesting minions.
 
 HARVEST DAMAGE:
@@ -3888,10 +3864,9 @@ BONUS SHIELD:
 15 / 17.5 / 20 / 22.5 / 25%
 
 Children of the Grave	TARGET RANGE: 650 EFFECT RADIUS: 1125 / Global COOLDOWN: 120 / 105 / 90
-Dragon Force	
+Children of the Grave	
 PASSIVE - DRAGON FORCE: Mordekaiser's basic attacks and abilities Curse the Dragon for 10 seconds.
 
-Children of the Grave	
 ACTIVE: Mordekaiser blasts the target enemy champion, dealing magic damage as well as Cursing them for the next 10 seconds. Cursed champions take magic damage every second, with Mordekaiser healing for 100% of the damage dealt by the initial blast and the Curse.
 
 INITIAL MAGIC DAMAGE:
@@ -3911,8 +3886,6 @@ BONUS ATTACK RANGE:
 BONUS MOVEMENT SPEED:
 -50 / 0 / +50
 
-Pets
-CHILD OF THE GRAVEDRAGON FORCE
 Child of the Grave
 
 MORGANA
@@ -4115,7 +4088,7 @@ Hunt: Hitting monsters or enemy champions with Javelin Toss or Bushwhack marks t
 
 Javelin Toss	TARGET RANGE: 1500 COLLISION RADIUS: 20 SPEED: 1300 COST: 50 / 60 / 70 / 80 / 90 MANA COOLDOWN: 6
 Javelin Toss	
-Aspect of the Cougar HUMAN FORM - ACTIVE: Nidalee hurls a javelin forward in a line, dealing magic damage to the first enemy it hits, which is increased by 0% - 200% (based on distance traveled).
+HUMAN FORM - ACTIVE: Nidalee hurls a javelin forward in a line, dealing magic damage to the first enemy it hits, which is increased by 0% - 200% (based on distance traveled).
 
 MINIMUM MAGIC DAMAGE:
 70 / 85 / 100 / 115 / 130 (+ 40% AP)
@@ -4124,7 +4097,7 @@ Takedown	COOLDOWN: 6
 Takedown	
 COUGAR FORM - ACTIVE: Nidalee's next basic attack has 200 range and is modified to deal magic damage, increased by an amount for every 1% of target's missing health.
 
-TAKEDOWN SCALES WITH Aspect of the Cougar ASPECT OF THE COUGAR'S RANK
+TAKEDOWN SCALES WITH ASPECT OF THE COUGAR'S RANK
 
 INCREASED DAMAGE:
 1 / 1.25 / 1.5 / 1.75%
@@ -4139,7 +4112,7 @@ Takedown resets Nidalee's autoattack timer.
 
 Bushwhack	TARGET RANGE: 900 COST: 40 / 45 / 50 / 55 / 60 MANA COOLDOWN: 13 / 12 / 11 / 10 / 9
 Bushwhack	
-Aspect of the Cougar HUMAN FORM - ACTIVE: Nidalee lays a trap at the target location, which stealths and arms after a brief delay and lasting for up to 2 minutes. The next enemy who springs the trap takes magic damage over 4 seconds, granting True Sight for the duration.
+HUMAN FORM - ACTIVE: Nidalee lays a trap at the target location, which stealths and arms after a brief delay and lasting for up to 2 minutes. The next enemy who springs the trap takes magic damage over 4 seconds, granting True Sight for the duration.
 
 MAGIC DAMAGE PER SECOND:
 10 / 20 / 30 / 40 / 50 (+ 5% AP)
@@ -4147,7 +4120,7 @@ Traps have 6 maximum health and can only be damaged by champion basic attacks (2
 
 Pounce	TARGET RANGE: 375 / 750 EFFECT RADIUS: 75 COOLDOWN: 6
 Pounce	
-Aspect of the Cougar COUGAR FORM- ACTIVE: Nidalee dashes a fixed distance in the direction of the cursor, dealing magic damage to enemies around her landing point.
+COUGAR FORM- ACTIVE: Nidalee dashes a fixed distance in the direction of the cursor, dealing magic damage to enemies around her landing point.
 
 POUNCE SCALES WITH ASPECT OF THE COUGAR'S RANK
 HUNT BONUS: Pounce can be used to target nearby Hunted targets and gains increased range against them.
@@ -4161,7 +4134,7 @@ COOLDOWN REFUND:
 
 Primal Surge	TARGET RANGE: 600 COST: 60 / 75 / 90 / 105 / 120 MANA COOLDOWN: 12
 Primal Surge	
-Aspect of the Cougar HUMAN FORM - ACTIVE: Nidalee evokes the spirit of the cougar, healing the target allied champion or herself, increased by 1% for every 1% of the target's missing health, and granting them bonus attack speed for 7 seconds.
+HUMAN FORM - ACTIVE: Nidalee evokes the spirit of the cougar, healing the target allied champion or herself, increased by 1% for every 1% of the target's missing health, and granting them bonus attack speed for 7 seconds.
 
 MINIMUM HEAL:
 35 / 55 / 75 / 95 / 115 (+ 32.5% AP)
@@ -4170,7 +4143,7 @@ ATTACK SPEED:
 
 Swipe	EFFECT RADIUS: 300 ANGLE: 180° COOLDOWN: 6
 Swipe	
-Aspect of the Cougar 2 COUGAR FORM - ACTIVE: Nidalee claws at enemies in an arc in the direction of the cursor, dealing magic damage to all enemies hit.
+COUGAR FORM - ACTIVE: Nidalee claws at enemies in an arc in the direction of the cursor, dealing magic damage to all enemies hit.
 
 SWIPE SCALES WITH ASPECT OF THE COUGAR'S RANK
 
@@ -4187,8 +4160,8 @@ Triggering Hunt resets Aspect of the Cougar's cooldown if Nidalee is in human fo
 Nidalee begins with one rank in Aspect of the Cougar and can increase it at levels 6, 11, and 16.
 
 Aspect of the Cougar	COOLDOWN: 3
-Aspect of the Cougar 2	
-Aspect of the Cougar 2 COUGER FORM- ACTIVE: Nidalee transforms herself into a human, gaining 525 attack range as well as new abilities.
+Aspect of the Cougar
+COUGER FORM- ACTIVE: Nidalee transforms herself into a human, gaining 525 attack range as well as new abilities.
 
 COUGAR FORM'S ABILITIES RANK UP WHEN ASPECT OF THE COUGAR DOES
 Nidalee begins with one rank in Aspect of the Cougar and can increase it at levels 6, 11, and 16.
@@ -4348,14 +4321,14 @@ CLOCKWORK WINDING: Orianna's basic attacks deal 10 / 18 / 26 / 34 / 42 / 50 (+ 1
 Clockwork Winding can only affect a single enemy at a time (Orianna attacking a new target will remove all stacks from the previous one).
 
 Command: Attack	TARGET RANGE: 825 COLLISION RADIUS: 175 SPEED: 1400 COST: 30 / 35 / 40 / 45 / 50 MANA COOLDOWN: 6 / 5.25 / 4.5 / 3.75 / 3
-Command Attack	
+Command: Attack	
 ACTIVE: Orianna commands Clockwork Windup The Ball to fly to the target location and remain there, dealing magic damage to all enemies it passes through but reduced by 10% for each enemy hit, down to a minimum 40% damage.
 
 MAGIC DAMAGE:
 60 / 90 / 120 / 150 / 180 (+ 50% AP)
 
 Command: Dissonance	EFFECT RADIUS: 250 COST: 70 / 80 / 90 / 100 / 110 MANA COOLDOWN: 9
-Command Dissonance	
+Command: Dissonance	
 ACTIVE: Orianna commands Clockwork Windup The Ball to emit an electric pulse around its current location, dealing magic damage to all enemies around it and leaving an electric field on the area for 3 seconds.
 
 MAGIC DAMAGE:
@@ -4366,7 +4339,7 @@ MOVEMENT SPEED MODIFIER:
 20 / 25 / 30 / 35 / 40%
 
 Command: Protect	TARGET RANGE: 1100 COST: 60 MANA COOLDOWN: 9
-Command Protect	
+Command: Protect	
 PASSIVE: Clockwork Windup The Ball grants whomever it is attached to bonus armor and magic resistance.
 
 BONUS RESISTANCES:
@@ -4379,7 +4352,7 @@ SHIELD STRENGTH:
 60 / 100 / 140 / 180 / 220 (+ 40% AP)
 
 Command: Shockwave	EFFECT RADIUS: 325 COST: 100 MANA COOLDOWN: 110 / 95 / 80
-Command Shockwave	
+Command: Shockwave	
 ACTIVE: Orianna commands Clockwork Windup The Ball to unleash a shockwave after a 0.75 seconds delay, dealing magic damage to all nearby enemies and pulling them 350 units towards The Ball.
 
 MAGIC DAMAGE:
@@ -4389,7 +4362,7 @@ ORNN
 THE FIRE BELOW THE MOUNTAIN
 
 Living Forge	DISABLE TIME: 4
-Living Forge; Master Craftsman	
+Living Forge	
 LIVING FORGE: Ornn can purchase non-consumable items from anywhere on the field by forging them himself, and is also presented a Forge Menu with his recommended items to select to be forged. Forging takes 4 seconds and the process is interrupted if Ornn enters combat, disabling Living Forge. On ARAM, Ornn can forge an item once every 5 minutes.
 
 MASTER CRAFTMAN: When Ornn reaches level 13, he and each of his teammates can purchase MASTERWORK upgrades. Each player may only have one MASTERWORK upgrade at a time.
@@ -4448,7 +4421,6 @@ SLOW:
 40 / 60 / 80 %
 While stampeding, Ornn can re-activate Call of the Forge God.
 
-Call of the Forge God 2	
 SECOND CAST: Ornn dashes forward in the target direction. If Ornn collides with the elemental, he headbutts it, sending it stampeding again in the new direction and empowering it to knock up enemies hit. Call of the Forge God can affect enemies twice.
 
 PANTHEON
@@ -4477,10 +4449,9 @@ MAGIC DAMAGE:
 50 / 75 / 100 / 125 / 150 (+ 100% AP)
 
 Heartseeker Strike	EFFECT RADIUS: 600 ANGLE: 80° COST: 45 / 50 / 55 / 60 / 65 MANA COOLDOWN: 10 / 9 / 8 / 7 / 6
-Certain Death	
-PASSIVE - CERTAIN DEATH: Pantheon's basic attacks and Spear Shot critically strike all enemies below 15% maximum health.
-
 Heartseeker Strike	
+PASSIVE - CERTAIN DEATH: Pantheon's basic attacks and Spear Shot critically strike all enemies below 15% maximum health.
+	
 ACTIVE: Pantheon channels for 0.75 seconds, dealing physical damage to all enemies in a cone in front of him (reduced to 60% against non-champions) at 0.25 seconds intervals.
 
 PHYSICAL DAMAGE PER STRIKE:
@@ -4505,7 +4476,6 @@ Iron Ambassador	STATIC COOLDOWN: 16 / 13 / 10
 Iron Ambassador	
 INNATE: Poppy periodically throws her buckler with her next basic attack, which then falls near her target, where it remains for up to 4 seconds. If the buckler kills its target, it bounces back to Poppy automatically. Enemies can step on the buckler to destroy it.
 
-Iron Ambassador 2	
 The buckler grants 425 range and 10 - 180 (based on level) bonus magic damage. When Poppy picks up the buckler, she shields herself for 15 / 17.5 / 20% maximum health for 3 seconds.
 
 Hammer Shock	TARGET RANGE: 430 COST: 35 / 40 / 45 / 50 / 55 MANA COOLDOWN: 9 / 8 / 7 / 6 / 5
@@ -4873,9 +4843,9 @@ If Rengar's cursor is outside of Savagery's maximum range when he inputs the tar
 Casting Savagery resets Rengar's auto-attack timer.
 
 Battle Roar	EFFECT RADIUS: 450 COOLDOWN: 20 / 18 / 16 / 14 / 12
+Battle Roar
 PASSIVE: Rengar stores 50% of the damage he's taken in the last 1.5 seconds as Grey Health (75% versus monsters).
-
-Battle Roar	
+	
 ACTIVE: Rengar lets out a battle roar, dealing magic damage to nearby enemies and healing Rengar for his Grey Health.
 
 MAGIC DAMAGE:
@@ -5169,7 +5139,6 @@ MINI-BOX MAGIC DAMAGE:
 25 / 50 / 75 (+ 15% AP)
 When the Hallucination dies or expires it explodes, dealing magic damage in an area of effect and spawns three mini-boxes which share health and activate together, fearing nearby enemies for 0.75 seconds.
 
-Pets
 JACK IN THE BOX
 Abilities
 Stealth Trap
@@ -5243,7 +5212,7 @@ PHYSICAL DAMAGE:
 50 / 75 / 100 / 125 / 150 (+ 12% bonus health)
 
 Stand United	TARGET RANGE: Global COOLDOWN: 200 / 180 / 160
-Stand United 2	
+Stand United	
 ACTIVE: Shen channels for 3 seconds, shielding the target allied champion for up to 5 seconds, with the value increased by 1% for every 1% of target's missing health, up to maximum of 60% bonus at 40% of target's maximum health.
 
 MINIMUM SHIELD:
@@ -5389,14 +5358,13 @@ MINIMUM CHAMPION DAMAGE:
 If Decimating Smash was charged for at least 1 second, Sion instead slams his axe down, knocking up all enemies hit for 1.25 - 2.25 (based on channel time) seconds.
 
 Soul Furnace	EFFECT RADIUS: 550 COST: 65 / 70 / 75 / 80 / 85 MANA COOLDOWN: 11
+Soul Furnace
 PASSIVE: Sion permanently gains 3 bonus health whenever he kills an enemy, increased to 10 bonus health against large enemies and enemy champion takedowns.
 
-Soul Furnace	
 FIRST CAST: Sion shields himself for up to 6 seconds. After 3 seconds, Soul Furnace can be reactivated to detonate the shield, detonating automatically if it persists for the full duration.
 
 SHIELD STRENGTH:
 30 / 55 / 80 / 105 / 130 (+ 40% AP) (+ 8 / 9 / 10 / 11 / 12% maximum health)
-Soul Furnace 2	
 SECOND CAST: Soul Furnace's shield detonates to deal magic damage to enemies around Sion, capped at 400 against minions and monsters.
 
 MAGIC DAMAGE:
@@ -5700,7 +5668,6 @@ Force of Will	TARGET RANGE: 925 / 950 EFFECT RADIUS: 225 COST: 60 / 70 / 80 / 90
 Force of Will	
 FIRST ACTIVE: Syndra telekinetically grabs a Dark Sphere, enemy minion or non-epic monster for 5 seconds. If a Dark Sphere is grabbed, its duration is refreshed. If a minion or monster is grabbed, it is put in stasis.
 
-Force of Will 2	
 SECOND ACTIVE: Syndra throws the grasped Dark Sphere or enemy to the target area, granting sight of the projectile's surroundings as they fall. The projectile, if it is an enemy, and any enemies struck take magic damage and are slowed for 1.5 seconds.
 
 MAGIC DAMAGE:
@@ -5750,7 +5717,7 @@ SLOW:
 30 / 40 / 50 / 60 / 70%
 During Tongue Lash, Devour can be cast for free to devour enemy minions or non-epic monsters from a distance.
 
-Enemy champions with three An Acquired Taste An Acquired Taste stacks are stunned for 1.5 seconds.
+Enemy champions with three An Acquired Taste stacks are stunned for 1.5 seconds.
 
 Devour / Regurgitate	TARGET RANGE: 250 / 650 COST: 90 MANA COOLDOWN: 14 / 13 / 12 / 11 / 10
 Devour	
@@ -5833,7 +5800,7 @@ MINIMUM TRIGGER DAMAGE:
 35 / 45 / 55 / 65 / 75 (+ 20% AP)
 
 Weaver's Wall	TARGET RANGE: 3000 / 4500 / 6000 COST: 100 MANA COOLDOWN: 180 / 150 / 120
-Weaver&#039;s Wall	
+Weaver's Wall	
 ACTIVE: Taliyah channels for 1 second before summoning a massive wall of spiraling rock that tears through the battlefield in the target direction, creating impassable terrain for a few seconds and knocking aside allied and enemy champions it passes through as it emerges.
 
 DURATION:
@@ -5914,7 +5881,7 @@ PASSIVE: Taric and his Bastion-marked champion gain bonus armor.
 
 BONUS ARMOR:
 10 / 12.5 / 15 / 17.5 / 20% of Taric's armor
-Bastion 2	
+	
 ACTIVE: Taric shields himself and the target allied champion for 2.5 seconds, blessing them with Bastion and causing his abilities to be replicated on them while both are within 1300 units of each other, though the effects do not stack.
 
 SHIELD STRENGTH:
@@ -6234,7 +6201,7 @@ PASSIVE: Every fourth basic attack deals bonus magic damage.
 BONUS MAGIC DAMAGE:
 55 / 80 / 105 / 130 / 155 (+ 50% AP)
 
-Destiny	TARGET RANGE: 5500 EFFECT RADIUS: Global COST: 150 / 125 / 100 MANA COOLDOWN: 180 / 150 / 120
+Destiny TARGET RANGE: 5500 EFFECT RADIUS: Global COST: 150 / 125 / 100 MANA COOLDOWN: 180 / 150 / 120
 Destiny	
 FIRST CAST - DESTINY: Twisted Fate gains and grants his allies true sight of all enemy champions for a few seconds and, after a 0.5 second delay, can use Gate once for the duration.
 
@@ -6254,56 +6221,39 @@ Each Deadly Venom stack deals 1 / 2 / 3 / 4 / 5 true damage per second over 6 se
 
 Each application of Deadly Venom resets the duration.
 
- [show] 
-Ability Details
-
-Edit
 Ambush	COST: 40 MANA COOLDOWN: 16
 Ambush	
-ACTIVE: Twitch becomes Ambush 2 camouflaged for a duration after 1 second. Entering stealth cancels Twitch's current basic attack. Basic attacks and abilities break the stealth.
+ACTIVE: Twitch becomes camouflaged for a duration after 1 second. Entering stealth cancels Twitch's current basic attack. Basic attacks and abilities break the stealth.
 
 STEALTH DURATION:
-10 / 11 / 12 / 13 / 14
-Ambush 2	
+10 / 11 / 12 / 13 / 14	
 While stealthed he gains 10% bonus movement speed, increased to 30% when he moves toward nearby enemy champions who cannot see him.
-
-Ambush 3	
+	
 Upon breaking stealth he gains bonus attack speed for 5 seconds.
 
 BONUS ATTACK SPEED:
 30 / 35 / 40 / 45 / 50%
-Ambush's cooldown is reset if an enemy champion dies while affected by Deadly Venom Deadly Venom.
+Ambush's cooldown is reset if an enemy champion dies while affected by Deadly Venom.
 
- [show] 
-Ability Details
-
-Edit
 Venom Cask	TARGET RANGE: 950 SPEED: 1400 COST: 70 MANA COOLDOWN: 13 / 12 / 11 / 10 / 9
 Venom Cask	
-ACTIVE: Twitch hurls a cask of venom at the target area, infecting all enemies hit with a Deadly Venom Deadly Venom stack.
+ACTIVE: Twitch hurls a cask of venom at the target area, infecting all enemies hit with a Deadly Venom stack.
 
-The target area becomes contaminated for 3 seconds, applying a Deadly Venom Deadly Venom stack each second and slowing all enemies inside it.
+The target area becomes contaminated for 3 seconds, applying a Deadly Venom stack each second and slowing all enemies inside it.
 
 SLOW:
 25 / 30 / 35 / 40 / 45%
- [show] 
-Ability Details
 
-Edit
 Contaminate	EFFECT RADIUS: 1200 COST: 50 / 60 / 70 / 80 / 90 MANA COOLDOWN: 12 / 11 / 10 / 9 / 8
 Contaminate	
-ACTIVE: Twitch deals physical damage to all nearby enemies afflicted by Deadly Venom Deadly Venom, with each stack granting bonus damage.
+ACTIVE: Twitch deals physical damage to all nearby enemies afflicted by Deadly Venom, with each stack granting bonus damage.
 
 BASE PHYSICAL DAMAGE:
 20 / 35 / 50 / 65 / 80
 MINIMUM DAMAGE:
 35 / 55 / 75 / 95 / 115 (+ 25% bonus AD) (+ 20% AP)
-Contaminate cannot be activated if there is no nearby enemies afflicted by Deadly Venom Deadly Venom.
+Contaminate cannot be activated if there is no nearby enemies afflicted by Deadly Venom.
 
- [show] 
-Ability Details
-
-Edit
 Spray and Pray	COST: 100 MANA COOLDOWN: 90
 Spray and Pray	
 ACTIVE: Twitch gains bonus attack damage and his basic attacks have 850 range for 5 seconds.
@@ -6608,10 +6558,8 @@ MAGIC DAMAGE:
 70 / 100 / 130 / 160 / 190 (+ 30% AP)
 
 Life Form Disintegration Ray	TARGET RANGE: 1550 COST: 100 MANA COOLDOWN: 120 / 100 / 80
-Researched	
-PASSIVE - RESEARCHED: Deconstructing enemy champions marks them as Researched for 7 seconds. Basic attacks and ability damage will refresh this duration.
-
-Life Form Disintegration Ray	
+Life Form Disintegration Ray
+PASSIVE - RESEARCHED: Deconstructing enemy champions marks them as Researched for 7 seconds. Basic attacks and ability damage will refresh this duration.	
 ACTIVE: Vel'Koz channels for 2.5 seconds and projects an energy beam in a line. The ray's trajectory updates itself over the duration to face the cursor. Reactivating Life Form Disintegration Ray immediately ends its effects.
 
 The ray deals magic damage in 0.25 seconds intervals to enemies caught in its wake, and slows them by 20% for 1 second. Deconstruction is applied every 0.7 seconds to enemies hit, up to 3 stacks. Researched enemies take true damage instead.
@@ -6619,7 +6567,7 @@ The ray deals magic damage in 0.25 seconds intervals to enemies caught in its wa
 MAGIC DAMAGE PER TICK:
 45 / 62.5 / 80 (+ 12.5% AP)
 
-VI
+VI 
 THE PILTOVER ENFORCER
 
 Blast Shield	STATIC COOLDOWN: 16 - 8 (based on level)
@@ -6712,10 +6660,10 @@ ACTIVE: Viktor uses his synthetic arm to fire an energy beam 500 units down the 
 
 MAGIC DAMAGE:
 70 / 110 / 150 / 190 / 230 (+ 50% AP)
-Augment- Aftershock	
+
 AUGMENT: AFTERSHOCK: An explosion follows Death Ray's wake after 1 second, dealing additional magic damage.
 
-Augment- Aftershock AFTERSHOCK MAGIC DAMAGE:
+AFTERSHOCK MAGIC DAMAGE:
 20 / 60 / 100 / 140 / 180 (+ 70% AP)
 
 Chaos Storm	TARGET RANGE: 700 COST: 100 MANA COOLDOWN: 120 / 110 / 100
@@ -6726,7 +6674,6 @@ MAGIC DAMAGE:
 100 / 175 / 250 (+ 50% AP)
 MAGIC DAMAGE PER TICK:
 150 / 250 / 350 (+ 60% AP)
-Chaos Storm 2	
 SECOND CAST: Viktor directs the singularity to the target location. Once the singularity damages an enemy champion, it automatically follows them until the target dies or escapes it. The singularity moves faster depending on its proximity to Viktor, but always moves at maximum speed when moving towards him.
 
 Augment- Velocity	
@@ -6937,7 +6884,6 @@ The spin deals physical damage to nearby enemies every seconds. Enemies affected
 PHYSICAL DAMAGE PER SECOND:
 20 / 110 / 200 (+ 110% AD)
 
-Pets
 Decoy
 
 XAYAH
@@ -6949,7 +6895,6 @@ INNATE: After casting an ability, Xayah's next 3 basic attacks penetrate all ene
 
 Xayah can store up to 5 empowered attacks.
 
-Blazing Feathers profileicon	
 LOVER'S LEAP: If either Xayah or Rakan is recalling, the other may move nearby and activate their own recall to join them. Both reach base at the time of which the initiator's recall ends.
 
 Double Daggers	TARGET RANGE: 1100 COST: 50 MANA COOLDOWN: 10 / 9 / 8 / 7 / 6
@@ -7067,7 +7012,7 @@ The first deals physical damage to all enemies in an arc, and the second deals p
 
 SLASH DAMAGE:
 30 / 40 / 50 / 60 / 70 (+ 30% AD)
-Both strikes deal 50% damage against minions, benefit from 33.3% of Xin Zhao's Life steal icon life steal and the duration of his other abilities is paused during the effect.
+Both strikes deal 50% damage against minions, benefit from 33.3% of Xin Zhao's life steal and the duration of his other abilities is paused during the effect.
 
 SLASH MINION-DAMAGE:
 15 / 20 / 25 / 30 / 35 (+ 15% AD)
@@ -7084,10 +7029,9 @@ BONUS ATTACK SPEED:
 40 / 45 / 50 / 55 / 60%
 
 Crescent Guard	EFFECT RADIUS: 250 COST: 100 MANA COOLDOWN: 120 / 110 / 100
-Challenge	
-CHALLENGE - PASSIVE: The last enemy champion targeted by Xin Zhao's basic attacks or Audacious Charge Audacious Charge is Challenged for 3 seconds.
-
 Crescent Guard	
+CHALLENGE - PASSIVE: The last enemy champion targeted by Xin Zhao's basic attacks or Audacious Charge is Challenged for 3 seconds.
+
 ACTIVE: Xin Zhao sweeps around him, dealing physical damage to enemies hit, capped at 600 (+ 100% bonus AD) against monsters.
 
 PHYSICAL DAMAGE:
@@ -7113,10 +7057,8 @@ PHYSICAL DAMAGE:
 20 / 45 / 70 / 95 / 120 (+ 100% AD)
 Steel Tempest can critically strike for 150% (+ Infinity Edge item 37.5%) AD plus base damage and applies on-hit effects to the first target hit. Casting Steel Tempest while dashing with Sweeping Blade affects enemies around Yasuo instead.
 
-Steel Tempest 2	
 SECOND CAST - STEEL WIND RISING: For the next 6 seconds, Yasuo can gain another Gathering Storm stack by hitting an enemy with Steel Tempest, empowering it for the same duration.
 
-Steel Tempest 3	
 THIRD CAST - GATHERING STORM: Yasuo consumes all stacks to unleash a whirlwind that travels an increased distance in the target direction, dealing the same damage and knocking airborne all enemies hit. Steel Tempest's knockup does not gain increased range when cast during Sweeping Blade.
 
 Wind Wall	TARGET RANGE: 400 COOLDOWN: 26 / 24 / 22 / 20 / 18
@@ -7154,7 +7096,7 @@ Shepherd of Souls	EFFECT RADIUS: 1200 / 2000
 Shepherd of Souls	
 THE CURSED HORDE: Yorick and the Maiden of the Mist can each have up to four Mist Walkers under their command.
 
-FINAL SERVICE: Yorick raises a Grave for every enemy champion and 12th / 8th / 4th non-champion enemy that dies near him, as well as for every enemy he kills with Last Rites Last Rites.
+FINAL SERVICE: Yorick raises a Grave for every enemy champion and 12th / 8th / 4th non-champion enemy that dies near him, as well as for every enemy he kills with Last Rites.
 
 Last Rites	COST: 25 MANA COOLDOWN: 7 / 6.5 / 6 / 5.5 / 5
 Last Rites	
@@ -7190,7 +7132,6 @@ Eulogy of the Isles	TARGET RANGE: 600 COST: 100 MANA COOLDOWN: 160 / 130 / 100
 Eulogy of the Isles	
 ACTIVE: Yorick summons the Maiden of the Mist, who remains on the battlefield until her death.
 
-Pets
 MIST WALKER
  
 Abilities
@@ -7299,7 +7240,6 @@ Upon landing, nearby and transported enemies take magic damage and are slowed by
 MAGIC DAMAGE:
 150 / 250 / 350 (+ 70% AP)
 
-Pets
 Bloblet
 Bloblets can be targeted by Smite, Consume, and/or Force of Will.
 A Force of Will grabbed Bloblet, while visually separated from the others, will not delay Zac's revival or cause him to recombine with less current health.
@@ -7349,7 +7289,7 @@ SLOW:
 Each enemy champion hit by Zed's slash reduces Living Shadow's cooldown by 2 seconds.
 
 Death Mark	TARGET RANGE: 625 COOLDOWN: 120 / 100 / 80
-Reaper of Shadows	
+Death Mark	
 PASSIVE - REAPER OF SHADOWS: Scoring a takedown with/while Death Mark is active permanently grants Zed non-stacking bonus attack damage (he always keeps the highest value between his current bonus and his latest takedown).
 
 BONUS AD:
@@ -7361,7 +7301,6 @@ For the next 3 seconds, the mark stores a percentage of all physical and magic d
 
 PHYSICAL DAMAGE:
 100% AD (+ 25 / 35 / 45% of damage dealt)
-Death Mark 2	
 SECOND CAST: Regardless of distance between each other, Zed and Death Mark's Living Shadow blink to their respective locations, swapping places.
 
 ZIGGS
@@ -7465,6 +7404,7 @@ HEALTH REGAINED:
 ZOE
 THE ASPECT OF TWILIGHT
 
+More Sparkles!
 More Sparkles!
 INNATE: After casting an ability, Zoe's next basic attack or bubblb within 5 seconds deals 12 - 135 (based on level) (+25% AP) bonus magic damage.
 
@@ -7587,12 +7527,10 @@ ACTIVE: Zyra summons a monsterous thicket at the target location, dealing magic 
 
 After 2 seconds, the vines snap upward, knocking up all enemies caught in the thicket for 1 second.
 
-Pets
 THORN SPITER
 MAGIC DAMAGE:
 29-114 (based on level) (+ 15% AP)
 
-Enrage
 The Thorn Spitter enrages if it is hit by Stranglethorns, dealing 50% bonus magic damage.
 
 VINE LASHER
@@ -7600,8 +7538,6 @@ VINE LASHER
 MAGIC DAMAGE:
 29-114 (based on level) (+ 15% AP)
 
-Ensnare
 The Vine Lasher's attacks slow the target by 30% for 2 seconds.
-Enrage
 The Thorn Spitter enrages if it is hit by Stranglethorns, dealing 50% bonus magic damage.
 http://leagueoflegends.wikia.com/wiki/List_of_champions
