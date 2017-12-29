@@ -76,79 +76,93 @@ placeHolder = "INSERTNAMEHERE"
 #with open(str3,encoding="utf8") as f:
 #with open(str3) as f:
 
-with open(textInitial) as f1:
-	text1 = f1.read()
-with open(textStats0) as f2:
-	text2 = f2.read()
-with open(textStats1) as f3:
-	text3 = f3.read()
+
+
+###############
+def addAbilityDesc(t0,output,thisChoice):
+	abilityLine = t0.make_short_sentence(200)
+	abilityLineReplace = abilityLine.replace(placeHolder, thisChoice)
+	print(abilityLineReplace,file=output)
 	
-with open(textAbility) as f0:
-	text = f0.read()
-	if replaceName == True:
-		for x in totalNamelist:
-			if x != " Vi ":
-				text = text.replace(x, placeHolder)
-			else:
-				text = text.replace(x, ""+placeHolder+" ")
-				
+#########################
+def addAbilityDetails(t2,t3,output):
+	statLevel = t2.make_short_sentence(150)
+	while statLevel is None:
+		statLevel = t2.make_short_sentence(150)	
+	if statLevel.find("PER") != -1:
+		if random.randint(0,5) > 0:
+			statLevel = statLevel[:statLevel.find("PER")-1]
+			
+	if random.randint(0,7) > 0:
+		statLevel = statLevel.replace('TORNADO ', '')
+	
+	if statLevel[-1] != ':':
+			statLevel = statLevel + ':'
+	
+	print(statLevel,file=output)
+	statNumbers = t3.make_short_sentence(150)
+	lastStatType = 0
+	a = ['current', 'maximum', 'mana', 'bonus', 'AD', 'AP']
+	if statNumbers.find("%") != -1 and lastStatType == 0:
+		if not any(x in statNumbers for x in a):
+			statNumbers = re.sub('[%]', '', statNumbers)
+	#else:
+		#if any(x in statNumbers for x in a):
+			#statNumbers = statNumbers + '%'
+			
 
-# Build the model.
-#text_model = markovify.Text(text)
-text_model = markovify.NewlineText(text)
-text_model1 = markovify.NewlineText(text1)
-text_model2 = markovify.NewlineText(text2)
-text_model3 = markovify.NewlineText(text3)
+
+			
+	print(statNumbers,file=output)
+	print("",file=output)
+	
 
 
-# Print five randomly-generated sentences
-output = open(save0, 'w')
-for i in range(50):
+def createChamp(t0,t1,t2,t3,output):
 	thisChoice = random.choice(namelist)
 	print(thisChoice,file=output)
 	print("",file=output)
 	for i in range(4):
-		print(text_model1.make_short_sentence(200),file=output)
-		abilityLine = text_model.make_short_sentence(200)
-		abilityLineReplace = abilityLine.replace(placeHolder, thisChoice)
-		print(abilityLineReplace,file=output)
+		print(t1.make_short_sentence(200),file=output)
+		addAbilityDesc(t0,output,thisChoice)
+		addAbilityDesc(t0,output,thisChoice)
 		
-		abilityLine = text_model.make_short_sentence(200)
-		abilityLineReplace = abilityLine.replace(placeHolder, thisChoice)
-		print(abilityLineReplace,file=output)
 		print("",file=output)
-		
-		statLevel = text_model2.make_short_sentence(150)
-		
-		while statLevel is None:
-			statLevel = text_model2.make_short_sentence(150)
-			
-		if statLevel.find("PER") != -1:
-			if random.randint(0,3) > 0:
-				statLevel = statLevel[:statLevel.find("PER")-1]
-		
+		addAbilityDetails(t2,t3,output)
+		addAbilityDetails(t2,t3,output)
 
-		print(statLevel,file=output)
-		print(text_model3.make_short_sentence(150),file=output)
-		print("",file=output)
 		
-		statLevel = text_model2.make_short_sentence(150)
-		while statLevel is None:
-			statLevel = text_model2.make_short_sentence(150)
-		if statLevel.find("PER") != -1:
-			if random.randint(0,3) > 0:
-				statLevel = statLevel[:statLevel.find("PER")-1]
-		
-
-		print(statLevel,file=output)
-		print(text_model3.make_short_sentence(150),file=output)
-		print("",file=output)
-		
+def main():	
+	with open(textInitial) as f1:
+		text1 = f1.read()
+	with open(textStats0) as f2:
+		text2 = f2.read()
+	with open(textStats1) as f3:
+		text3 = f3.read()
+	
+	with open(textAbility) as f0:
+		text = f0.read()
+		if replaceName == True:
+			for x in totalNamelist:
+				if x != " Vi ":
+					text = text.replace(x, placeHolder)
+				else:
+					text = text.replace(x, ""+placeHolder+" ")		
+#text_model = markovify.Text(text)
+	text_model = markovify.NewlineText(text)
+	text_model1 = markovify.NewlineText(text1)
+	text_model2 = markovify.NewlineText(text2)
+	text_model3 = markovify.NewlineText(text3)
+	output = open(save0, 'w')
+	for i in range(50):
+		createChamp(text_model,text_model1,text_model2,text_model3,output)
+	
 	#text_model.make_short_sentence(140)
 	#print(text_model.make_sentence(tries=20),file=output)
+	print('Saved to '+save0)
 	
-	
-print('Saved to '+save0)
+if __name__ == "__main__":
+    main()
 # Python 3.x
 # Print three randomly-generated sentences of no more than 140 characters
 #for i in range(3):

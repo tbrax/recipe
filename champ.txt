@@ -114,7 +114,7 @@ The smoke cover grants sight of the area and slows all units within it.
 
 SLOW:
 14 / 18 / 22 / 26 / 30%
-While inside the smoke cover, Akali immediately gains Twilight Shroud invisibility and movement speed.
+While inside the smoke cover, Akali immediately gains invisibility and movement speed.
 
 MOVEMENT SPEED:
 20 / 40 / 60 / 80 / 100%
@@ -359,7 +359,7 @@ Ashe uses a stock system on this ability; she stores a charge of Hawkshot period
 
 Enchanted Crystal Arrow	TARGET RANGE: Global EFFECT RADIUS: 125 SPEED: 1600 COST: 100 MANA COOLDOWN: 100 / 90 / 80
 Enchanted Crystal Arrow	
-ACTIVE: Ashe fires a Enchanted Crystal Arrow Minimap missile of ice in the target direction. The arrow shatters upon hitting an enemy champion, dealing magic damage, knocking down and stunning them for 1 - 3.5 (based on distance traveled) seconds.
+ACTIVE: Ashe fires a missile of ice in the target direction. The arrow shatters upon hitting an enemy champion, dealing magic damage, knocking down and stunning them for 1 - 3.5 (based on distance traveled) seconds.
 
 MAGIC DAMAGE:
 200 / 400 / 600 (+ 100% AP)
@@ -1121,7 +1121,7 @@ SLOW:
 
 Whirling Death	TARGET RANGE: Global SPEED: 2000 COST: 100 MANA COOLDOWN: 120 / 100 / 80 
 Whirling Death	
-ACTIVE: Draven hurls two Whirling Death Minimap massive axes in the target direction, dealing physical damage to all enemies struck.
+ACTIVE: Draven hurls two massive axes in the target direction, dealing physical damage to all enemies struck.
 
 PHYSICAL DAMAGE:
 175 / 275 / 375 (+ 110% bonus AD)
@@ -1225,7 +1225,7 @@ If the spider does not hit an enemy before reaching the target location, it re-t
 
 Skittering Frenzy	COOLDOWN: 12
 Skittering Frenzy	
-SPIDER FORM - PASSIVE: Elise's Spider Queen Spiderlings gain bonus attack speed.
+SPIDER FORM - PASSIVE: Elise's Spiderlings gain bonus attack speed.
 
 SPIDER FORM - ACTIVE: Elise gains bonus attack speed for 3 seconds.
 
@@ -1367,7 +1367,7 @@ MAGIC DAMAGE:
 
 Trueshot Barrage	TARGET RANGE: Global SPEED: 2000 COST: 100 MANA COOLDOWN: 120
 Trueshot Barrage	
-ACTIVE: After gathering energy for 1 second, Ezreal fires an Trueshot Barrage Minimap energy projectile in the target direction, dealing magic damage to enemies it passes through. The total damage is reduced to 100% - 30% (based on enemy hit).
+ACTIVE: After gathering energy for 1 second, Ezreal fires an energy projectile in the target direction, dealing magic damage to enemies it passes through. The total damage is reduced to 100% - 30% (based on enemy hit).
 
 FIDDLESTICKS
 THE HARBINGER OF DOOM
@@ -2082,7 +2082,7 @@ Distress
 The Tentacle alerts Illaoi whenever it takes damage.
 
 Deactivation
-The Tentacle becomes dormant if Illaoi and the Vessel Vessel are too far away. reducing itself to 1 health and disappearing after 60 seconds of dormancy. The Tentacle instantly reactivates if Illaoi or a Vessel Vessel moves back in range.
+The Tentacle becomes dormant if Illaoi and the Vessel are too far away. reducing itself to 1 health and disappearing after 60 seconds of dormancy. The Tentacle instantly reactivates if Illaoi or a Vessel moves back in range.
 
 By going dormant it cancels all queued attacks.
 
@@ -2116,7 +2116,7 @@ PASSIVE: Irelia's basic attacks heal her.
 
 HEALING:
 5 / 7 / 9 / 11 / 13
-Hiten Style 2	
+
 ACTIVE: Irelia's basic attacks deal bonus true damage and double Hiten Style's healing for 6 seconds.
 
 BONUS TRUE DAMAGE:
@@ -2523,7 +2523,7 @@ A single champion can only set off a single Chompers and can only be damaged by 
 
 Super Mega Death Rocket!	TARGET RANGE: Global EFFECT RADIUS: 225 SPEED: 1500 / 2500 COST: 100 MANA COOLDOWN: 90 / 75 / 60
 Super Mega Death Rocket!	
-ACTIVE: Jinx fires a Super Mega Death Rocket! Minimap rocket that travels in a line, exploding in an area upon hitting an enemy champion. Secondary targets take 80% damage.
+ACTIVE: Jinx fires a rocket that travels in a line, exploding in an area upon hitting an enemy champion. Secondary targets take 80% damage.
 
 The explosion deals 10% - 100% (based on distance traveled) of the rocket's physical damage, though the missing health component is unaffected.
 
@@ -2886,7 +2886,6 @@ PHYSICAL DAMAGE:
 Blade's Reach A	
 SHADOW ASSASSIN: Blade's Reach's range is increased by 200. Additionally, Kayn conjures a living shadow at the casting position to perform Blade's Reach in his stead, allowing Kayn to perform other actions.
 
-Blade's Reach R	
 RHAAST: Blade's Reach knocks up enemies for 1 second.
 
 Shadow Step	COST: 90 MANA COOLDOWN: 21 / 19 / 17 / 15 / 13
@@ -4322,14 +4321,14 @@ Clockwork Winding can only affect a single enemy at a time (Orianna attacking a 
 
 Command: Attack	TARGET RANGE: 825 COLLISION RADIUS: 175 SPEED: 1400 COST: 30 / 35 / 40 / 45 / 50 MANA COOLDOWN: 6 / 5.25 / 4.5 / 3.75 / 3
 Command: Attack	
-ACTIVE: Orianna commands Clockwork Windup The Ball to fly to the target location and remain there, dealing magic damage to all enemies it passes through but reduced by 10% for each enemy hit, down to a minimum 40% damage.
+ACTIVE: Orianna commands The Ball to fly to the target location and remain there, dealing magic damage to all enemies it passes through but reduced by 10% for each enemy hit, down to a minimum 40% damage.
 
 MAGIC DAMAGE:
 60 / 90 / 120 / 150 / 180 (+ 50% AP)
 
 Command: Dissonance	EFFECT RADIUS: 250 COST: 70 / 80 / 90 / 100 / 110 MANA COOLDOWN: 9
 Command: Dissonance	
-ACTIVE: Orianna commands Clockwork Windup The Ball to emit an electric pulse around its current location, dealing magic damage to all enemies around it and leaving an electric field on the area for 3 seconds.
+ACTIVE: Orianna commands The Ball to emit an electric pulse around its current location, dealing magic damage to all enemies around it and leaving an electric field on the area for 3 seconds.
 
 MAGIC DAMAGE:
 60 / 105 / 150 / 195 / 240 (+ 70% AP)
@@ -4340,7 +4339,7 @@ MOVEMENT SPEED MODIFIER:
 
 Command: Protect	TARGET RANGE: 1100 COST: 60 MANA COOLDOWN: 9
 Command: Protect	
-PASSIVE: Clockwork Windup The Ball grants whomever it is attached to bonus armor and magic resistance.
+PASSIVE: The Ball grants whomever it is attached to bonus armor and magic resistance.
 
 BONUS RESISTANCES:
 10 / 15 / 20 / 25 / 30
@@ -4353,7 +4352,7 @@ SHIELD STRENGTH:
 
 Command: Shockwave	EFFECT RADIUS: 325 COST: 100 MANA COOLDOWN: 110 / 95 / 80
 Command: Shockwave	
-ACTIVE: Orianna commands Clockwork Windup The Ball to unleash a shockwave after a 0.75 seconds delay, dealing magic damage to all nearby enemies and pulling them 350 units towards The Ball.
+ACTIVE: Orianna commands The Ball to unleash a shockwave after a 0.75 seconds delay, dealing magic damage to all nearby enemies and pulling them 350 units towards The Ball.
 
 MAGIC DAMAGE:
 150 / 225 / 300 (+ 70% AP)
@@ -5102,7 +5101,7 @@ ACTIVE: After a 0.125 seconds delay, Shaco blinks to the target location, tempor
 
 INVISIBILITY DURATION:
 1.5 / 2.25 / 3 / 3.75 / 4.5
-Deceive's Twilight Shroud invisibility is not removed when Shaco casts Hallucinate, while casting Jack in the Box causes him to shimmer without removing it.
+Deceive's invisibility is not removed when Shaco casts Hallucinate, while casting Jack in the Box causes him to shimmer without removing it.
 
 Jack in the Box	TARGET RANGE: 425 COST: 50 / 55 / 60 / 65 / 70 MANA COOLDOWN: 16
 Jack in the Box	
@@ -5182,13 +5181,12 @@ Shen's power manifests as a Twilight Assault Spirit Blade that he can control wi
 Twilight Assault	COST: 140 / 130 / 120 / 110 / 100 ENERGY COOLDOWN: 8 / 7.25 / 6.5 / 5.75 / 5
 Twilight Assault	
 ACTIVE: Shen recalls his Spirit Blade to his location. Enemies the blade collides with are slowed by 35% for the next 2 seconds when moving away from Shen.
-
-Twilight Assault 2	
+	
 Once it arrives, Shen empowers his next 3 basic attacks within 8 seconds to have 200 range and deal bonus magic damage.
 
 BONUS MAGIC DAMAGE:
 5 / 10 / 15 / 20 / 25 / 30 (+ 2 / 2.5 / 3 / 3.5 / 4% (+ 1.5% per 100 AP) of target's maximum health)
-Twilight Assault 3	
+	
 If the Spirit Blade collides with an enemy champion, the empowerment is enhanced, dealing increased bonus magic damage and gaining 50% bonus attack speed.
 
 INCREASED BONUS DAMAGE:
@@ -7273,7 +7271,6 @@ FIRST CAST: Zed's shadow dashes forward, remaining in place for 5 seconds and be
 
 ENERGY RESTORED:
 30 / 35 / 40 / 45 / 50
-Living Shadow 2	
 SECOND CAST: While within 1300 units of each other, Zed and his shadow blink to their respective locations, swapping places.
 
 Shadow Slash	EFFECT RADIUS: 290 COST: 50 ENERGY COOLDOWN: 5 / 4.5 / 4 / 3.5 / 3
