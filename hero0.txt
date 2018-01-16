@@ -1,0 +1,556 @@
+
+
+ABADDON
+DABADDON
+
+Mist Coil	CAST RANGE: 800 COST: 50/60/70/80 MANA COOLDOWN: 4.5 	
+Mist Coil
+
+Abaddon releases a coil of deathly mist that can damage an enemy unit or heal a friendly unit at the cost of some of Abaddon's health.
+
+Cast Animation: 
+0.25+0.67
+Self Damage: 
+75/100/125/150 (Talent 125/150/175/200)
+Enemy Target Magic Damage: 
+100/150/200/250 (Talent 150/200/250/300)
+Allied Target Heal: 
+100/150/200/250 (Talent 150/200/250/300)
+A mysterious vapor from the Font of Avernus now infuses the breath of Abaddon, who releases it at will.
+
+
+Aphotic Shield	Cast Range: 500 Damage Radius: 675 COST: 115 MANA Cooldown: 12/10/8/6 (Talent 10.2/8.5/6.8/5.1)
+Aphotic Shield
+
+Summons dark energies around an ally unit, creating a shield that absorbs a set amount of damage before expiring. When the shield is destroyed it will burst and deal magic damage equal to the amount it could absorb to an area around it. Removes certain types of negative buffs and stuns on cast.
+Cast Animation: 
+0.4+0.57
+
+Shield Capacity: 
+110/140/170/200 (Talent 360/390/420/450)
+Burst Area Damage: 
+110/140/170/200 (Talent 360/390/420/450)
+Duration: 
+15
+The powers of the black mist rise to absorb attacks like the black mist absorbs light.
+
+Curse of Avernus
+Curse of Avernus
+Abaddon strikes an enemy with chilling curse on each attack, causing all units who attack the slowed enemy to gain increased movement speed, along with faster attack speed, for a limited time.
+Move Speed Slow: 
+8%/12%/16%/20% (Talent 33%/37%/41%/45%)
+Attack Speed Slow: 
+8/12/16/20 (Talent 33/37/41/45)
+Move Speed Bonus: 
+15%
+Attack Speed Bonus: 
+10/20/30/40
+Slow Duration: 
+2.5
+Bonus Duration: 
+4.5
+The curse that slows an enemy, speeds an ally.
+
+
+Borrowed Time	Cooldown 60/50/40 (Talent 51/42.5/34)
+Borrowed Time
+
+When activated, all damage dealt to you will heal instead of harm. Most negative buffs will also be removed. If the ability is not on cooldown, it will automatically activate if your health falls below 400.
+Cast Animation: 
+0+0
+Radius: 
+0 (Upgradable by Aghanim's Scepter. 900)
+Passive Health Threshold: 
+400
+Redirected Damage: 
+0 (Upgradable by Aghanim's Scepter. 50%)
+Duration: 
+4/5/6 (Upgradable by Aghanim's Scepter. 5/6/7)
+
+Upgradable by Aghanim's Scepter. Increases duration. While Borrowed Time is active, a percentage of all damage taken by allied heroes in a radius will be redirected to Abaddon.
+The most unnatural of all the gifts of the Font of Avernus, this power defies mortal understanding. What should hurt, instead heals; and what should kill gives strength anew.
+
+ALCHEMIST
+DALCHEMIST
+
+Acid Spray	Radius: 400/475/550/625 COST: 130/140/150/160 MANA Cooldown: 22 
+Acid Spray
+Sprays high-pressure acid across a target area. Enemy units who step across the contaminated terrain take physical damage per second and have their armor reduced.
+Cast Animation: 
+0.2+0.7
+Cast Range: 900
+Damage per Second: 
+15/20/25/30
+Armor Reduction: 
+4/5/6/7
+Duration: 
+16
+
+Unstable Concoction	Concoction Radius: 200 COST: 120 MANA Cooldown: 22/20/18/16 (Talent 17/15/13/11)
+Unstable Concoction
+
+Alchemist brews up an unstable concoction that he can throw at an enemy hero, to stun and deal damage in an area around the explosion. The longer the concoction brews, the more damage it deals and the longer the stun. After 5 seconds, the brew reaches its maximum damage and stun time. However, after 5.5 seconds, the concoction will explode on Alchemist himself if not thrown.
+Cast Animation: 
+0+0
+Maximum Brew Time: 
+5
+Maximum Throw Time: 
+5.5
+Minimum Damage: 
+0 (Talent 360)
+Maximum Damage: 
+160/240/320/400 (Talent 520/600/680/760)
+Maximum Stun Duration: 
+1.75/2.5/3.25/4
+A silver lining to the failure of turning a mountain into gold, this volatile solution has destructive potential.
+
+Unstable Concoction	Cooldown: 0
+Unstable Concoction
+
+Throw it before it blows up!
+Cast Animation: 
+0.2+0.5
+Cast Range: 
+775
+
+
+Greevil's Greed
+Greevil's Greed
+
+Alchemist synthesizes additional gold from his enemies and bounty runes. With each kill, Alchemist earns base bonus gold and extra bonus gold. If Alchemist kills another unit which yields gold within the next 30 seconds, an additional instance of Extra Bonus Gold is added to the total. Additionally, causes bounty runes to yield 2.5 times their normal gold.
+Base Gold Bonus: 
+4
+Extra Gold Bonus per Stack: 
+4
+Gold Bonus Cap: 
+16/20/24/28
+Stack Duration: 
+30
+Bounty Rune Multiplier: 
+2.5
+While it is not a mountain, Razzil has mastered the conversion of smaller compounds to line his pockets.
+
+Chemical Rage	COST: 50/100/150 MANA Cooldown: 55
+Chemical Rage
+
+Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and regeneration.
+Cast Animation: 
+0+0
+Transformation Time: 
+0.35
+Base Attack Time: 
+1.4/1.2/1 (Talent 1.2/1/0.8)
+Health Regen Bonus: 
+40/48/56 (Talent 70/78/86)
+Mana Regen Bonus: 
+3/7.5/12
+Move Speed Bonus: 
+40/50/60
+Rage Duration: 
+25
+
+Upgradable by Aghanim's Scepter. Alchemist melts down Aghanim's Scepter to grant an allied hero all Aghanim's Scepter upgrades.
+
+AXXE
+DAXXE
+
+Berserker's Call	Radius: 300 (Talent 400) COST: 80/90/100/110 MANA Cooldown: 16/14/12/10
+Berserker's Call
+Axxe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration.
+Cast Animation: 
+0.4+0.5
+Armor Bonus: 
+40
+Duration: 
+2/2.4/2.8/3.2
+When Axxe dies, the taunt ends immediately.
+Mogul Khan's warcry taunts opponents into engaging in an unconquerable battle with the Axxe.
+
+
+Battle Hunger	Cast Range: 750 COST: 75 MANA Cooldown: 20/15/10/5
+Battle Hunger 
+Enrages an enemy unit, causing it to be slowed and take magic damage over time until it kills another unit or the duration ends. Axxe gains movement speed for each unit affected with Battle Hunger.
+Cast Animation: 
+0.3+0.5
+
+Damage per Second: 
+16/24/32/40 (Talent 136/144/152/160)
+Move Speed Slow: 
+12%
+Self Move Speed Bonus: 
+12%
+Enemy Damage Reduction: 
+0% (Upgradable by Aghanim's Scepter. 30%)
+Duration: 
+10
+Upgradable by Aghanim's Scepter. Battle Hunger provides -30% damage output reduction.
+Ordinary heroes cannot withstand Mogul Khan's rage for battle, such that it injures them until it is satisfied.
+
+Counter Helix	Cooldown: 0.45/0.4/0.35/0.3
+Counter Helix
+When attacked, Axe performs a helix counter attack, dealing pure damage to all nearby enemies.
+Radius: 
+275
+Proc Chance: 
+20%
+Damage: 
+75/110/145/180
+
+
+Axxe is the only reinforcement this army needs.
+
+Culling Blade	Cast Range: 150 COST: 60/120/180 MANA Cooldown: 75/65/55
+Culling Blade
+
+Axxe spots a weakness and strikes, instantly killing an enemy unit with low health, or dealing moderate magic damage otherwise. When an enemy hero is killed with Culling Blade, its cooldown is reset, and Axxe and nearby allied units gain bonus movement speed.
+Cast Animation: 
+0.3+0.5
+
+Kill Speed Bonus Radius: 
+900
+Battle Hunger Apply Radius: 
+0 (Upgradable by Aghanim's Scepter. 700)
+Damage: 
+150/250/300
+Kill Health Threshold: 
+250/325/400
+Kill Move Speed Bonus: 
+30%
+Kill Attack Speed Bonus: 
+30
+Kill Bonus Duration: 
+6
+Upgradable by Aghanim's Scepter. Applies Battle Hunger on nearby enemies after a successful Culling Blade.
+
+Mogul Khan is the embodiment of battle and fury, launching into a gruesome fatality against those who dare engage the Axxe in combat.
+
+BEASTMASTER
+DBEASTMASTER
+
+Wild Axes	Cast Range: 1500 COST: 80 MANA Cooldown: 8
+Wild Axes
+
+Beastmaster sends his axes flying and calls them home again, slicing through enemy units and trees along their path. Each axe can hit an enemy once, and amplifies subsequent damage from Beastmaster and his units.
+Cast Animation: 
+0.4+0.47
+Axes Radius: 
+175
+Axes Travel Distance: 
+1500
+Axes Spread Distance: 
+450
+Physical Damage per Axe: 
+30/60/90/120 (Talent 130/160/190/220)
+Damage Amplification per Stack: 
+6%/8%/10%/12%
+Stack Duration: 
+10
+
+While learning to maneuver in nature alone, the Beastmaster also mastered the use of a pair of tomahawks, adept at cutting down trees as well as adversaries.
+
+Call of the Wild	COST: 50/60/70/80 MANA Cooldown: 60
+Call of the Wild
+
+Beastmaster calls forth beasts to aid in the battlefield.
+
+Level 1: 
+Boar Level 1
+Level 2: 
+Boar Level 2
+Level 3: 
+Boar Level 3 + Hawk
+Level 4: 
+Boar Level 4 + Hawk + Random Neutral
+Cast Animation: 
+0.3+0.67
+Number of Boars: 
+1
+Number of Hawks: 
+0/0/1/1 (Talent 2/2/3/3)
+Number of Random Neutral Creeps: 
+0/0/0/1
+Summons Duration: 
+60
+
+After befriending the strange beast of his childhood, Beastmaster has learned to call to animals in times of need.
+
+Inner Beast	Radius: 900
+Inner Beast
+Untaps the inner fury of allies, passively increasing their attack speed.
+Attack Speed Bonus:
+15/25/35/45 (Talent 55/65/75/85)
+Beastmaster's ability to incite the innate strength of animals was seen in the mauling of the king of Slom.
+
+Primal Roar	Cast Range: 600 (Upgradable by Aghanim's Scepter. 950) COST: 150/175/200 MANA Cooldown: 80/75/70 (Upgradable by Aghanim's Scepter. 45)
+Primal Roar
+Beastmaster lets loose a deafening roar that stuns, and shoves open a path to its target. All units in the path of the roar are damaged, while units shoved aside by the roar have their movement and attack speed slowed. Additionally, Beastmaster and his units gain 30% movement speed for 3 seconds.
+Cast Animation: 
+0.5+0.63
+Speed Bonus Radius: 
+900
+Knockback Width: 
+300
+Magic Damage: 
+150/225/300
+Enemy Move Speed Slow: 
+50%
+Enemy Attack Speed Slow: 
+50
+Self Movement Speed Bonus: 
+30%
+Slow Duration: 
+2/3/4
+Knockback Distance: 
+300
+Knockback Duration: 
+0.6
+Stun Duration: 
+3/3.5/4
+Speed Duration: 
+3
+
+Upgradable by Aghanim's Scepter. Reduces cooldown, and increases cast range.
+
+The Beastmaster has learned to channel his primal instincts into an animalistic roar, causing devastation in the ranks of enemies.
+
+Thunder Clap	Radius: 400 COST: 90/105/130/150 MANA Cooldown: 13
+Thunder Clap
+
+Slams the ground, dealing damage and slowing the movement speed and attack rate of nearby enemy land units.
+Cast Animation: 0.4+0.4
+
+Magic Damage:
+100/175/250/300
+Move Speed Slow:
+25%/35%/45%/55%
+Attack Speed Slow:
+25/35/45/55
+Hero Slow Duration:
+4 (Talent 7)
+Creep Slow Duration:
+8 (Talent 11)
+
+A slam of Mangix' mighty keg starts the festivities.
+
+Drunken Haze	Cast Range: 850 COST: 25 MANA Cooldown: 11/9/7/5
+Drunken Haze
+
+Drenches a target in alcohol, causing their movement speed to be reduced, and causing their attacks to have a chance to miss.
+Cast Animation:
+0.2+0.6
+Move Speed Slow:
+10%/20%/30%/40%
+Miss Chance:
+70%
+Duration:
+4.5
+
+The Order of the Oyo's solution to all problems - another round!
+
+Drunken Brawler
+Drunken Brawler
+Gives a chance to avoid attacks and to deal critical damage. Drunken Brawler will always trigger if you have not attacked, or have not been attacked, in the last several seconds.
+Evasion:
+10%/15%/20%/25% (Talent 25%/30%/35%/40%)
+Critical Chance:
+10%/15%/20%/25% (Talent 25%/30%/35%/40%)
+Critical Damage:
+230%
+Certain Trigger Timer:
+13/12/11/10
+Can be used by illusions. Illusions also have the guaranteed crit and evasion. Red critical numbers are before illusion and armor reduction.
+When Mangix won his title as the Brewmaster of the Order of Oyo, he also claimed his place in the mastery of inebriation.
+Increases attack damage by an average of 13%/19.5%/26%/32.5% (Talent 32.5%/39%/45.5%/52%) and survivability versus attacks by 11%/18%/25%/33% (Talent 33%/43%/54%/67%), excluding the guaranteed crit/dodge.
+The proc chances of multiple crit sources stack.
+If two sources of critical strike proc at the same time, the higher multiplier has priority.
+Drunken Brawler's evasion stacks multiplicatively with other sources of evasion.
+Drunken Brawler's crit and evasion use pseudo-random distribution.
+The guaranteed critical strike and guaranteed dodge chance use separate trigger timers, not actual ability cooldowns.
+This means that using Refresher Orb does not refresh them.
+This also means they are not affected by the Cooldown Reduction of Octarine Core and Arcane Rune.
+While either of them is not ready, Brewmaster can still passively evade attacks and perform critical strikes.
+When the guaranteed critical strike is ready, Brewmaster's upper body emits particles, while a red streak is visible on the icon.
+When the guaranteed dodge is ready, Brewmaster's lower body emits particles, while the icon's yellow background turns orange.
+When both the guaranteed critical strike and dodge are ready, both of these visual indicators are visible and shown on the icon.
+The guaranteed critical strike is only used up if the attack actually lands. Missed attacks do not reset its certain trigger timer.
+The guaranteed evasion is only used up if an attack actually misses. Attacks with True Strike do not reset its certain trigger timer.
+The sound and particles of the critical strike play upon start of the attack, not when the attack lands.
+
+Primal Split	COST: 125/150/175 MANA Cooldown: 140/120/100 (Talent 75/55/35)
+Primal Split
+Splits Brewmaster into elements, forming 3 specialized warriors, adept at survival. If any of them survive until the end of their summoned timer, the Brewmaster is reborn.
+Cast Animation:
+0.65+0
+Split Time:
+0.6
+Duration:
+16/18/20
+
+Upgradable by Aghanim's Scepter. Earth gains Thunder Clap, Storm gains Drunken Haze and Fire gains Drunken Brawler.
+It isn't clear whether Mangix is consciously aware of his potent bond with nature, as it often occurs in the midst of a drunken stupor.
+Brewmaster is invulnerable and hidden during the split time and duration. Does not apply any form of dispel upon cast.
+During Primal Split, Brewmaster is periodically moved to Earth's position. If Earth dies, to Storm's and if Storm dies, to Fire's. This affects multiple things such as:
+When Primal Split ends, Brewmaster appears at Earth's location. If Earth is dead, at Storm's and if Storm is dead, at Fire's location.
+Every aura Brewmaster has (including Gem of True Sight and Radiance) affects units around Earth, if Earth is dead, around Storm and if Storm is dead, around Fire.
+Effects which react on heroes' presence (Smoke of Deceit, Marksmanship, Blur) react on Earth's presence, if Earth is dead, on Storm's and if Storm is dead, on Fire's.
+Teleporting effects like Holy Persuasion or Relocate cause the periodic moving of Brewmaster to get canceled, so that the 3 notes above do not apply anymore.
+The spirits spawn always in the same formation, forming an equilateral triangle which fits within a 100 radius circle.
+The earth spirit is always spawned 100 range in front on Brewmaster's cast location.
+The storm spirit is always spawned 50 range behind and 86.603 range to the left of Brewmaster's cast location.
+The fire spirit is always spawned 50 range behind and 86.603 range to the right of Brewmaster's cast location.
+Their facing angle equals Brewmaster's facing angle on cast.
+The spirits are creep-heroes and ancient creeps, making them interact differently with several spells. For detailed interactions follow the two links.
+
+Hurl Boulder	Cooldown: 5
+Hurl Boulder
+
+Throws a boulder at a unit, doing damage and stunning it.
+Cast Animation:
+0.25+0.8
+Cast Range:
+800
+Magic Damage:
+50/100/150
+Stun Duration: 2
+
+The boulder travels at a speed of 800.
+
+Spell Immunity
+Spell Immunity
+
+Immune to spells.
+Magic Resistance Bonus:
+100%
+
+Demolish
+Demolish
+
+Deals bonus damage to buildings.
+Building Attack Damage Bonus:
+90/180/270
+
+The damage is directly added to Earth's attack damage. But since it is conditional, it is not visible in the HUD.
+
+Thunder Clap	COST: 90/105/130/150 MANA Cooldown:13
+Thunder Clap
+
+Slams the ground, dealing damage and slowing the movement speed and attack rate of nearby enemy land units.
+Cast Animation:
+0.4+0.53
+Radius:
+400
+Damage:
+100/175/250/300
+Move Speed Slow:
+25%/35%/45%/55%
+Attack Speed Slow:
+25/35/45/55
+Hero Slow Duration:
+4 (Talent 7)
+Creep Slow Duration:
+8 (Talent 11)
+
+A slam of Mangix' mighty keg starts the festivities.
+
+Dispel Magic	Cast Range: 500 COST 75 MANA Cooldown: 4
+Dispel Magic
+Damages summoned units in an area and purges most buffs or debuffs.
+Cast Animation:
+0.4+0.93
+
+Radius:
+600
+Damage to Summons:
+1000
+
+Applies a basic dispel on all units within the area.
+Despite the description, it does not dispel debuffs, except for Cyclone (Storm) icon.png Cyclone.
+The damage is applied to units which were created by an ability.
+This includes illusions, but excludes creep-heroes.
+Affects invulnerable, but not hidden units.
+
+Cyclone	Cast Range: 600 COST: 150 MANA Cooldown: 8
+Cyclone
+
+Encloses a unit in a tornado, removing it from the battlefield.
+Cast Animation:
+0.4+0.67
+
+Hero Duration:
+6
+Creep Duration:
+20
+
+Applies a cyclone effect on the target upon cast, so it turns it invulnerable and fully disables it.
+However, unlike other cyclones, this one does not dispel the target.
+While in the air, other units may pass below the cycloned unit.
+Can be cast on Roshan, but has no effect, since Roshan is immune to forced movement. He only gets interrupted.
+
+Wind Walk	COST: 75 MANA Cooldown: 5
+Wind Walk
+Provides temporary invisibility, bonus movement speed and attack damage when invisible.
+Cast Animation: 
+0+0
+Fade Time:
+0.6
+Move Speed Bonus:
+50%
+Damage:
+100/160/220
+Duration:
+20
+
+Does not interrupt Storm's channeling spells upon cast.
+The bonus damage is directly added to the attack damage, so it can be reduced with e.g. Enfeeble or Static Link.
+However, it cannot be amplified with e.g. Empower.
+The damage is considered by lifesteal, splash and crits.
+During the fade time, Storm can cast spells and perform attacks without breaking the invisibility.
+Those attacks do apply the 100/160/220 damage to the target.
+The bonus damage is not applied when attacking buildings out of the invisibility, but is applied against wards.
+The invisibility is lost upon reaching the cast point of spells, or upon launching an attack.
+This means when the attack misses, the invisibility is still lost.
+Allows Storm to pass through other units, including wards, but not through buildings.
+
+Drunken Haze	Cast Range: 850 COST: 25 MANA Cooldown: 11/9/7/5
+Drunken Haze
+Drenches a target in alcohol, causing their movement speed to be reduced, and causing their attacks to have a chance to miss.
+Cast Animation: 
+0.2+0.67
+Move Speed Slow:
+10%/20%/30%/40%
+Miss Chance: 
+70%
+Duration:
+4.5
+
+The Order of the Oyo's solution to all problems - another round!
+
+Given to Storm when holding Aghanim's Scepter, at the same level as the original Brewmaster.
+
+Permanent Immolation	Radius: 220
+Permanent Immolation
+Burns nearby enemy units.
+Damage per Second:
+15/30/45
+
+Permanent Immolation is an aura. Its debuff lingers for 0.5 seconds.
+Deals damage in 1 second intervals, starting 1 second after the debuff is placed.
+Can deal up to 240/540/900 damage to a single unit (before reductions) if it stays within range for its whole duration.
+
+Drunken Brawler
+Drunken Brawler
+Gives a chance to avoid attacks and to deal critical damage. Drunken Brawler will always trigger if you have not attacked, or have not been attacked, in the last several seconds.
+Evasion:
+10%/15%/20%/25%
+Critical Chance:
+10%/15%/20%/25%
+Critical Damage:
+230%
+Certain Trigger Timer:
+13/12/11/10
+Can be used by illusions. Illusions also have the guaranteed crit and evasion. Red critical numbers are before illusion and armor reduction.
+When Mangix won his title as the Brewmaster of the Order of Oyo, he also claimed his place in the mastery of inebriation.
+
+QUOTESTART
+
+QUOTEEND

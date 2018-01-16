@@ -45,6 +45,54 @@ Additionally, Aatrox gains bonus attack speed and increases his attack range to 
 
 ATTACK SPEED:
 40 / 50 / 60%
+QUOTESTART
+Pick
+  "This battle will be my masterpiece."
+Ban
+  "Hesitation is death."
+Attacking
+  "Cut the courage from them."
+  "Every kill brings victory closer."
+  "There will be no retreat."
+  "Fight or be forgotten."
+  "Honor will not save them."
+  "Break and fall."
+  "Teach them to fear us."
+  "Now we turn the tide!"
+  "Sow the seeds of strife."
+  "Rage against the dying of the light."
+Movement
+  "Violence is elegance."
+  "Pain is temporary, victory is forever!"
+  "Peace is the greatest lie of all."
+  "War reveals what is within us."
+  "Surpass the frailty of your form."
+  "They will greet you as heroes."
+  "True warriors are born in blood!"
+  "I am as timeless as war."
+  "Let fear become fury!"
+  "I know what lurks in the hearts of men."
+  "Hesitation is death."
+Joke
+  "Nobody understands me! They called my work a hack job."
+  "This is no mere massacre; this is my masterwork!"
+Taunt
+  "Fight and be remembered as a hero, or die and be remembered as a coward."
+  "Fight as a hero, or die as a coward."
+  "Fight and be remembered, or die and be forgotten."
+  "Die with fear in your heart, or win with blood on your hands."
+  "Even those who have nothing can give their lives."
+Laugh
+  Aatrox laughs.
+  Aatrox laughs.
+Upon Using Massacre
+  "Witness truth!"
+  "Behold!"
+Upon Encountering Tryndamere
+  "Tryndamere, my greatest creation."
+  "This one's rage will shape the world."
+
+QUOTEEND
 
 AHRI
 THE NINE-TAILED FOX
@@ -92,6 +140,336 @@ Spirit Rush can be cast twice more within 10 seconds of activation at no additio
 MAXIMUM SINGLE TARGET DAMAGE:
 210 / 330 / 450 (+ 75% AP)
 
+QUOTESTART
+Pick
+  "Don't you trust me?"
+Ban
+  "Play time's over."
+Movement
+  "Shall we?"
+  "Indulge me."
+  "How tempting."
+  "Don't hold back."
+  "Tell me a secret."
+  "Don't you trust me?"
+  "I know what they desire."
+Attacking
+  "Play time's over."
+  "They're mine now."
+  "It's too late for mercy."
+  "Let's have some real fun."
+  "No one will stand in my way."
+  "They've exhausted their use."
+Joke
+Ahri manipulates her orb like a basket ball using her tails.
+  "If you'd like to play with me, you'd better be sure you know the game."
+  "Come try your luck, if you think you're in my league. (giggles)"
+Taunt
+  "Should I make your pulse rise? Or... STOP! (giggles)"
+Dance
+Arcade Ahri
+  Plays a segment of her login music.
+Laugh
+  Ahri laughs.
+  Ahri laughs.
+  Ahri laughs.
+  Ahri laughs.
+Upon Casting Recall
+Popstar Ahri
+  Ahri dances to a tune.
+Arcade Ahri
+  Ahri plays a game on her arcade cabinet before entering it.
+Upon Starting a Game
+  "Come on Kiko, we're the life of the party."
+Kiko profileicon Kiko chirps.
+  "The First Star doesn't control my destiny! I do."
+  "The darkest night makes for the brightest stars!"
+  "I don't want to think about the past. Or the future."
+  "Falling in love. That's how a star falls."
+  "A guardian gives everything they've got!"
+Upon Starting a Game with another Star Guardian
+  "Put your game face on, girls."
+  "Star guardians are in it to win it."
+  "Let's show'em what we're made of! Starlight!"
+  "Starlight binds us."
+  "Fight for each other! Nothing else matters."
+  "A world without my sisters isn't worth saving."
+Upon Starting a Game with an enemy Star Guardian
+  "Time to Supernova!"
+  "The frenemy of my enemy is my... friend? (Ugh) Something like that."
+Idle
+  "Hey! Kiko!..."
+  "Oh, Cut it out!"
+  "Ugh, Kiko..."
+  "Oh, quit it Kiko!"
+  "Uugghhh!"
+  "Uh, hehe! Come here you little rascal!"
+Movement
+   Kiko chirps.
+  "Right! They're all going to be cosmic dust!"
+  "Have you ever been in love, Kiko?"
+   Kiko chirps.
+  "Aww... That's sweet."
+   Kiko chirps.
+  "Winning first Kiko.... then Ice cream Sundaes!"
+   Kiko chirps happily.
+   Kiko chirps.
+  "Kiko!! Such language."
+   Kiko chirps.
+  "Of course they look up to me. Half the time I'm flying."
+  "Time to save the world!"
+  "Let's light up the sky!"
+  "Change is coming!"
+  "Heavenly body coming through!"
+  "I'm playing on nothing but heart!"
+  "No one controls me!"
+  "I don't accept destiny... I defy it!"
+  "Starshine makes everything better!"
+  "I can't help it if I'm a natural leader."
+  "This star follows her own path!"
+  "It can be a burden to shine so bright!"
+  "Starlight is my spotlight!"
+  "All I get is attention!... I was hoping for obsession."
+  "(Giggle) Tails don't lie!"
+  "Who's afraid of a little fighting?... I've survived gym class."
+  "Loving too deeply. That's how a star falls."
+  "I'm always chasing the moment!"
+  "I think I need a new orbit."
+  "They want to kill me or be me! Either way it's kinda all about me."
+  "Love will tear us apart... If the creatures from an alternate dimension don't first."
+  "I fight for love, justice and beauty!... But mostly beauty."
+  "Starlight will prevail!"
+  "You can't judge a girl just by how she looks!... Except for me, of course."
+  "My soul is in the sky..."
+  "Sometimes, we have to change the stars."
+  "People follow stars, Kiko. But what do stars follow?"
+  "Love and hope spring forth from the stars! That's worth fighting for!"
+  "I can't help it if I woke up like this."
+  "Speed of light? No problem."
+Attacking
+  "Ugh. I do not have time for this."
+  "By starlight!"
+  "Hey! The starlight in my eyes is up here!"
+  "Yes, I'm the popular one."
+  "Hey, the stars called, they want you dead."
+  "By the First Star, I will totally punish you!"
+  "I will defend the stars!"
+  "Come on and fight like a girl!"
+  "I am stronger than starlight."
+  "Put your heart into it!"
+  "I was voted 'Most likely to kill you.'"
+  "Wanna know a secret? Too bad!"
+  "Ugh. You're going to fight me wearing that?"
+  "I'll be nicer if you get smarter!"
+  "I'm so over this!"
+  "I've totally got this."
+  "You need to lighten up!"
+  "I don't mean to tease, it's just so easy!"
+  "Awww, did you want my attention?"
+  "Yeah, keep chasing stars. See where that gets you."
+  "Me looking for trouble is like you chasing my tail!"
+  "I'm smiling because I'm going to hit you in the face!"
+  "You're kinda cute when you're losing."
+  "Here's a twinkle in your eye."
+  "Your inner star is an ugly colour."
+  "Ew! I don't like you."
+  "Why yes, I did just fall from heaven!"
+  "Petty is so close to pretty... just not close enough."
+  "There's a black hole where your personality should be."
+  "I'm the first and LAST star you'll see tonight!"
+  "This is how you know I like you."
+  "Wanna see something cute?"
+  "I'm going to kill you. That's what the fox says."
+  "Kiko here tells me you're full of it!"
+  "Go get'em, Kiko!"
+  "Let's show'em starlight, Kiko!"
+  "You're such a show off, Kiko!"
+Upon Attacking an Enemy Star Guardian Ezreal
+  "Time to grow up star boy."
+Upon Attacking an Enemy Star Guardian Janna
+  "All that sparkle and still no personality."
+Upon Attacking an Enemy Star Guardian Jinx
+  "There's more at stake than glitter bombs."
+  "You're gonna need to turn the psycho wayyy down."
+Upon Attacking an Enemy Star Guardian Lulu
+  "Hey! Your crazy is showing."
+Upon Attacking an Enemy Star Guardian Lux
+  "Nice planet you've got here Lux."
+  "Before you judge, remember... I am your future."
+Upon Attacking an Enemy Miss Star Guardian Miss Fortune
+  "Nothing personal Sarah."
+Upon Attacking an Enemy Star Guardian Poppy
+  "I just can't even."
+Upon Attacking an Enemy Star Guardian Soraka
+  "Innocence is going to get you killed."
+Upon Attacking an Enemy Star Guardian Syndra
+  "I'm not doing this for you."
+Upon Attacking Baron Nashor
+  "Playtime's over Baron!"
+Upon Attacking the Dragon
+  "Ugh, total dragon breath."
+  "Someone tutor me in algebra while we slay this dragon."
+Upon Attacking an Enemy Evelynn
+  "You look like one of those girls who hang out under the bleachers."
+Upon Attacking an Enemy Urgot
+  "O. M. G. It can speak."
+Upon Attacking an Enemy Warwick
+  "If I throw a stick will you leave?"
+  "Stop trying to make fetch happen..."
+Upon Attacking an Enemy Xayah
+  "Your boyfriend called, again..."
+Joke
+Ahri plays with Kiko using her tails.
+Taunt
+  "Magical Girl Make-up tip: Moisturize with the tears of your enemies."
+  "If looks could kill, you'd already be dead."
+Upon an Enemy Champion Taunting Nearby
+  "Eat stardust! Maybe then you can be pretty on the inside!"
+  "Thanks for oversharing."
+  "You can't throw shade on a star!"
+  "Oh, don't worry! I'm way out of your league."
+  "Oh I've heard you! I just don't care!"
+  "How about a line I haven't heard? Then I'll be impressed."
+  "Talk to the tails cause this fox isn't listening."
+  "I'm a little busy... can I ignore you later?"
+  "Ugh, puh-lease!"
+Laugh
+  Ahri laughs.
+  Ahri laughs.
+  Ahri laughs.
+Upon Killing an Enemy Champion
+   Kiko profileicon Kiko chirps.
+"Oh Kiko... You can dance on the corpse of the next one."
+   Kiko profileicon Kiko chirps.
+"No Kiko, they dress that way on purpose."
+  "Everyone sparkles, I'm just a tiny bit brighter!"
+  "Young love never lasts."
+  "Learn to take a hint."
+  "(Giggle) My bad!"
+  "Next time, I'll try caring! I promise."
+  "That was totally worth it!"
+  "I love the sound you make when you shut up."
+  "How embarassing. For you."
+  "Too bad, so sad."
+  "Overreact much?"
+  "Chase the light, and you're going to get burned!"
+  "Bad choices make the best stories."
+  "Jealousy is an illness. Hope you get better soon."
+  "I know, that was totes unfair!"
+  "I'm the girl your team told you not to worry about."
+  "Aww, sad face... just kidding."
+  "Jealous much?"
+  "How tragic."
+  "I totally meant that."
+  "Looks like someone forgot how to be awesome."
+  "Keep trying! You'll get there."
+  "That's not swagger! That's sparkle."
+  "(Giggle) Oops!"
+  "Being bad feels preety good, huh?"
+  "No regrets..."
+  "Not everyone has what it takes."
+  "Don't lose your sparkle!"
+  "It takes more than stardust to get this right."
+  "True stars defy darkness!"
+  "Crushed it!"
+  "You were dulling my twinkle."
+  "(Giggle) That was sooo much fun!"
+  "Don't like me? I'll try to remember to cry about it later."
+  "Go ahead. Eat your heart out."
+  "Done-zo!"
+  "I don't think death is your colour!"
+  "That was amaze-balls!"
+  "Haters gonna hate."
+Upon Scoring First Blood
+  "The best defense is a good offense."
+Upon Scoring a Quadrakill
+  "Just one more!"
+Upon Scoring a Pentakill
+  "It's hard to be humble when you've got this much sparkle!"
+  "Hashtag Killing it!"
+Killing an Enemy Star Guardian
+  "Burning bright has a price."
+  "Next time, burn brighter."
+  "Some stars were meant to fall!"
+  "All stars burn out eventually."
+  "Some stars have it, some don't."
+Killing an Enemy Star Guardian Ezreal
+  "I guess you couldn't hang with the cool kids!"
+Killing an Enemy Star Guardian Janna
+  "It's not the big lies that tear us apart, Janna! It's the little secrets."
+Killing an Enemy Star Guardian Jinx
+  "Just a rebel without a cause..."
+Killing an Enemy Star Guardian Lulu
+  "Not everything is starshine and rainbows..."
+Killing an Enemy Star Guardian Lux
+  "Suck it up, Starlight."
+  "Being a good girl can get you killed!"
+  "We're not sisters, just strangers with memories."
+  "You were never alone."
+Killing an Enemy Star Guardian Miss Fortune
+  "Sorry, sister."
+Killing an Enemy Star Guardian Poppy
+  "Lemme guess, hammer?"
+Killing an Enemy Star Guardian Soraka
+  "Sacrifice was always in your destiny!"
+  "So pure... So bright..."
+  "Destiny is crueler than you can imagine."
+Killing an Enemy Star Guardian Syndra
+  "Mystery did have its charm... just not enough."
+  "There are no good girls gone wrong. Just bad girls found out."
+Killing an Enemy Ahri
+  "Awkward!"
+Killing an Enemy Urgot
+  "For the last time, the sparkles are for Star Guardians!"
+Upon Using Fox-Fire
+  "Starlight Reflection!"
+  "Time to ignite some stardust!"
+  "Stardust power activate!"
+  "Let's light'em up!"
+Upon Using Charm
+  "Hey there!"
+  "Charmed, I'm sure."
+  "Oh, you're cute. What a waste."
+  "Come closer..."
+  "Let's be young forever...!"
+  "Maybe I like you, maybe not."
+  "Being bad does have its charms."
+  "Let's pretend this is love."
+  "This will make your heart go Supernova."
+Upon Using Spirit Rush
+  "Say hello to your teen dream."
+  "Kiko Spirit Dash!"
+  "Maximum sass achieved!"
+Upon Using a Health Potion
+  "Yum... strawberry!"
+  "Totally worth the calories!"
+  "Star guardians gotta stay hydrated!"
+Upon Placing a Ward
+  "The stars see everything!"
+  "Time for a fox-eye view!"
+  "Eyes on the prize!"
+Upon Death
+  "Goodbye... Kiko..."
+  "Tell them... I tried..."
+  Death cry 1
+  Death cry 2
+Upon Respawning
+  "Come on Kiko! Time to play!"
+Kiko chirps.
+  "Seize the day! Starlight doesn't last forever."
+  "My fight isn't over!"
+  "Stars don't quit! We're reborn!"
+  "Good girls get even!"
+Upon Casting Recall
+  A voice plays.
+  "(Giggle) Just a fox on the run!"
+  "Byeee!"
+  "I'm just too magical for this. Laters!"
+  "Destiny can't catch me."
+  "(Giggle) Shine on!"
+QUOTEEND
+
+
 AKALI
 THE FIST OF SHADOW
 
@@ -134,6 +512,40 @@ PASSIVE: Akali uses a stock system on this ability; she stores an Essence of Sha
 
 ACTIVE: Akali dashes to the target unit, dealing them magic damage. Akali will land between 100 and 200 units on the far side of her target based on how close they were, halved versus Mark of the Assassin Marked targets.
 
+QUOTESTART
+Champion Select
+Pick
+  "As balance dictates."
+Ban
+  "Understood."
+Attacking
+  "Without question."
+  "Whatever's necessary."
+  "Mark acquired."
+  "Another unworthy opponent."
+  "A necessary sacrifice."
+  "Honor is the blade's edge."
+Movement
+  "Deftly I travel."
+  "Understood."
+  "Through twilight's veil."
+  "Tread lightly."
+  "Agreed."
+  "Remain focused."
+  "Hesitation is the seed of defeat."
+  "Symmetry in all things."
+  "We travel the same path."
+Taunt
+  "I suggest you run... I want to savor this."
+Joke
+  "So many noobs... will matchmaking ever find true balance?"
+Laugh
+  Akali laughs.
+  Akali laughs.
+  Akali laughs.
+  Akali laughs.
+QUOTEEND
+
 ALISTAR
 THE MINOTAUR
 
@@ -170,6 +582,31 @@ At 5 Trample stacks, Alistar's next basic attack deals 55 - 310 (based on level)
 Unbreakable Will	COST: 100 MANA COOLDOWN: 120 / 100 / 80
 Unbreakable Will	
 ACTIVE: Alistar reduces all incoming physical and magic damage for the next 7 seconds, cleansing himself of all crowd control on cast.
+
+QUOTESTART
+Champion Select
+Pick
+  "Nothing can hold me back!"
+Ban
+  "Now I'm angry."
+Movement/Attacking
+  "You must follow."
+  "I know the way."
+  "Nothing can hold me back."
+  "Stampede!"
+  "Now I'm angry."
+Taunt
+  "Mess with the bull and you get the horns!"
+Joke
+  "You can't milk those."
+Dance
+AlistarSquare Moo Cow Alistar [S|L]
+  Alistar hits a cowbell.
+Laugh
+  Alistar laughs.
+  Alistar laughs.
+  Alistar laughs.
+QUOTEEND
 
 AMUMU
 THE SAD MUMMY
@@ -212,6 +649,39 @@ ACTIVE: Amumu deals magic damage to nearby enemies, applies Curse for 3 seconds 
 MAGIC DAMAGE:
 150 / 250 / 350 (+ 80% AP)
 
+QUOTESTART
+Champion Select
+Pick
+  "I thought you'd never pick me."
+Ban
+  "Aww."
+CLASSICSAD ROBOT
+Movement / Attacking
+  "Okay."
+  "Aww."
+  "Where are we going?"
+  "Hey, come back."
+  "Let's find some friends."
+  "Come play with me."
+Taunt
+  "Let me give you a hug."
+Joke
+  "Let's be friends forever."
+Laugh
+  Amumu laughs.
+  Amumu laughs.
+  Amumu laughs.
+
+Co-op vs. AI Responses
+Match Start
+"Would you like to be friends?"
+Player Team Victory
+"GG!"
+Player Team Defeat
+"Let's play again some time!"
+
+QUOTEEND
+
 ANIVIA
 THE CRYOPHOENIX
 
@@ -247,7 +717,7 @@ MAGIC DAMAGE:
 
 Glacial Storm	TARGET RANGE: 750 EFFECT RADIUS: 200-400 TETHER RADIUS: 1000 COST: 75 MANA + 40 / 50 / 60 PER SECOND COOLDOWN: 6
 Glacial Storm	
-PASSIVE: Increases Flash Frost Flash Frost's slow.
+PASSIVE: Increases Flash Frost's slow.
 
 SLOW:
 20 / 30 / 40%
@@ -260,6 +730,10 @@ The blizzard increases in size over 1.5 seconds. At maximum size, enemies within
 EMPOWERED SLOW:
 30 / 45 / 60%
 After Glacial Storm has been active for at least 1 second, Anivia can cast the ability again to deactivate it, dealing one last tick of damage. The ability will deactivate automatically if she gets too far away or runs out of mana. Additionally, Glacial Storm is deactivated by all forms of interrupting crowd control.
+
+QUOTESTART
+
+QUOTEEND
 
 ANNIE
 THE DARK CHILD
@@ -750,7 +1224,7 @@ INCREASED MIXED DAMAGE:
 40 / 50 / 60 / 70 / 80% AD
 Both casts of Precision Protocol reset Camille's autoattack timer.
 
-Tactical Sweep	EFFECT RADIUS: 610 ANGLE: 80 COST: 50 / 55 / 60 / 65 / 70 MANA COOLDOWN: 15 / 13.5 / 12 / 10.5 / 9
+Tactical Sweep	EFFECT RADIUS: 610 ANGLE: 80° COST: 50 / 55 / 60 / 65 / 70 MANA COOLDOWN: 15 / 13.5 / 12 / 10.5 / 9
 Tactical Sweep	
 ACTIVE: After a brief delay, Camille sweeps her leg to deal physical damage to all enemies in a cone in front of her.
 
@@ -828,7 +1302,7 @@ If the target is poisoned, Twin Fang deals bonus magic damage and heals Cassiope
 BONUS MAGIC DAMAGE:
 10 / 30 / 50 / 70 / 90 (+ 60% AP)
 
-Petrifying Gaze	EFFECT RADIUS: 825 ANGLE: 80 COST: 100 MANA COOLDOWN: 120 / 100 / 80
+Petrifying Gaze	EFFECT RADIUS: 825 ANGLE: 80° COST: 100 MANA COOLDOWN: 120 / 100 / 80
 Petrifying Gaze	
 ACTIVE: After a brief delay, Cassiopeia blasts enemies in a cone in the target direction, dealing magic damage to all enemies hit.
 
@@ -846,7 +1320,7 @@ Rupture	TARGET RANGE: 950 EFFECT RADIUS: 175 COST: 60 MANA COOLDOWN: 9
 Rupture	
 ACTIVE: Cho'Gath causes the target area to rupture after a 0.625 seconds delay, knocking up enemies hit for 1 second, slowing them by 60% for 1.5 seconds afterwards and dealing magic damage.
 
-Feral Scream	TARGET RANGE: 650 ANGLE: 60 COST: 70 / 80 / 90 / 100 / 110 MANA COOLDOWN: 13 / 12 / 11 / 10 / 9
+Feral Scream	TARGET RANGE: 650 ANGLE: 60° COST: 70 / 80 / 90 / 100 / 110 MANA COOLDOWN: 13 / 12 / 11 / 10 / 9
 Feral Scream	
 ACTIVE: Cho'Gath roars in the target direction, dealing magic damage to enemies in a cone and silencing them for a short duration.
 
@@ -915,7 +1389,7 @@ Any enemies that remain in the area are slowed by 90% and dealt 7.5 - 25 (based 
 
 Casting Special Delivery instantly resets Valkyrie's cooldown.
 
-Gatling Gun	EFFECT RADIUS: 600 ANGLE: 35 COST: 50 MANA COOLDOWN: 16
+Gatling Gun	EFFECT RADIUS: 600 ANGLE: 35° COST: 50 MANA COOLDOWN: 16
 Gatling Gun	
 ACTIVE: Corki activates his gatling gun and sprays bullets in a cone in front of him for 4 seconds, dealing equal parts physical and magic damage every quarter-second and reducing his targets' armor and magic resistance each tick, stacking up to 8 times, lingering for 2 seconds after last being damage.
 
@@ -964,7 +1438,7 @@ ACTIVE: Darius's next basic attack within 4 seconds has 200 attack range, deals 
 
 Crippling Strike resets Darius's autoattack timer.
 
-Apprehend	EFFECT RADIUS: 535 ANGLE: 50 COST: 45 MANA COOLDOWN: 24 / 21 / 18 / 15 / 12
+Apprehend	EFFECT RADIUS: 535 ANGLE: 50° COST: 45 MANA COOLDOWN: 24 / 21 / 18 / 15 / 12
 Apprehend	
 PASSIVE: Darius gains armor penetration.
 
@@ -1328,7 +1802,7 @@ EMPOWERED ACTIVE: Evelynn dashes toward the target enemy, dealing increased dama
 EMPOWERED DAMAGE:
 60 / 80 / 100 / 120 / 140 (+ 6% (+ 4% per 100 AP) of target's maximum health)
 
-Last Caress	EFFECT RADIUS: 450 ANGLE: 180 COST: 100 MANA COOLDOWN: 140 / 110 / 80
+Last Caress	EFFECT RADIUS: 450 ANGLE: 180° COST: 100 MANA COOLDOWN: 140 / 110 / 80
 Last Caress
 ACTIVE: Evelynn becomes untargetable as she reveals her true form to all enemies in frot of her, before blinking back 725 units.
 
@@ -1417,7 +1891,7 @@ MAGIC DAMAGE PER SECOND:
 FIORA
 THE GRAND DUELIST
 
-Duelist's Dance	EFFECT RADIUS: 1200 ANGLE: 90
+Duelist's Dance	EFFECT RADIUS: 1200 ANGLE: 90°
 Duelist's Dance	
 INNATE: Fiora identifies the Vitals of nearby enemy champions, marked as an arc around themselves. Vitals take 0.5 seconds to identify and linger for 15 seconds. After a Vital is triggered or times out, Fiora identifies a new one on her target.
 
@@ -1852,7 +2326,7 @@ MAGIC DAMAGE:
 GRAVES
 THE OUTLAW
 
-New Destiny	ANGLE: 35 / 52.5
+New Destiny	ANGLE: 35° / 52.5°
 New Destiny	
 DOUBLE BARREL: Graves' shotgun Destiny holds up to 2 shells. After firing both shells or sitting on one for 4 seconds without attacking, Graves reloads for 2.08 seconds. Reload speed is reduced by 0.5% for every 1% bonus attack speed, to a minimum of 1.56 - 1.12 (based on level) seconds.
 
@@ -1895,7 +2369,7 @@ BONUS ARMOR:
 5 / 7.5 / 10 / 12.5 / 15
 
 
-Collateral Damage	TARGET RANGE: 1000 EFFECT RADIUS: 800 ANGLE: 80 COST: 100 MANA COOLDOWN: 120 / 100 / 80
+Collateral Damage	TARGET RANGE: 1000 EFFECT RADIUS: 800 ANGLE: 80° COST: 100 MANA COOLDOWN: 120 / 100 / 80
 Collateral Damage	
 ACTIVE: Graves fires an explosive shell in the target direction, dealing physical damage to every non-champion enemy it passes through as well as the first enemy champion it collides with, while also dashing in the opposite direction.
 
@@ -2467,7 +2941,7 @@ Blooming Lotus Traps slow all enemies inside for 35% for 2 seconds before detona
 MAGIC DAMAGE:
 20 / 80 / 140 / 200 / 260 (+ 120% AD) (+ 100% AP)
 
-Curtain Call	EFFECT RADIUS: 3500 ANGLE: 75 COST: 100 MANA COOLDOWN: 120 / 105 / 90
+Curtain Call	EFFECT RADIUS: 3500 ANGLE: 75° COST: 100 MANA COOLDOWN: 120 / 105 / 90
 Curtain Call	
 FIRST CAST: Jhin channels for 10 seconds and fully assembles his weapon before taking aim in the target direction, and gaining the ability to reactivate Curtain Call up to four times.
 
@@ -2732,7 +3206,7 @@ MANA RESTORED:
 4 / 5 / 6 / 7 / 8% missing mana
 Nether Blade resets Kassadin's autoattack timer.
 
-Force Pulse	EFFECT RADIUS: 600 ANGLE: 80 COST: 60 / 65 / 70 / 75 / 80 MANA + 6 CHARGES COOLDOWN: 5
+Force Pulse	EFFECT RADIUS: 600 ANGLE: 80° COST: 60 / 65 / 70 / 75 / 80 MANA + 6 CHARGES COOLDOWN: 5
 Force Pulse	
 PASSIVE: Kassadin draws energy from spells cast in his vicinity, gaining a charge whenever a nearby champion, including himself, uses an ability, capping at 6. Upon reaching 6 charges, Kassadin gains the ability to cast Force Pulse.
 
@@ -2903,21 +3377,18 @@ Entering combat with a champion after the effect is enhanced reduces the remaini
 Shadow Step A	
 SHADOW ASSASSIN: Casting Shadow Step removes slows and makes Kayn immune to them for the duration. Additionally, entering terrain will increase the bonus movement speed to 70% for the remaining duration.
 
-
 Umbral Trespass	TARGET RANGE: 550 COST: 100 MANA COOLDOWN: 120 / 100 / 80
 Umbral Trespass	
 PASSIVE: Whenever Kayn damages an enemy champion, he applies Umbral Trespass for 3.5 seconds.
 
 ACTIVE: Kayn infests a marked enemy champion for up to 2.5 seconds, revealing them and becoming untargetable for the duration. Reactivating Umbral Trespass ends it earlier.
-
-Umbral Trespass 2	
+	
 Upon reactivation or at the end of the duration, Kayn wrenches himself free from their body in the cursor's direction, dealing physical damage to the target.
 
 PHYSICAL DAMAGE:
 150 / 250 / 350 (+ 150% bonus AD)
 SHADOW ASSASSIN: Umbral Trespass gains 200 bonus range and emerging from the target resets The Darkin Scythe's cooldown.
-
-Umbral Trespass 2 R	
+	
 RHAAST: Umbral Trespass is modified to deal 10% (+ 13% per 100 bonus AD) of target's maximum health physical damage, and heals him for (7% (+ 9.1% per 100 bonus AD) of target's maximum health).
 
 KENNEN
@@ -3779,7 +4250,7 @@ Love Tap
 Love Tap
 Whenever Miss Fortune attacks an enemy unit that was not the target of her previous basic attack, she will deal 50 / 60 / 70 / 80 / 90 / 100% AD bonus physical damage to them, halved to 25 / 30 / 35 / 40 / 45 / 50% AD versus minions.
 
-Double Up	TARGET RANGE: 650 EFFECT RADIUS: 500 ANGLE: 160 COST: 43 / 46 / 49 / 52 / 55 MANA COOLDOWN: 7 / 6 / 5 / 4 / 3
+Double Up	TARGET RANGE: 650 EFFECT RADIUS: 500 ANGLE: 160° COST: 43 / 46 / 49 / 52 / 55 MANA COOLDOWN: 7 / 6 / 5 / 4 / 3
 Double Up	
 ACTIVE: Miss Fortune fires a shot at a target enemy, which then bounces to hit another unit behind it, dealing physical damage to the first and second target, applying on-hit effects to both.
 
@@ -3872,7 +4343,7 @@ INITIAL MAGIC DAMAGE:
 6.25 / 7.5 / 8.75% (+ 1% per 100 AP) of target's maximum health
 MAGIC DAMAGE PER SECOND:
 1.875 / 2.25 / 2.625% (+ 0.3% per 100 AP) of target's maximum health
-CURSE: If Mordekaiser's team scores an enemy champion Damage rating takedown on a Cursed enemy, he temporarily enslaves their soul as a controllable ghost. Enslaving the Dragon Dragon will kill Mordekaiser's current ghost and prevent him from summoning a new one while it survives.
+CURSE: If Mordekaiser's team scores an enemy champion takedown on a Cursed enemy, he temporarily enslaves their soul as a controllable ghost. Enslaving the Dragon Dragon will kill Mordekaiser's current ghost and prevent him from summoning a new one while it survives.
 
 GHOST DURATION:
 45 / 60 / 75
@@ -4718,7 +5189,7 @@ Rek'Sai can also trigger Unburrow by issuing an attack command, applying the ful
 
 Furious Bite	TARGET RANGE: 250 COOLDOWN: 12
 Furious Bite	
-Unburrow UNBURROWED - ACTIVE: Rek'Sai bites the target enemy, dealing physical damage.
+UNBURROWED - ACTIVE: Rek'Sai bites the target enemy, dealing physical damage.
 
 PHYSICAL DAMAGE:
 55 / 65 / 75 / 85 / 95 (+ 85% bonus AD)
@@ -5603,7 +6074,7 @@ THE MASTER TACTICIAN
 
 Carrion Renewal	
 Carrion Renewal	
-Whenever Swain kills an enemy or structure, he restores 13 - 30 (based on level) mana. On enemy champion Damage rating takedowns, he regains an additional 9% maximum mana.
+Whenever Swain kills an enemy or structure, he restores 13 - 30 (based on level) mana. On enemy champion takedowns, he regains an additional 9% maximum mana.
 
 Decrepify	TARGET RANGE: 700 EFFECT RADIUS: 325 COST: 60 / 65 / 70 / 75 / 80 MANA COOLDOWN: 14 / 13 / 12 / 11 / 10
 Decrepify	
@@ -5803,7 +6274,6 @@ ACTIVE: Taliyah channels for 1 second before summoning a massive wall of spirali
 
 DURATION:
 6 / 7 / 8 seconds
-Weaver's Wall 2	
 Taliyah can reactivate Weaver's Wall while channeling to ride atop the wall at 1500 speed as it emerges. Taking damage or inputting a movement command in any direction will force her off the wall, which will continue along its path normally.
 
 Reactivating Weaver's Wall destroys the wall instantly.
@@ -6155,7 +6625,7 @@ Loaded Dice
 Loaded Dice	
 Twisted Fate rolls his dice every time he kills an enemy, randomly gaining Gold 1 / 2 / 3 / 4 / 5 / 6.
 
-Wild Cards	TARGET RANGE: 1450 ANGLE: 45 SPEED: 1000 COST: 60 / 70 / 80 / 90 / 100 MANA COOLDOWN: 6
+Wild Cards	TARGET RANGE: 1450 ANGLE: 45° SPEED: 1000 COST: 60 / 70 / 80 / 90 / 100 MANA COOLDOWN: 6
 Wild Cards	
 ACTIVE: Twisted Fate throws three cards outwards in the target direction, dealing magic damage to all enemies they pass through. One card goes exactly in the target direction while the two others go in the outer border of the semi-circle.
 
@@ -6314,7 +6784,7 @@ TOTAL MAGIC DAMAGE:
 URGOT
 THE DREDNOUGHT
 
-Echoing Flames	EFFECT RADIUS: 490 ANGLE: 60 PER-LEG COOLDOWN: 30 / 20 / 10 / 5 / 2.5
+Echoing Flames	EFFECT RADIUS: 490 ANGLE: 60° PER-LEG COOLDOWN: 30 / 20 / 10 / 5 / 2.5
 Echoing Flames	
 INNATE: Urgot's six legs each conceal a shotgun that covers an arc, together forming a full circle of cover around him. Each shotgun has one shell and an individual reload timer.
 
@@ -6565,7 +7035,7 @@ The ray deals magic damage in 0.25 seconds intervals to enemies caught in its wa
 MAGIC DAMAGE PER TICK:
 45 / 62.5 / 80 (+ 12.5% AP)
 
-VI 
+VII 
 THE PILTOVER ENFORCER
 
 Blast Shield	STATIC COOLDOWN: 16 - 8 (based on level)
@@ -6574,44 +7044,43 @@ INNATE: Hitting an enemy with an ability grants Vi a 10% maximum health shield f
 
 Vault Breaker	TARGET RANGE: 250 - 725 (based on channel time) SPEED: 1250 - 1400 (based on channel time) COST: 50 / 60 / 70 / 80 / 90 MANA COOLDOWN: 16 / 14 / 12 / 10 / 8
 Vault Breaker	
-FIRST CAST: Vi channels for up to 4 seconds, increasing Vault Breaker's range, speed, and damage over 1.25 seconds. Vi can still move while channeling but is pacified and slowed by 15%.
+FIRST CAST: Vii channels for up to 4 seconds, increasing Vault Breaker's range, speed, and damage over 1.25 seconds. Vii can still move while channeling but is pacified and slowed by 15%.
 
 Vault Breaker is automatically canceled when the channel ends.
 
-SECOND CAST: Vi dashes in the target direction, dealing physical damage to all enemies she passes through, increased by 0% - 100% (based on channel time). The total damage is increased by 33.3% against champions.
+SECOND CAST: Vii dashes in the target direction, dealing physical damage to all enemies she passes through, increased by 0% - 100% (based on channel time). The total damage is increased by 33.3% against champions.
 
 MINIMUM PHYSICAL DAMAGE:
 41.25 / 60 / 78.75 / 97.5 / 116.25 (+ 60% bonus AD)
 MINIMUM CHAMPION DAMAGE:
 55 / 80 / 105 / 130 / 155 (+ 80% bonus AD)
-Vi stops upon colliding with an enemy champion, knocking them back while other units are instead pulled towards her.
+Vii stops upon colliding with an enemy champion, knocking them back while other units are instead pulled towards her.
 
 Denting Blows	
 Denting Blows	
-PASSIVE: Vi's basic attacks and Vault Breaker apply Denting Blows to enemies hit, stacking up to 3 times. At 3 Denting Blows consumes them all to deal bonus physical damage, capped at 300 against non-champions.
+PASSIVE: Vii's basic attacks and Vault Breaker apply Denting Blows to enemies hit, stacking up to 3 times. At 3 Denting Blows, Vii consumes them all to deal bonus physical damage, capped at 300 against non-champions.
 
 BONUS PHYSICAL DAMAGE:
 4 / 5.5 / 7 / 8.5 / 10% (+(1% per 35)bonus AD) of target's maximum health
-Denting Blows 2	
-For the next 4 seconds, Vi gains bonus attack speed and the target has 20% reduced armor.
+
+For the next 4 seconds, Vii gains bonus attack speed and the target has 20% reduced armor.
 
 BONUS ATTACK SPEED:
 30 / 35 / 40 / 45 / 50%
 
 Excessive Force	EFFECT RADIUS: 600 COST: 40 / 45 / 50 / 55 / 60 MANA + 1 CHARGE COOLDOWN: 1 RECHARGE TIME: 14 / 12.5 / 11 / 9.5 / 8
 Excessive Force	
-PASSIVE: Vi stores an Excessive Force charge periodically, up to 2 at once, and gains the maximum amount at rank 1.
-
-Excessive Force 2	
-ACTIVE: Vi's next basic attack has 175 range and deals physical damage to all enemies in a cone in front of her.
+PASSIVE: Vii stores an Excessive Force charge periodically, up to 2 at once, and gains the maximum amount at rank 1.
+	
+ACTIVE: Vii's next basic attack has 175 range and deals physical damage to all enemies in a cone in front of her.
 
 PHYSICAL DAMAGE:
 10 / 30 / 50 / 70 / 90 (+ 115% AD) (+ 70% AP)
-Excessive Force resets Vi's basic attack timer.
+Excessive Force resets Vii's basic attack timer.
 
 Assault and Battery	TARGET RANGE: 800 COST: 100 / 125 / 150 MANA COOLDOWN: 130 / 100 / 70 
 Assault and Battery	
-ACTIVE: Vi dashes, unstoppable, to the target enemy champion, upon arrival deals physical damage and knocks them up for 1.25 seconds. Enemies along the way are knocked aside and dealt 75% damage.
+ACTIVE: Vii dashes, unstoppable, to the target enemy champion, upon arrival deals physical damage and knocks them up for 1.25 seconds. Enemies along the way are knocked aside and dealt 75% damage.
 
 PHYSICAL DAMAGE:
 150 / 300 / 450 (+ 140% bonus AD)
@@ -7002,7 +7471,7 @@ The third basic attack knocks up the target for 0.75 seconds.
 
 Three Talon Strike resets Xin Zhao's basic attack timer.
 
-Wind Becomes Lightning	TARGET RANGE: 900 ANGLE: 180º COST: 45 MANA COOLDOWN: 12 / 11 / 10 / 9 / 8
+Wind Becomes Lightning	TARGET RANGE: 900 ANGLE: 180° COST: 45 MANA COOLDOWN: 12 / 11 / 10 / 9 / 8
 Wind Becomes Lightning	
 ACTIVE: Xin Zhao performs two strikes over 0.6 / 0.5 / 0.4 seconds.
 

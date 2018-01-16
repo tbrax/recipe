@@ -1,17 +1,23 @@
 import markovify
 import re
 import random
+from tkinter import *
+
 #book = input('Enter text name: ')
 #str1 = "texts/"
 #str2 = str1+book
 #str3 = str2+".txt"
 save0 = 'out.txt'
 
-textAbility = "texts/ability.txt"
-textChamp = "texts/champ.txt"
-textInitial = "texts/initial.txt"
-textStats0 = "texts/stats0.txt"
-textStats1 = "texts/stats1.txt"
+textAbilityName = "construct/abilityname.txt"
+textAbility = "construct/ability.txt"
+textChamp = "construct/champ.txt"
+textInitial = "construct/initial.txt"
+textStats0 = "construct/stats0.txt"
+textStats1 = "construct/stats1.txt"
+textQuote = "construct/quote.txt"
+abilityPlaceHolder = "ABILITYREPLACE"
+placeHolder = "INSERTNAMEHERE"
 # Get raw text as string.
 replaceName = True
 namelist = ["Aatrox", "Ahri", "Akali", "Alistar","Amumu","Anivia",
@@ -34,9 +40,11 @@ namelist = ["Aatrox", "Ahri", "Akali", "Alistar","Amumu","Anivia",
 			"Shyvana", "Singed", "Sion", "Sivir", "Skarner", "Sona", "Soraka",
 			"Swain", "Syndra", "Tahm Kench", "Taliyah", "Talon", "Taric", "Teemo",
 			"Thresh", "Tristana", "Trundle", "Tryndamere", "Twisted Fate", "Twitch",
-			"Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Vel'Koz", "Vi ",
+			"Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Vel'Koz", "Vi",
 			"Viktor", "Vladimir", "Volibear", "Warwick", "Wukong", "Xayah", "Xerath", 
 			"Xin Zhao", "Yasuo", "Yorick", "Zac", "Zed", "Ziggs", "Zilean", "Zoe", "Zyra"]
+			
+			
 			
 			
 totalNamelist = ["Aatrox", "Ahri", "Akali", "Alistar","Amumu","Anivia",
@@ -59,11 +67,11 @@ totalNamelist = ["Aatrox", "Ahri", "Akali", "Alistar","Amumu","Anivia",
 			"Shyvana", "Singed", "Sion", "Sivir", "Skarner", "Sona", "Soraka",
 			"Swain", "Syndra", "Tahm Kench", "Taliyah", "Talon", "Taric", "Teemo",
 			"Thresh", "Tristana", "Trundle", "Tryndamere", "Twisted Fate", "Twitch",
-			"Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Vel'Koz", "Vi ",
+			"Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Vel'Koz", "Vii",
 			"Viktor", "Vladimir", "Volibear", "Warwick", "Wukong", "Xayah", "Xerath", 
 			"Xin Zhao", "Yasuo", "Yorick", "Zac", "Zed", "Ziggs", "Zilean", "Zoe", "Zyra", "Vi's",
-			"Wolf", "Lamb", "Tibbers"]
-placeHolder = "INSERTNAMEHERE"
+			"Wolf", "Lamb", "Tibbers","Abaddon","Alchemist","Axxe"]
+
 
 #def remove_non_ascii_1(text):
 	#new_str = re.sub('[^a-zA-Z0-9\n\.]', ' ', text)
@@ -79,9 +87,10 @@ placeHolder = "INSERTNAMEHERE"
 
 
 ###############
-def addAbilityDesc(t0,output,thisChoice):
+def addAbilityDesc(t0,output,thisChoice,thisAbilityChoice):
 	abilityLine = t0.make_short_sentence(200)
 	abilityLineReplace = abilityLine.replace(placeHolder, thisChoice)
+	abilityLineReplace = abilityLineReplace.replace(abilityPlaceHolder, thisAbilityChoice)
 	print(abilityLineReplace,file=output)
 	
 #########################
@@ -116,29 +125,47 @@ def addAbilityDetails(t2,t3,output):
 	print(statNumbers,file=output)
 	print("",file=output)
 	
+def createQuote(t5,output):
+	quoteLine = t5.make_short_sentence(200)
+	print(quoteLine,file=output)
 
-
-def createChamp(t0,t1,t2,t3,output):
+def createChamp(t0,t1,t2,t3,t5,output,abilityNameList):
 	thisChoice = random.choice(namelist)
 	print(thisChoice,file=output)
 	print("",file=output)
 	for i in range(4):
-		print(t1.make_short_sentence(200),file=output)
-		addAbilityDesc(t0,output,thisChoice)
-		addAbilityDesc(t0,output,thisChoice)
+		thisAbilityChoice = random.choice(abilityNameList)
+		abilityTitle = t1.make_short_sentence(200)
+		abilityTitle = abilityTitle.replace(abilityPlaceHolder, thisAbilityChoice)
+		print(abilityTitle,file=output)
+		addAbilityDesc(t0,output,thisChoice,thisAbilityChoice)
+		addAbilityDesc(t0,output,thisChoice,thisAbilityChoice)
 		
 		print("",file=output)
 		addAbilityDetails(t2,t3,output)
 		addAbilityDetails(t2,t3,output)
-
+		print("Quotes:",file=output)
+		createQuote(t5,output)
+		createQuote(t5,output)
+		print("",file=output)
 		
 def main():	
+
+
 	with open(textInitial) as f1:
 		text1 = f1.read()
 	with open(textStats0) as f2:
 		text2 = f2.read()
 	with open(textStats1) as f3:
 		text3 = f3.read()
+	with open(textAbilityName) as f4:
+		acontent = f4.readlines()
+	with open(textQuote) as f5:
+		text5 = f5.read()
+# you may also want to remove whitespace characters like `\n` at the end of each line
+	abilityNameList = [x.strip() for x in acontent] 
+	
+	
 	
 	with open(textAbility) as f0:
 		text = f0.read()
@@ -153,9 +180,10 @@ def main():
 	text_model1 = markovify.NewlineText(text1)
 	text_model2 = markovify.NewlineText(text2)
 	text_model3 = markovify.NewlineText(text3)
+	text_model5 = markovify.NewlineText(text5)
 	output = open(save0, 'w')
 	for i in range(50):
-		createChamp(text_model,text_model1,text_model2,text_model3,output)
+		createChamp(text_model,text_model1,text_model2,text_model3,text_model5,output,abilityNameList)
 	
 	#text_model.make_short_sentence(140)
 	#print(text_model.make_sentence(tries=20),file=output)
